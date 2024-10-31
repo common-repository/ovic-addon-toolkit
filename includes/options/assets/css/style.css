@@ -1,0 +1,5572 @@
+/**
+ *
+ * ---------------------------------------------------------
+ * OVIC FRAMEWORK CSS MAP
+ * ---------------------------------------------------------
+ *
+ * 01. Base
+ *     01. 01. Header
+ *     01. 02. Sticky
+ *     01. 03. Header Buttons
+ *     01. 04. Navigation
+ *     01. 05. Wrapper
+ *     01. 06. Content
+ *     01. 07. Section
+ *     01. 08. Footer
+ *     01. 09. Copyright
+ *     01. 10. Show All Options
+ *     01. 11. Search Input
+ *     01. 12. Metabox
+ *     01. 13. Comment Metabox
+ *     01. 14. Help Tooltip
+ * 02. Themes
+ *     02. 01. Theme Dark
+ *     02. 02. Theme Light
+ * 03. Fields
+ *     03. 01. Field
+ *     03. 02. Field: accordion
+ *     03. 03. Field: background
+ *     03. 04. Field: backup
+ *     03. 05. Field: border, spacing, dimensions
+ *     03. 06. Field: button_set
+ *     03. 07. Field: checkbox, radio
+ *     03. 08. Field: code_editor
+ *     03. 09. Field: color
+ *     03. 10. Field: color_group
+ *     03. 11. Field: fieldset
+ *     03. 12. Field: date
+ *     03. 13. Field: gallery
+ *     03. 14. Field: group
+ *     03. 15. Field: icon
+ *     03. 16. Field: image_select
+ *     03. 17. Field: link_color
+ *     03. 18. Field: map
+ *     03. 19. Field: media
+ *     03. 20. Field: palette
+ *     03. 21. Field: repeater
+ *     03. 22. Field: select
+ *     03. 23. Field: slider
+ *     03. 24. Field: sortable
+ *     03. 25. Field: sorter
+ *     03. 26. Field: spinner
+ *     03. 27. Field: switcher
+ *     03. 28. Field: tabbed
+ *     03. 29. Field: text
+ *     03. 30. Field: textarea
+ *     03. 31. Field: typography
+ *     03. 32. Field: upload
+ *     03. 33. Field: wp_editor
+ *     03. 34. Field: heading
+ *     03. 35. Field: subheading
+ *     03. 36. Field: submessage
+ *     03. 37. Field: notice
+ *     03. 38. Field: number
+ *     03. 39. Field: link
+ *     03. 40. Field: others
+ * 04. Widget
+ * 05. Customizer
+ * 06. Taxonomy
+ * 07. Profile
+ * 08. Nav Menu
+ * 09. Modal
+ *     09. 01. Shortcode Modal
+ *     09. 02. Gutenberg Modal
+ *     09. 03. Icon Modal
+ * 10. Helper
+ * 11. Welcome Page
+ * 12. Responsive
+ * 13. Others
+ *
+ * ---------------------------------------------------------
+ *
+ */
+/**
+ * 01. Base
+ */
+.ovic {
+    position: relative;
+}
+
+.ovic label {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.ovic-ab-icon {
+    top: 2px;
+}
+
+#screen-meta-links + .ovic-options {
+    margin-top: 40px;
+}
+
+.ovic-options {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+/**
+ * 01. 01. Header
+ */
+.ovic-header {
+    position: relative;
+}
+
+.ovic-header-inner {
+    padding: 25px;
+}
+
+.ovic-header-inner h1 {
+    float: left;
+    font-size: 1.5em;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.ovic-header-inner h1 small {
+    font-size: 11px;
+    font-weight: 500;
+}
+
+/**
+ * 01. 02. Sticky
+ */
+.ovic-sticky .ovic-header-inner {
+    position: fixed;
+    z-index: 99999;
+    top: 32px;
+    -moz-box-shadow: 0 5px 25px rgba(0, 0, 0, 0.125);
+    -webkit-box-shadow: 0 5px 25px rgba(0, 0, 0, 0.125);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.125);
+}
+
+/**
+ * 01. 03. Header Buttons
+ */
+.ovic-buttons {
+    float: right;
+    -moz-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+}
+
+.ovic-buttons .button {
+    margin: 0 2px;
+    line-height: 26px;
+}
+
+.ovic-buttons .button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.ovic-buttons .ovic-save {
+    min-width: 72px;
+}
+
+.ovic-header-left {
+    float: left;
+}
+
+.ovic-header-right {
+    float: right;
+}
+
+/**
+ * 01. 04. Navigation
+ */
+.ovic-nav {
+    display: block;
+    position: relative;
+    z-index: 10;
+    float: left;
+    width: 225px;
+}
+
+.ovic-nav ul {
+    clear: left;
+    margin: 0;
+    list-style-type: none;
+}
+
+.ovic-nav ul li {
+    margin-bottom: 0;
+}
+
+.ovic-nav ul li a {
+    font-size: 13px;
+    position: relative;
+    display: block;
+    padding: 14px 12px;
+    text-decoration: none;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.ovic-nav ul li a:focus {
+    outline: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.ovic-nav ul li .ovic-section-active:after {
+    content: " ";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    height: 0;
+    width: 0;
+    pointer-events: none;
+    border: solid transparent;
+    border-right-color: #fff;
+    border-width: 4px;
+    margin-top: -4px;
+}
+
+.ovic-nav ul li .ovic-arrow:after {
+    content: "\f054";
+    display: inline-block;
+    font-family: "Font Awesome 5 Pro", "Font Awesome 5 Free", "FontAwesome";
+    font-weight: 900;
+    font-size: 9px;
+    line-height: 1;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -4px;
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+}
+
+.ovic-nav ul li.ovic-tab-active .ovic-arrow:after {
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.ovic-nav ul li.ovic-tab-active ul {
+    display: block;
+}
+
+.ovic-nav ul ul {
+    display: none;
+    position: relative;
+}
+
+.ovic-nav ul ul li a {
+    font-size: 12px;
+    padding: 12px 14px 12px 24px;
+}
+
+.ovic-nav .ovic-tab-icon {
+    width: 20px;
+    margin-right: 5px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.ovic-nav .ovic-label-error {
+    margin-left: 4px;
+    vertical-align: top;
+}
+
+.ovic-nav-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 9;
+    width: 225px;
+}
+
+/**
+ * 01. 05. Wrapper
+ */
+.ovic-wrapper {
+    position: relative;
+}
+
+/**
+ * 01. 06. Content
+ */
+.ovic-content {
+    position: relative;
+    margin-left: 225px;
+    background-color: #fff;
+    -moz-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+}
+
+/**
+ * 01. 07. Section
+ */
+.ovic-sections {
+    float: left;
+    width: 100%;
+}
+
+.ovic-section {
+    display: none;
+}
+
+.ovic-section-title {
+    display: none;
+    padding: 20px 30px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.ovic-section-title h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ovic-section-title .ovic-section-icon {
+    margin-right: 5px;
+}
+
+/**
+ * 01. 08. Footer
+ */
+.ovic-footer {
+    padding: 20px;
+    font-size: 11px;
+}
+
+/**
+ * 01. 09. Copyright
+ */
+.ovic-copyright {
+    float: left;
+    margin-top: 5px;
+}
+
+/**
+ * 01. 10. Show All Options
+ */
+.ovic-search-all .ovic-nav-background,
+.ovic-search-all .ovic-nav,
+.ovic-show-all .ovic-nav-background,
+.ovic-show-all .ovic-nav {
+    display: none;
+}
+
+.ovic-search-all .ovic-content,
+.ovic-show-all .ovic-content {
+    margin-left: 0;
+}
+
+.ovic-search-all .ovic-section-title,
+.ovic-search-all .ovic-section,
+.ovic-show-all .ovic-section-title,
+.ovic-show-all .ovic-section {
+    display: block !important;
+}
+
+.ovic-search-all .ovic-section-title {
+    display: none !important;
+}
+
+.ovic-expand-all {
+    float: left;
+    padding: 0 8px;
+    margin-right: 4px;
+    z-index: 1;
+    font-size: 13px;
+    line-height: 30px;
+    cursor: pointer;
+    user-select: none;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.ovic-expand-all span {
+    font-size: 11px;
+    vertical-align: middle;
+}
+
+/**
+ * 01. 11. Search Input
+ */
+.ovic-search {
+    float: left;
+}
+
+.ovic-search input {
+    margin: 0 2px 0 0;
+    border: none;
+    font-size: 12px;
+    line-height: 30px;
+    min-height: 30px;
+    text-align: inherit;
+    padding: 0 10px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.ovic-search input:focus {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.ovic-saving .ovic-buttons,
+.ovic-saving .ovic-content {
+    cursor: default;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+/**
+ * 01. 12. Metabox
+ */
+.ovic-metabox {
+    margin: -6px -12px -12px -12px;
+}
+
+.ovic-metabox .ovic-section-title {
+    padding: 20px;
+}
+
+.block-editor-page .ovic-metabox {
+    margin: -6px -14px -14px -14px;
+}
+
+.block-editor-editor-skeleton__content .ovic-metabox {
+    border-left: 1px solid #e2e4e7;
+    border-right: 1px solid #e2e4e7;
+}
+
+.ovic-restore-wrapper {
+    position: relative;
+    z-index: 1000000;
+    text-align: right;
+    padding: 10px;
+    border-top: 1px solid #eee;
+}
+
+.ovic-restore-wrapper .ovic-button-cancel,
+.ovic-restore-wrapper input {
+    display: none;
+}
+
+.ovic-restore-wrapper span {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.ovic-restore-wrapper input:checked ~ .ovic-button-restore {
+    display: none;
+}
+
+.ovic-restore-wrapper input:checked ~ .ovic-button-cancel {
+    display: inline-block;
+}
+
+#side-sortables .ovic-section-title {
+    padding: 12px;
+}
+
+#side-sortables .ovic-field {
+    padding: 12px;
+}
+
+#side-sortables .ovic-field .ovic-title {
+    float: none;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#side-sortables .ovic-field .ovic-fieldset {
+    float: none;
+    width: 100%;
+}
+
+#side-sortables .ovic-notice {
+    padding: 12px;
+}
+
+/**
+ * 01. 13. Comment Metabox
+ */
+.ovic-comment-metabox {
+    margin: -6px -12px -12px -12px;
+}
+
+.ovic-comment-metabox .ovic-section-title {
+    padding: 20px;
+}
+
+/**
+ * 01. 14. Help Tooltip
+ */
+.ovic-tooltip {
+    position: absolute;
+    z-index: 5000001;
+    font-size: 12px;
+    line-height: 1.4;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 12px;
+    max-width: 200px;
+    color: #fff;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.85);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+/**
+ * 02. Themes
+ */
+/**
+ * 02. 01. Theme Dark
+ */
+.ovic-theme-dark .ovic-header-inner {
+    background-color: #050505;
+}
+
+.ovic-theme-dark .ovic-header-inner h1 {
+    color: #fff;
+}
+
+.ovic-theme-dark .ovic-header-inner h1 small {
+    color: #555;
+}
+
+.ovic-theme-dark .ovic-expand-all {
+    color: #999;
+    background-color: #222;
+}
+
+.ovic-theme-dark .ovic-expand-all:hover {
+    color: #fff;
+    background-color: #333;
+}
+
+.ovic-theme-dark .ovic-search input {
+    color: #fff;
+    background-color: #222;
+}
+
+.ovic-theme-dark .ovic-search:focus {
+    background-color: #444;
+}
+
+.ovic-theme-dark .ovic-search::-webkit-input-placeholder {
+    color: #666;
+}
+
+.ovic-theme-dark .ovic-nav ul li a {
+    color: #999;
+    background-color: #222;
+    border-bottom: 1px solid #2f2f2f;
+}
+
+.ovic-theme-dark .ovic-nav ul li a:hover {
+    color: #fff;
+}
+
+.ovic-theme-dark .ovic-nav ul li .ovic-section-active {
+    color: #fff;
+    background-color: #111;
+}
+
+.ovic-theme-dark .ovic-nav ul ul li a {
+    background-color: #191919;
+    border-bottom: 1px solid #2f2f2f;
+}
+
+.ovic-theme-dark .ovic-nav ul ul li .ovic-section-active {
+    background-color: #101010;
+}
+
+.ovic-theme-dark .ovic-nav ul ul:before {
+    background-color: rgba(34, 34, 34, 0.75);
+}
+
+.ovic-theme-dark .ovic-nav > ul > li:last-child > a {
+    border-bottom: none;
+}
+
+.ovic-theme-dark .ovic-nav-background {
+    background-color: #222;
+}
+
+.ovic-theme-dark .ovic-footer {
+    color: #555;
+    background-color: #050505;
+}
+
+/**
+ * 02. 02. Theme Light
+ */
+.ovic-theme-light .ovic-container {
+    border: 1px solid #e5e5e5;
+    -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.04);
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.04);
+}
+
+.ovic-theme-light .ovic-header-inner {
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #f5f5f5;
+    background: linear-gradient(#fefefe, #f5f5f5);
+}
+
+.ovic-theme-light .ovic-header-inner h1 small {
+    color: #999;
+}
+
+.ovic-theme-light .ovic-expand-all {
+    color: #999;
+    background-color: #fff;
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.ovic-theme-light .ovic-expand-all:hover {
+    color: #555;
+}
+
+.ovic-theme-light .ovic-search input {
+    color: #555;
+    background-color: #fff;
+    -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.ovic-theme-light .ovic-search input::-webkit-input-placeholder {
+    color: #bbb;
+}
+
+.ovic-theme-light .ovic-nav ul li a {
+    color: #666;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.ovic-theme-light .ovic-nav ul li a:hover {
+    color: #222;
+}
+
+.ovic-theme-light .ovic-nav ul li .ovic-section-active {
+    color: #222;
+    background-color: #fff;
+}
+
+.ovic-theme-light .ovic-nav ul li .ovic-section-active:after {
+    display: none;
+}
+
+.ovic-theme-light .ovic-nav ul ul li a {
+    background-color: #eee;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.ovic-theme-light .ovic-nav > ul > li:last-child > a {
+    border-bottom: none;
+}
+
+.ovic-theme-light .ovic-nav-background {
+    background-color: #f5f5f5;
+}
+
+.ovic-theme-light .ovic-footer {
+    color: #555;
+    border-top: 1px solid #e5e5e5;
+    background-color: #f5f5f5;
+    background: linear-gradient(#fafafa, #f5f5f5);
+}
+
+/**
+ * 03. Fields
+ */
+.ovic-field {
+    position: relative;
+    padding: 30px;
+}
+
+.ovic-field + .ovic-field:not(.hidden) {
+    border-top: 1px solid #eee;
+}
+
+.ovic-field p:first-child {
+    margin-top: 0;
+}
+
+.ovic-field p:last-child {
+    margin-bottom: 0;
+}
+
+.ovic-field:after, .ovic-field:before {
+    content: " ";
+    display: table;
+}
+
+.ovic-field:after {
+    clear: both;
+}
+
+.ovic-field h4 {
+    margin-top: 0;
+}
+
+.ovic-field .ovic-title {
+    position: relative;
+    width: 20%;
+    float: left;
+}
+
+.ovic-field .ovic-title h4 {
+    margin: 0;
+    color: #23282d;
+}
+
+.ovic-field .ovic-fieldset {
+    float: right;
+    width: calc(80% - 20px);
+}
+
+.ovic-pseudo-field {
+    padding: 0 5px 0 0 !important;
+    display: inline-block;
+}
+
+.ovic-pseudo-field + .ovic-pseudo-field {
+    border: 0;
+}
+
+.ovic-pseudo-field pre {
+    display: none;
+}
+
+/**
+ * 03. 02. Field: accordion
+ */
+.ovic-field-accordion .ovic-accordion-item {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.ovic-field-accordion .ovic-accordion-item h4 {
+    font-size: 1em;
+}
+
+.ovic-field-accordion .ovic-accordion-title {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    margin: 0;
+    padding: 15px;
+    min-height: 0;
+    font-size: 100%;
+    user-select: none;
+    border: 1px solid #ccd0d4;
+    background-color: #fafafa;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    transition: border-color .15s;
+}
+
+.ovic-field-accordion .ovic-accordion-title:active, .ovic-field-accordion .ovic-accordion-title:hover, .ovic-field-accordion .ovic-accordion-title:focus {
+    outline: none;
+    border-color: #999;
+}
+
+.ovic-field-accordion .ovic-accordion-icon {
+    width: 14px;
+    text-align: center;
+}
+
+.ovic-field-accordion .ovic--icon {
+    width: 20px;
+    text-align: center;
+    margin-right: 2px;
+}
+
+.ovic-field-accordion .ovic-accordion-content {
+    display: none;
+    padding: 0;
+    border: 1px solid #ccd0d4;
+    border-top: none;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.ovic-field-accordion .ovic-accordion-content > .ovic-field {
+    padding: 15px;
+}
+
+.ovic-field-accordion .ovic-accordion-open {
+    display: block;
+}
+
+/**
+ * 03. 03. Field: background
+ */
+.ovic-field-background .ovic-field {
+    border: 0 !important;
+    padding: 0;
+    margin-bottom: 6px;
+    margin-right: 6px;
+}
+
+.ovic-field-background .ovic--title {
+    color: #777;
+    font-size: 12px;
+}
+
+.ovic-field-background .ovic--background-colors {
+    display: flex;
+}
+
+.ovic-field-background .ovic--background-attributes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ovic-field-background .ovic--background-attributes select {
+    min-width: 100%;
+    margin: 0;
+}
+
+.ovic-field-background .ovic--background-attributes .ovic-field {
+    flex: 1;
+}
+
+.ovic-field-background .ovic--attributes-hidden {
+    display: none;
+}
+
+/**
+ * 03. 04. Field: backup
+ */
+.ovic-field-backup textarea {
+    width: 100%;
+    min-height: 200px;
+    margin-bottom: 5px;
+}
+
+.ovic-field-backup small {
+    display: inline-block;
+    margin: 5px;
+}
+
+.ovic-field-backup hr {
+    margin: 20px 0;
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/**
+ * 03. 05. Field: border, spacing, dimensions
+ */
+.ovic-field-border .ovic--inputs,
+.ovic-field-spacing .ovic--inputs,
+.ovic-field-dimensions .ovic--inputs {
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ovic-field-border .ovic--input,
+.ovic-field-spacing .ovic--input,
+.ovic-field-dimensions .ovic--input {
+    display: flex;
+    padding-right: 6px;
+    padding-bottom: 4px;
+    box-sizing: border-box;
+}
+
+.ovic-field-border .ovic--input select,
+.ovic-field-spacing .ovic--input select,
+.ovic-field-dimensions .ovic--input select {
+    margin: 0;
+}
+
+.ovic-field-border .ovic--input input,
+.ovic-field-spacing .ovic--input input,
+.ovic-field-dimensions .ovic--input input {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    width: 65px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.ovic-field-border .ovic--color,
+.ovic-field-spacing .ovic--color,
+.ovic-field-dimensions .ovic--color {
+    float: left;
+}
+
+.ovic-field-border .ovic--label,
+.ovic-field-spacing .ovic--label,
+.ovic-field-dimensions .ovic--label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    user-select: none;
+    min-width: 20px;
+    max-width: 100%;
+    padding: 0 4px;
+    font-size: 12px;
+    text-align: center;
+    color: #555;
+    border: 1px solid #7B776C;
+    background-color: #f5f5f5;
+}
+
+.ovic-field-border .ovic--icon,
+.ovic-field-spacing .ovic--icon,
+.ovic-field-dimensions .ovic--icon {
+    border-right: 0;
+    border-radius: 4px 0 0 4px;
+}
+
+.ovic-field-border .ovic--icon + input,
+.ovic-field-spacing .ovic--icon + input,
+.ovic-field-dimensions .ovic--icon + input {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.ovic-field-border .ovic--unit,
+.ovic-field-spacing .ovic--unit,
+.ovic-field-dimensions .ovic--unit {
+    border-left: 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.ovic-field-border .ovic--is-unit,
+.ovic-field-spacing .ovic--is-unit,
+.ovic-field-dimensions .ovic--is-unit {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+/**
+ * 03. 06. Field: button_set
+ */
+.ovic-field-button_set .ovic--buttons {
+    display: inline-block;
+}
+
+.ovic-field-button_set .ovic--button {
+    position: relative;
+    z-index: 1;
+    float: left;
+    cursor: pointer;
+    padding: 7px 14px;
+    min-width: 40px;
+    text-align: center;
+    color: #555;
+    border: 1px solid #cccccc;
+    background-color: #f7f7f7;
+    user-select: none;
+    -webkit-user-select: none;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.ovic-field-button_set .ovic--button:first-child {
+    border-radius: 4px 0 0 4px;
+}
+
+.ovic-field-button_set .ovic--button:last-child {
+    border-radius: 0 4px 4px 0;
+}
+
+.ovic-field-button_set .ovic--button:not(:first-child) {
+    margin-left: -1px;
+}
+
+.ovic-field-button_set .ovic--button:hover {
+    background-color: #eee;
+}
+
+.ovic-field-button_set .ovic--active:hover,
+.ovic-field-button_set .ovic--active {
+    z-index: 2;
+    color: #fff;
+    border-color: #006799;
+    background-color: #0085ba;
+}
+
+.ovic-field-button_set input {
+    display: none;
+}
+
+/**
+ * 03. 07. Field: checkbox, radio
+ */
+.ovic-field-checkbox ul,
+.ovic-field-radio ul {
+    margin: 0;
+    padding: 0 1px;
+    list-style-type: none;
+    overflow-y: auto;
+    max-height: 305px;
+}
+
+.ovic-field-checkbox ul ul,
+.ovic-field-radio ul ul {
+    max-height: none;
+}
+
+.ovic-field-checkbox .ovic--inline-list li,
+.ovic-field-radio .ovic--inline-list li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.ovic-field-checkbox input[type="radio"]:checked:before,
+.ovic-field-radio input[type="radio"]:checked:before {
+    line-height: 10px;
+}
+
+.ovic-field-checkbox .ovic-checker,
+.ovic-field-radio .ovic-checker {
+    cursor: pointer;
+}
+
+/**
+ * 03. 08. Field: code_editor
+ */
+.ovic-field-code_editor .CodeMirror {
+    width: 100%;
+    height: 400px;
+}
+
+.ovic-field-code_editor .cm-s-default {
+    border: 1px solid #ccd0d4;
+}
+
+.ovic-field-code_editor textarea {
+    width: 100%;
+    height: 400px;
+}
+
+/**
+ * 03. 09. Field: color
+ */
+.ovic-field-color > input {
+    opacity: 0.75;
+    width: 115px;
+    max-width: 100%;
+}
+
+.ovic-field-color .button.wp-picker-clear {
+    padding: 0 8px;
+    margin-left: 6px;
+    line-height: 2.54545455;
+    min-height: 30px;
+}
+
+/**
+ * 03. 10. Field: color_group
+ */
+.ovic-field-color_group .ovic--left {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.ovic-field-color_group .ovic--title {
+    color: #999;
+    margin-bottom: 5px;
+}
+
+/**
+ * 03. 11. Field: fieldset
+ */
+.ovic-field-fieldset .ovic-fieldset-content {
+    border: 1px solid #ccd0d4;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.ovic-field-fieldset .ovic-fieldset-content > .ovic-field {
+    padding: 15px;
+}
+
+.ovic-field-fieldset .ovic-field-subheading {
+    font-size: 13px;
+}
+
+/**
+ * 03. 12. Field: date
+ */
+.ovic-field-date input {
+    margin: 0;
+}
+
+.ovic-field-date .ovic--to {
+    margin-left: 7px;
+}
+
+.ovic-datepicker-wrapper {
+    margin-top: 5px;
+    width: auto;
+    background-color: #fff;
+    z-index: 9999999 !important;
+    -moz-box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+}
+
+.ovic-datepicker-wrapper * {
+    float: none;
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.ovic-datepicker-wrapper .ui-widget-header,
+.ovic-datepicker-wrapper .ui-datepicker-header {
+    color: #fff;
+    background: #00a0d2;
+}
+
+.ovic-datepicker-wrapper .ui-datepicker-header .ui-state-hover {
+    cursor: pointer;
+}
+
+.ovic-datepicker-wrapper .ui-datepicker-title {
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.ovic-datepicker-wrapper .ui-datepicker-prev,
+.ovic-datepicker-wrapper .ui-datepicker-next {
+    position: static;
+    top: auto;
+    left: auto;
+    right: auto;
+    font-family: "Font Awesome 5 Pro", "Font Awesome 5 Free", "FontAwesome";
+    font-weight: 900;
+    font-size: 12px;
+    text-align: center;
+    width: 41px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ovic-datepicker-wrapper .ui-datepicker-next span,
+.ovic-datepicker-wrapper .ui-datepicker-prev span {
+    display: none;
+}
+
+.ovic-datepicker-wrapper .ui-datepicker-prev {
+    float: left;
+}
+
+.ovic-datepicker-wrapper .ui-datepicker-next {
+    float: right;
+}
+
+.ovic-datepicker-wrapper .ui-datepicker-prev:before {
+    content: '\f053';
+}
+
+.ovic-datepicker-wrapper .ui-datepicker-next:before {
+    content: '\f054';
+}
+
+.ovic-datepicker-wrapper .ui-datepicker-prev-hover,
+.ovic-datepicker-wrapper .ui-datepicker-next-hover {
+    opacity: 0.75;
+}
+
+.ovic-datepicker-wrapper tbody .ui-datepicker-week-col {
+    background-color: #f7f7f7;
+}
+
+.ovic-datepicker-wrapper .ui-datepicker-buttonpane {
+    padding: 10px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.ovic-datepicker-wrapper .ui-datepicker-buttonpane button {
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 7px 14px;
+    border: 1px solid #eee;
+    background-color: #fff;
+}
+
+.ovic-datepicker-wrapper select {
+    margin: 0 4px;
+}
+
+.ovic-datepicker-wrapper select option {
+    color: #555;
+}
+
+.ovic-datepicker-wrapper table {
+    font-size: 13px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.ovic-datepicker-wrapper thead {
+    color: #fff;
+    background: #32373c;
+}
+
+.ovic-datepicker-wrapper th {
+    text-align: center;
+    padding: 7px;
+    border: 1px solid #444;
+}
+
+.ovic-datepicker-wrapper td {
+    text-align: center;
+    border: 1px solid #f4f4f4;
+}
+
+.ovic-datepicker-wrapper td.ui-datepicker-other-month {
+    border: transparent;
+}
+
+.ovic-datepicker-wrapper td .ui-state-default {
+    color: #555;
+    width: auto;
+    display: block;
+    padding: 6px 12px;
+}
+
+.ovic-datepicker-wrapper td .ui-state-active,
+.ovic-datepicker-wrapper td .ui-state-hover {
+    color: #fff;
+    background-color: #0073aa;
+}
+
+.ovic-datepicker-wrapper td.ui-state-disabled .ui-state-default {
+    opacity: 0.5;
+}
+
+.ovic-field-datetime input {
+    margin : 0
+}
+
+.ovic-field-datetime .ovic--to {
+    margin-left : 7px
+}
+
+.ovic-flatpickr input, .ovic-flatpickr select {
+    min-height : auto
+}
+
+.ovic-flatpickr input:focus, .ovic-flatpickr select:focus {
+    box-shadow : none
+}
+
+.ovic-flatpickr.open {
+    z-index : 9999999 !important
+}
+
+/**
+ * 03. 13. Field: gallery
+ */
+.ovic-field-gallery input {
+    display: none;
+}
+
+.ovic-field-gallery ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.ovic-field-gallery ul li {
+    display: inline-block;
+    position: relative;
+    padding: 4px;
+    margin: 0 5px 10px 0;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+}
+
+.ovic-field-gallery ul li img {
+    max-height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ovic-field-gallery .button {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+/**
+ * 03. 14. Field: group
+ */
+.ovic-field-group .ovic-cloneable-hidden {
+    display: none !important;
+}
+
+.ovic-field-group .ovic-cloneable-wrapper {
+    position: relative;
+}
+
+.ovic-field-group .ovic-cloneable-item {
+    display: none;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.ovic-field-group .ovic-cloneable-item h4 {
+    font-size: 1em;
+}
+
+.ovic-field-group .ui-accordion .ovic-cloneable-item {
+    display: block;
+}
+
+.ovic-field-group .ovic-cloneable-content {
+    border: 1px solid #ccd0d4;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.ovic-field-group .ovic-cloneable-content > .ovic-field {
+    padding: 15px;
+}
+
+.ovic-field-group .ovic-cloneable-title {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+    margin: 0;
+    padding: 15px 65px 15px 10px;
+    min-height: 0;
+    font-size: 100%;
+    border: 1px solid #ccd0d4;
+    background-color: #fafafa;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    transition: border-color .15s;
+    color: initial;
+}
+
+.ovic-field-group .ovic-cloneable-title:active, .ovic-field-group .ovic-cloneable-title:hover, .ovic-field-group .ovic-cloneable-title:focus {
+    border-color: #999;
+    outline: none;
+}
+
+.ovic-field-group .ovic-cloneable-helper {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    z-index: 1;
+    font-size: 14px;
+    line-height: 1em;
+}
+
+.ovic-field-group .ovic-cloneable-helper i {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+    color: #999;
+}
+
+.ovic-field-group .ovic-cloneable-helper i:hover {
+    color: #555;
+}
+
+.ovic-field-group .ovic-cloneable-content {
+    padding: 0;
+    border-top: 0;
+}
+
+.ovic-field-group .ovic-cloneable-title-prefix,
+.ovic-field-group .ovic-cloneable-title-number {
+    margin-right: 5px;
+}
+
+.ovic-field-group .ovic-cloneable-alert {
+    display: none;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    color: #a94442;
+    border: 1px solid #ebccd1;
+    background-color: #f2dede;
+}
+
+.ovic-field-group .widget-placeholder {
+    margin-bottom: 10px;
+    border: 1px dashed #f1c40f;
+    background-color: #fffae4;
+}
+
+.ovic-field-group .ovic-cloneable-header-icon {
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    width: 17px;
+    text-indent: 0;
+    vertical-align: text-top;
+    background: none;
+    color: initial;
+    margin: 0;
+}
+
+.ovic-field-group .ovic-cloneable-placeholder {
+    background-color: #ddd;
+    margin-top: 4px;
+    width: 100px;
+    height: 10px;
+    font-size: 10px;
+    line-height: 10px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 2px;
+}
+
+/**
+ * 03. 15. Field: icon
+ */
+.ovic-field-icon input {
+    display: none;
+}
+
+.ovic-field-icon .button {
+    margin-right: 5px;
+}
+
+.ovic-field-icon .ovic-icon-preview i {
+    display: inline-block;
+    font-size: 16px;
+    width: 30px;
+    height: 28px;
+    line-height: 28px;
+    margin-right: 5px;
+    text-align: center;
+    vertical-align: top;
+    color: #555;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+/**
+ * 03. 16. Field: image_select
+ */
+.ovic-field-image_select .ovic--image {
+    display: inline-block;
+    margin: 0 5px 5px 0;
+}
+
+.ovic-field-image_select .ovic--inline-list .ovic--image {
+    display: block;
+}
+
+.ovic-field-image_select figure {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    margin: 0;
+    vertical-align: bottom;
+    border: 2px solid transparent;
+    background-color: #fff;
+    user-select: none;
+    transition: all .2s;
+}
+
+.ovic-field-image_select figure:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-size: 10px;
+    font-family: "Font Awesome 5 Pro", "Font Awesome 5 Free", "FontAwesome";
+    font-weight: 900;
+    content: "\f00c";
+    width: 16px;
+    height: 16px;
+    line-height: 14px;
+    opacity: 0;
+    color: #fff;
+    background-color: #222;
+    transition: opacity .2s;
+}
+
+.ovic-field-image_select .ovic--active figure {
+    border-color: #222;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.ovic-field-image_select .ovic--active figure:before {
+    opacity: 1;
+}
+
+.ovic-field-image_select img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+.ovic-field-image_select input {
+    display: none;
+}
+
+/**
+ * 03. 17. Field: link_color
+ */
+.ovic-field-link_color .ovic--left {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.ovic-field-link_color .ovic--title {
+    color: #777;
+    margin-bottom: 5px;
+}
+
+/**
+ * 03. 18. Field: map
+ */
+.ovic-field-map input {
+    width: 100%;
+}
+
+.ovic-field-map input[type="text"].ui-autocomplete-loading {
+    background-position-x: calc(100% - 5px);
+}
+
+.ovic-field-map .ovic--map-search + .ovic--map-osm-wrap {
+    margin-top: 10px;
+}
+
+.ovic-field-map .ovic--map-osm-wrap {
+    position: relative;
+    padding: 5px;
+    border: 1px solid #eee;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.ovic-field-map .ovic--map-osm {
+    position: relative;
+    z-index: 1;
+    min-height: 250px;
+}
+
+.ovic-field-map .ovic--map-inputs {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ovic-field-map .ovic--map-input {
+    flex: 1;
+}
+
+.ovic-field-map .ovic--map-input:last-child {
+    padding-left: 10px;
+}
+
+.ovic-field-map label {
+    display: block;
+    color: #777;
+    font-size: 12px;
+    margin: 0 0 2px 0;
+}
+
+.ovic-map-ui-autocomplate {
+    z-index: 999999;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+/**
+ * 03. 19. Field: media
+ */
+.ovic-field-media .ovic--placeholder {
+    display: flex;
+}
+
+.ovic-field-media .ovic--placeholder input {
+    width: 100%;
+    margin: 0;
+}
+
+.ovic-field-media .button {
+    margin-left: 5px;
+}
+
+.ovic-field-media .hidden + .button {
+    margin-left: 0;
+}
+
+.ovic-field-media .ovic--preview {
+    position: relative;
+}
+
+.ovic-field-media .ovic--preview .fa-times {
+    position: absolute;
+    z-index: 1;
+    right: 4px;
+    top: 4px;
+    font-size: 14px;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #dd3333;
+    opacity: 0.8;
+    transition: all .2s;
+}
+
+.ovic-field-media .ovic--preview .fa-times:hover {
+    opacity: 1;
+}
+
+.ovic-field-media .ovic--preview .fa-times:focus {
+    box-shadow: none;
+}
+
+/**
+ * 03. 20. Field: palette
+ */
+.ovic-field-palette .ovic--palette {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid #ddd;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    transition: all .2s;
+}
+
+.ovic-field-palette .ovic--palette span {
+    vertical-align: middle;
+    display: inline-block;
+    width: 22px;
+    height: 60px;
+    line-height: 60px;
+    overflow: hidden;
+    text-indent: -999px;
+}
+
+.ovic-field-palette .ovic--palette:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-size: 10px;
+    font-family: "Font Awesome 5 Pro", "Font Awesome 5 Free", "FontAwesome";
+    font-weight: 900;
+    content: "\f00c";
+    width: 16px;
+    height: 16px;
+    line-height: 14px;
+    opacity: 0;
+    color: #fff;
+    background-color: #222;
+    transition: opacity .2s;
+}
+
+.ovic-field-palette .ovic--active {
+    border-color: #222;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.ovic-field-palette .ovic--active:before {
+    opacity: 1;
+}
+
+.ovic-field-palette input {
+    display: none;
+}
+
+/**
+ * 03. 21. Field: repeater
+ */
+.ovic-field-repeater .ovic-field-text input {
+    width: 100%;
+}
+
+.ovic-field-repeater .ovic-repeater-hidden {
+    display: none !important;
+}
+
+.ovic-field-repeater .ovic-repeater-wrapper .ovic-repeater-item {
+    display: table;
+    width: 100%;
+    margin-bottom: 5px;
+    border: 1px solid #eee;
+}
+
+.ovic-field-repeater .ovic-repeater-wrapper .ovic-repeater-item h4 {
+    font-size: 1em;
+}
+
+.ovic-field-repeater .ovic-repeater-content {
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #fff;
+}
+
+.ovic-field-repeater .ovic-repeater-content > .ovic-field {
+    padding: 15px;
+}
+
+.ovic-field-repeater .ovic-repeater-helper {
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1em;
+    border-left: 1px solid #eee;
+    background-color: #f7f7f7;
+}
+
+.ovic-field-repeater .ovic-repeater-helper i {
+    display: inline-block;
+    cursor: pointer;
+    color: #999;
+    padding: 5px;
+}
+
+.ovic-field-repeater .ovic-repeater-helper i:hover {
+    color: #555;
+}
+
+.ovic-field-repeater .ovic-repeater-helper-inner {
+    width: 75px;
+}
+
+.ovic-field-repeater .ovic-repeater-alert {
+    display: none;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    color: #a94442;
+    border: 1px solid #ebccd1;
+    background-color: #f2dede;
+}
+
+.ovic-field-repeater .widget-placeholder {
+    height: 50px;
+    margin-bottom: 3px;
+    border: 1px dashed #f1c40f;
+    background-color: #fffae4;
+}
+
+.ovic-field-repeater .ui-sortable-helper {
+    height: 50px !important;
+    overflow: hidden !important;
+    border-color: #ccc !important;
+    background-color: #eee !important;
+    opacity: 0.5;
+}
+
+.ovic-field-repeater .ui-sortable-helper .ovic-repeater-helper,
+.ovic-field-repeater .ui-sortable-helper .ovic-repeater-content {
+    display: none;
+}
+
+/**
+ * 03. 22. Field: select
+ */
+.ovic-field-select .ovic-fieldset {
+    min-height: 30px;
+}
+
+.ovic-field-select .ovic-chosen {
+    display: none;
+}
+
+.ovic-field-select select {
+    max-width: 100%;
+    margin: 0;
+}
+
+/**
+ * 03. 23. Field: slider
+ */
+.ovic-field-slider .ovic--wrap {
+    display: flex;
+    align-items: center;
+}
+
+.ovic-field-slider .ovic--input {
+    display: flex;
+}
+
+.ovic-field-slider .ovic--unit {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    user-select: none;
+    padding: 0 6px;
+    font-size: 11px;
+    line-height: 1;
+    border-radius: 0 4px 4px 0;
+    color: #555;
+    border: 1px solid #7e8993;
+    border-left: 0;
+    background-color: #f5f5f5;
+}
+
+.ovic-field-slider .ovic-slider-ui {
+    margin-right: 15px;
+}
+
+.ovic-field-slider input[type=number] {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    width: 50px;
+    text-align: center;
+}
+
+.ovic-field-slider .ovic--is-unit {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.ovic-field-slider .ui-slider {
+    position: relative;
+    width: 100%;
+    height: 3px;
+    border: none;
+    background: #ddd;
+    border-radius: 2px;
+}
+
+.ovic-field-slider .ui-slider-range {
+    height: 3px;
+    border: none;
+    background: #333;
+    border-radius: 2px;
+}
+
+.ovic-field-slider .ui-slider-handle {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: -7px;
+    margin-left: -8px;
+    border: none;
+    background: #333;
+    border-radius: 2px;
+}
+
+.ovic-field-slider .ui-state-active,
+.ovic-field-slider .ui-slider-handle:hover {
+    cursor: pointer;
+    background: #111;
+}
+
+/**
+ * 03. 24. Field: sortable
+ */
+.ovic-field-sortable .ovic-field-text input {
+    width: 100%;
+    max-width: 100%;
+}
+
+.ovic-field-sortable .ovic--sortable .ovic--sortable-item {
+    display: table;
+    width: 100%;
+    margin-bottom: 5px;
+    border: 1px solid #eee;
+}
+
+.ovic-field-sortable .ovic--sortable .ovic--sortable-item h4 {
+    font-size: 1em;
+}
+
+.ovic-field-sortable .ovic--sortable-content {
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #fff;
+}
+
+.ovic-field-sortable .ovic--sortable-content > .ovic-field {
+    padding: 15px;
+}
+
+.ovic-field-sortable .ovic--sortable-helper {
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1em;
+    border-left: 1px solid #eee;
+    background-color: #f7f7f7;
+}
+
+.ovic-field-sortable .ovic--sortable-helper i {
+    display: inline-block;
+    cursor: pointer;
+    width: 50px;
+    color: #555;
+}
+
+.ovic-field-sortable .ovic--sortable-helper i:hover {
+    opacity: 0.5;
+}
+
+.ovic-field-sortable .widget-placeholder {
+    height: 50px;
+    margin-bottom: 3px;
+    border: 1px dashed #f1c40f;
+    background-color: #fffae4;
+}
+
+.ovic-field-sortable .ui-sortable-helper {
+    height: 50px !important;
+    overflow: hidden !important;
+    border-color: #ccc !important;
+    background-color: #eee !important;
+    opacity: 0.5;
+}
+
+.ovic-field-sortable .ui-sortable-helper .ovic--sortable-helper,
+.ovic-field-sortable .ui-sortable-helper .ovic--sortable-content {
+    display: none;
+}
+
+/**
+ * 03. 25. Field: sorter
+ */
+.ovic-field-sorter .ui-sortable-placeholder {
+    height: 20px;
+    border: 1px dashed #f1c40f;
+    background-color: #fffae4;
+}
+
+.ovic-field-sorter .ovic-modules {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.ovic-field-sorter .ovic-modules:first-child {
+    padding-right: 15px;
+}
+
+.ovic-field-sorter .ovic-modules:last-child {
+    padding-left: 15px;
+}
+
+.ovic-field-sorter .ovic-disabled,
+.ovic-field-sorter .ovic-enabled {
+    padding: 5px 15px;
+    border: 1px dashed #ddd;
+    background-color: #fff;
+}
+
+.ovic-field-sorter .ovic-disabled li {
+    -moz-transition: opacity 0.15s;
+    -o-transition: opacity 0.15s;
+    -webkit-transition: opacity 0.15s;
+    transition: opacity 0.15s;
+    opacity: 0.5;
+}
+
+.ovic-field-sorter .ovic-disabled .ui-sortable-helper {
+    opacity: 1;
+}
+
+.ovic-field-sorter .ovic-sorter-title {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px;
+    text-align: center;
+    border: 1px dashed #ddd;
+    border-bottom: none;
+    background-color: #f8f8f8;
+    text-transform: uppercase;
+}
+
+.ovic-field-sorter ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    min-height: 62px;
+}
+
+.ovic-field-sorter ul li {
+    margin: 10px 0;
+    padding: 10px 15px;
+    cursor: move;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    background-color: #fafafa;
+    -moz-transition: border-color 0.15s;
+    -o-transition: border-color 0.15s;
+    -webkit-transition: border-color 0.15s;
+    transition: border-color 0.15s;
+}
+
+.ovic-field-sorter ul li:hover {
+    border-color: #bbb;
+}
+
+/**
+ * 03. 26. Field: spinner
+ */
+.ovic-field-spinner .ovic--spin {
+    display: flex;
+}
+
+.ovic-field-spinner .ui-spinner {
+    display: flex;
+}
+
+.ovic-field-spinner .ui-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-width: 20px;
+    padding: 0 4px;
+    color: #555;
+    border: 1px solid #7e8993;
+    background-color: #f5f5f5;
+}
+
+.ovic-field-spinner .ui-spinner-button {
+    cursor: pointer;
+}
+
+.ovic-field-spinner .ui-spinner-button:hover {
+    background-color: #e7e7e7;
+}
+
+.ovic-field-spinner .ui-spinner-button:active {
+    background-color: #ddd;
+}
+
+.ovic-field-spinner .ui-spinner-button:before {
+    font-family: "Font Awesome 5 Pro", "Font Awesome 5 Free", "FontAwesome";
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.ovic-field-spinner .ui-spinner-down {
+    order: 1;
+    border-right: 0;
+    border-radius: 4px 0 0 4px;
+}
+
+.ovic-field-spinner .ui-spinner-down:before {
+    content: "\f0d9";
+}
+
+.ovic-field-spinner .ui-spinner-input {
+    order: 2;
+}
+
+.ovic-field-spinner .ovic--unit {
+    order: 3;
+    border-left: 0;
+    border-radius: 0;
+    user-select: none;
+}
+
+.ovic-field-spinner .ui-spinner-up {
+    order: 4;
+    border-left: 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.ovic-field-spinner .ui-spinner-up:before {
+    content: "\f0da";
+}
+
+.ovic-field-spinner input {
+    position: relative;
+    z-index: 1;
+    width: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 0 8px;
+    border-radius: 0;
+}
+
+.ovic-field-spinner .ui-button-text,
+.ovic-field-spinner .ui-button-icon,
+.ovic-field-spinner .ui-button-icon-space {
+    display: none;
+}
+
+/**
+ * 03. 27. Field: switcher
+ */
+.ovic-field-switcher .ovic--switcher {
+    float: left;
+    cursor: pointer;
+    position: relative;
+    width: 60px;
+    height: 26px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    border-radius: 4px;
+    background-color: #ed6f6f;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.ovic-field-switcher .ovic--ball {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 24px;
+    height: 18px;
+    background-color: #fff;
+    border-radius: 4px;
+    transition: all .1s;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.ovic-field-switcher .ovic--on,
+.ovic-field-switcher .ovic--off {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 11px;
+    line-height: 26px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    padding-right: 28px;
+    opacity: 0;
+    transition: all .1s;
+}
+
+.ovic-field-switcher .ovic--off {
+    padding-right: 0;
+    padding-left: 28px;
+    opacity: 1;
+}
+
+.ovic-field-switcher .ovic--active {
+    background: #4fb845;
+}
+
+.ovic-field-switcher .ovic--active .ovic--on {
+    opacity: 1;
+}
+
+.ovic-field-switcher .ovic--active .ovic--off {
+    opacity: 0;
+}
+
+.ovic-field-switcher .ovic--active .ovic--ball {
+    left: 100%;
+    margin-left: -28px;
+}
+
+.ovic-field-switcher .ovic--label {
+    float: left;
+    margin-top: 4px;
+    margin-left: 8px;
+    font-weight: 400;
+    color: #999;
+}
+
+.ovic-field-switcher input {
+    display: none !important;
+}
+
+/**
+ * 03. 28. Field: tabbed
+ */
+.ovic-field-tabbed .ovic-tabbed-section {
+    border: 1px solid #ccd0d4;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.ovic-field-tabbed .ovic-tabbed-section > .ovic-field {
+    padding: 15px;
+}
+
+.ovic-field-tabbed .ovic-tabbed-nav .ovic--icon {
+    padding-right: 5px;
+}
+
+.ovic-field-tabbed .ovic-tabbed-nav a {
+    display: inline-block;
+    padding: 12px 15px;
+    margin-top: 1px;
+    margin-right: 5px;
+    margin-bottom: -1px;
+    position: relative;
+    text-decoration: none;
+    color: #444;
+    font-weight: 600;
+    border: 1px solid #ccd0d4;
+    background-color: #f3f3f3;
+    transition: all .2s;
+}
+
+.ovic-field-tabbed .ovic-tabbed-nav a:hover {
+    background-color: #f9f9f9;
+}
+
+.ovic-field-tabbed .ovic-tabbed-nav a.ovic-tabbed-active {
+    background-color: #fff;
+    border-bottom-color: #fff;
+}
+
+.ovic-field-tabbed .ovic-tabbed-nav a:focus {
+    outline: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/**
+ * 03. 29. Field: text
+ */
+.ovic-field-text input {
+    width: 50%;
+    max-width: 100%;
+    margin: 0;
+}
+
+/**
+ * 03. 30. Field: textarea
+ */
+.ovic-field-textarea textarea {
+    width: 100%;
+    max-width: 100%;
+    min-height: 125px;
+}
+
+.ovic-field-textarea .ovic-shortcode-button {
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+/**
+ * 03. 31. Field: typography
+ */
+.ovic-field-typography textarea,
+.ovic-field-typography select {
+    min-width: 100%;
+    margin: 0;
+}
+
+.ovic-field-typography .ovic--title {
+    color: #777;
+    margin: 0 0 2px 0;
+    font-size: 12px;
+}
+
+.ovic-field-typography .ovic--title small {
+    vertical-align: top;
+}
+
+.ovic-field-typography .ovic--blocks {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ovic-field-typography .ovic--block {
+    flex: 1;
+    padding-right: 6px;
+    padding-bottom: 6px;
+}
+
+.ovic-field-typography .ovic--input {
+    margin: 0;
+    min-width: 100%;
+}
+
+.ovic-field-typography .ovic--input-wrap {
+    position: relative;
+}
+
+.ovic-field-typography .ovic--unit {
+    position: absolute;
+    z-index: 1;
+    right: 4px;
+    top: 4px;
+    bottom: 4px;
+    padding: 2px 6px;
+    color: #666;
+    font-size: 11px;
+    line-height: 1;
+    border-radius: 2px;
+    background: #eee;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ovic-field-typography .ovic--preview {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 20px;
+    color: #222;
+    border: 1px solid #eee;
+    background-color: #fff;
+    border-radius: 2.5px;
+    user-select: none;
+    -webkit-user-select: none;
+    transition: background-color .2s, border-color .2s;
+}
+
+.ovic-field-typography .ovic--block-preview {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+.ovic-field-typography .ovic--black-background {
+    border-color: #000;
+    background-color: #000;
+}
+
+.ovic-field-typography .ovic--toggle {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: #999;
+}
+
+.ovic-field-typography .ovic--block-extra-styles {
+    margin-top: 5px;
+}
+
+/**
+ * 03. 32. Field: upload
+ */
+.ovic-field-upload input {
+    width: 100%;
+    margin: 0;
+}
+
+.ovic-field-upload .ovic--wrap {
+    display: flex;
+}
+
+.ovic-field-upload .button {
+    margin-left: 5px;
+}
+
+/**
+ * 03. 33. Field: wp_editor
+ */
+.ovic-field-wp_editor .ovic-wp-editor {
+    float: left;
+    width: 100%;
+}
+
+.ovic-field-wp_editor .mce-toolbar-grp {
+    border: none;
+}
+
+.ovic-field-wp_editor .mce-btn.mce-active button,
+.ovic-field-wp_editor .mce-btn.mce-active:hover button,
+.ovic-field-wp_editor .mce-btn.mce-active i,
+.ovic-field-wp_editor .mce-btn.mce-active:hover i {
+    color: #23282d;
+}
+
+.ovic-field-wp_editor .wp-media-buttons {
+    position: relative;
+    z-index: 2;
+}
+
+.ovic-field-wp_editor .wp-editor-tabs {
+    position: relative;
+    z-index: 1;
+}
+
+.ovic-field-wp_editor .ovic-no-tinymce {
+    border: 1px solid #e5e5e5;
+}
+
+.ovic-field-wp_editor .ovic-no-quicktags .wp-media-buttons {
+    float: none;
+    display: block;
+}
+
+.ovic-field-wp_editor .ovic-no-quicktags .mce-tinymce {
+    box-shadow: none;
+    border: 1px solid #e5e5e5;
+}
+
+.ovic-field-wp_editor textarea {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    box-shadow: none;
+}
+
+/**
+ * 03. 34. Field: heading
+ */
+.ovic-field-heading {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #23282d;
+    background-color: #f5f5f5;
+}
+
+/**
+ * 03. 35. Field: subheading
+ */
+.ovic-field-subheading {
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    color: #23282d;
+    background-color: #f7f7f7;
+}
+
+/**
+ * 03. 36. Field: submessage
+ */
+.ovic-field-submessage {
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+.ovic-field-submessage + .ovic-field {
+    border-top: 0 !important;
+}
+
+.ovic-submessage {
+    font-size: 12px;
+    padding: 17px 30px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+
+.ovic-submessage-success {
+    color: #3c763d;
+    border-color: #d6e9c6;
+    background-color: #dff0d8;
+}
+
+.ovic-submessage-info {
+    color: #31708f;
+    border-color: #bce8f1;
+    background-color: #d9edf7;
+}
+
+.ovic-submessage-warning {
+    color: #8a6d3b;
+    border-color: #faebcc;
+    background-color: #fcf8e3;
+}
+
+.ovic-submessage-danger {
+    color: #a94442;
+    border-color: #ebccd1;
+    background-color: #f2dede;
+}
+
+.ovic-submessage-normal {
+    color: #23282d;
+    border-color: #eee;
+    background-color: #f7f7f7;
+}
+
+/**
+ * 03. 37. Field: notice
+ */
+.ovic-field-notice {
+    background-color: #f7f7f7;
+}
+
+.ovic-notice {
+    padding: 12px;
+    background-color: #fff;
+    border-left-style: solid;
+    border-left-width: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.ovic-notice-success {
+    border-color: #46b450;
+}
+
+.ovic-notice-info {
+    border-color: #339fd4;
+}
+
+.ovic-notice-warning {
+    border-color: #ffbc00;
+}
+
+.ovic-notice-danger {
+    border-color: #dc3232;
+}
+
+.ovic-notice-normal {
+    border-color: #222;
+}
+
+/**
+ * 03. 38. Field: number
+ */
+.ovic-field-number input {
+    width: 100%;
+    margin: 0;
+}
+
+.ovic-field-number .ovic--wrap {
+    position: relative;
+    float: left;
+    width: 100px;
+}
+
+.ovic-field-number .ovic--unit {
+    position: absolute;
+    z-index: 1;
+    right: 4px;
+    top: 4px;
+    bottom: 4px;
+    padding: 2px 6px;
+    color: #666;
+    font-size: 11px;
+    line-height: 1;
+    border-radius: 2px;
+    background: #eee;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/**
+ * 03. 39. Field: link
+ */
+.ovic-field-link input {
+    display: none;
+}
+
+.ovic-field-link .ovic--result {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 7px 10px;
+    margin-bottom: 7px;
+    color: #777;
+    border: 1px solid #e5e5e5;
+    background-color: #f5f5f5;
+    border-radius: 2px;
+}
+
+.ovic-field-link .ovic--wrap {
+    position: relative;
+    float: left;
+    width: 100px;
+}
+
+.ovic-field-link .ovic--unit {
+    position: absolute;
+    z-index: 1;
+    right: 4px;
+    top: 4px;
+    bottom: 4px;
+    padding: 2px 6px;
+    color: #666;
+    font-size: 11px;
+    line-height: 1;
+    border-radius: 2px;
+    background: #eee;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/**
+ * 03. 39. others
+ */
+.ovic-help {
+    cursor: help;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    font-size: 13px;
+    color: #aaa;
+}
+
+.ovic-help .ovic-help-text {
+    display: none;
+}
+
+.ovic-image-preview {
+    display: inline-block;
+    position: relative;
+    padding: 4px;
+    min-width: 44px;
+    min-height: 22px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+}
+
+.ovic-image-preview img {
+    max-height: 90px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ovic-field-custom .ovic-field {
+    padding: 0;
+}
+
+.ovic-field .chosen-container-single .chosen-single {
+    height: 28px;
+    line-height: 26px;
+}
+
+.ovic-field .chosen-container-single .chosen-single abbr {
+    top: 0;
+    right: 20px;
+    font-family: "Font Awesome 5 Pro", "Font Awesome 5 Free", "FontAwesome";
+    font-weight: 900;
+    font-size: 12px;
+    height: 100%;
+    width: 18px;
+    color: #aaa;
+    text-align: center;
+    background: none;
+}
+
+.ovic-field .chosen-container-single .chosen-single abbr:before {
+    content: "\f00d";
+}
+
+.ovic-field .chosen-container-single .chosen-single abbr:hover {
+    color: #555;
+}
+
+.ovic-field .chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
+    font-family: "Font Awesome 5 Pro", "Font Awesome 5 Free", "FontAwesome";
+    font-weight: 900;
+    font-size: 12px;
+    height: 100%;
+    width: 18px;
+    color: #aaa;
+    text-align: center;
+    background: none;
+}
+
+.ovic-field .chosen-container-multi .chosen-choices li.search-choice .search-choice-close:before {
+    content: "\f00d";
+    display: inline-block;
+    padding-top: 3px;
+}
+
+.ovic-field .chosen-container-multi .chosen-choices li.search-choice .search-choice-close:hover {
+    color: #555;
+}
+
+.ovic-field .chosen-container-single .chosen-single div b {
+    font-family: "Font Awesome 5 Pro", "Font Awesome 5 Free", "FontAwesome";
+    font-weight: 900;
+    font-size: 14px;
+    color: #aaa;
+    background: none;
+}
+
+.ovic-field .chosen-container-single .chosen-single div b:before {
+    content: "\f107";
+}
+
+.ovic-field .chosen-container-single .chosen-single div b:hover {
+    color: #555;
+}
+
+.ovic-field .chosen-container-multi .chosen-choices li.search-choice-placeholder {
+    border: 1px dashed #aaa;
+    margin: 3px 5px 3px 0;
+}
+
+.ovic-field .chosen-container-multi .ui-sortable li.search-choice span {
+    cursor: move;
+}
+
+.ovic-field .chosen-container-active.chosen-with-drop .chosen-single div b:before {
+    content: "\f106";
+}
+
+.ovic-field .chosen-container-single .chosen-single-with-deselect span {
+    margin-right: 40px;
+}
+
+.ovic-field .chosen-container-single .chosen-search input[type="text"] {
+    background: none;
+}
+
+.ovic-field .chosen-container-single .chosen-search:before {
+    font-family: "Font Awesome 5 Pro", "Font Awesome 5 Free", "FontAwesome";
+    font-weight: 900;
+    font-size: 11px;
+    content: "\f002";
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    color: #aaa;
+}
+
+.ovic-field .wp-picker-container {
+    display: inline-block;
+}
+
+.ovic-field .wp-picker-container .wp-color-result.button {
+    margin-bottom: 0;
+}
+
+.ovic-field .ovic--transparent-wrap {
+    display: none;
+    position: relative;
+    top: -1px;
+    width: 235px;
+    padding: 9px 10px;
+    border: 1px solid #dfdfdf;
+    border-top: none;
+    background-color: #fff;
+}
+
+.ovic-field .wp-picker-active .ovic--transparent-wrap {
+    display: block;
+}
+
+.ovic-field .ovic--transparent-slider {
+    position: absolute;
+    width: 190px;
+    margin-left: 2px;
+    height: 18px;
+}
+
+.ovic-field .ovic--transparent-slider .ui-slider-handle {
+    position: absolute;
+    top: -3px;
+    bottom: -3px;
+    z-index: 5;
+    border-color: #aaa;
+    border-style: solid;
+    border-width: 4px 3px;
+    width: 10px;
+    height: 16px;
+    margin: 0 -5px;
+    background: none;
+    cursor: ew-resize;
+    opacity: 0.9;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.ovic-field .ovic--transparent-slider .ui-slider-handle:before {
+    content: " ";
+    position: absolute;
+    left: -2px;
+    right: -2px;
+    top: -3px;
+    bottom: -3px;
+    border: 2px solid #fff;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.ovic-field .ovic--transparent-offset {
+    height: 18px;
+    width: 200px;
+    background: url(../images/checkerboard.png) repeat-y center left scroll #fff;
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4) inset;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4) inset;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4) inset;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.ovic-field .ovic--transparent-text {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    width: 30px;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: #999;
+}
+
+.ovic-field .ovic--transparent-button {
+    cursor: pointer;
+    user-select: none;
+    margin-top: 10px;
+    font-size: 11px;
+    text-align: center;
+    border-radius: 2px;
+    padding: 3px 7px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    letter-spacing: 0.2px;
+    color: #777;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    transition: background-color .2s, border-color .2s, color .2s;
+}
+
+.ovic-field .ovic--transparent-active .wp-color-result {
+    background-image: url(../images/checkerboard.png);
+    background-size: 135px;
+    background-position: center left;
+    background-color: transparent !important;
+}
+
+.ovic-field .ovic--transparent-active .ovic--transparent-button {
+    color: #fff;
+    border-color: #3ea032;
+    background-color: #4fb845;
+}
+
+.ovic-field .ovic--transparent-active .fa:before {
+    content: "\f205";
+}
+
+/**
+ * 04. Widget
+ */
+.ovic-widgets > .ovic-field {
+    position: relative;
+    top: -1px;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 12px 15px;
+}
+
+.ovic-widgets > .ovic-field .ovic-title {
+    float: none;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.ovic-widgets > .ovic-field .ovic-fieldset {
+    float: none;
+    width: 100%;
+}
+
+.ovic-widgets .ovic-field-text input {
+    width: 100%;
+}
+
+.ovic-widgets .ovic-field-notice .ovic-notice {
+    padding: 15px;
+}
+
+.control-section .ovic-widgets > .ovic-field {
+    margin-right: -10px;
+    margin-left: -10px;
+    padding: 10px 12px;
+}
+
+/**
+ * 05. Widget
+ */
+.control-section .ovic-field {
+    padding: 0;
+}
+
+.control-section .ovic-field .ovic-title {
+    float: none;
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+.control-section .ovic-field .ovic-title h4 {
+    display: block;
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 600;
+    color: inherit;
+}
+
+.control-section .ovic-field .ovic-fieldset {
+    float: none;
+    width: 100%;
+}
+
+.control-section .ovic-help {
+    top: -5px;
+    right: -5px;
+}
+
+.control-section .ovic-field-select select {
+    width: 100%;
+}
+
+.control-section .ovic-field-heading {
+    color: inherit;
+    font-size: 14px;
+    line-height: 1em;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 15px;
+}
+
+.control-section .ovic-field-subheading {
+    color: inherit;
+    font-size: 11px;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 10px 15px;
+}
+
+.control-section .ovic-text-subtitle {
+    margin-top: 4px;
+    font-size: 12px;
+}
+
+.control-section .ovic-field-submessage .ovic-submessage {
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 15px;
+}
+
+.control-section .ovic-fieldset .ovic-field-submessage .ovic-submessage,
+.control-section .ovic-fieldset .ovic-field-heading,
+.control-section .ovic-fieldset .ovic-field-subheading {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.control-section .ovic-field-date .ovic--to {
+    margin-left: 0;
+}
+
+.control-section .ovic-field-sorter ul li {
+    padding: 5px;
+}
+
+.control-section .ovic-field-sorter .ovic-modules {
+    float: none;
+    width: 100%;
+}
+
+.control-section .ovic-field-sorter .ovic-modules:first-child {
+    padding-right: 0;
+    padding-bottom: 15px;
+}
+
+.control-section .ovic-field-background .ovic--background-attributes {
+    flex-direction: column;
+}
+
+.control-section .ovic-field-spacing input {
+    width: 90px;
+}
+
+.control-section .ovic-field-border .ovic--input {
+    flex: 1 50%;
+}
+
+.control-section .ovic-field-border input,
+.control-section .ovic-field-border select {
+    width: 100%;
+}
+
+.control-section .ovic-field-spinner input {
+    width: 50px;
+}
+
+.control-section .ovic-field-number .ovic--wrap {
+    width: 100%;
+}
+
+.control-section .ovic-field-backup .ovic-export-data {
+    display: none;
+}
+
+.control-section .ovic-field-fieldset .ovic-fieldset-content {
+    border-color: #e5e5e5;
+}
+
+.control-section .ovic-field-fieldset .ovic-field {
+    padding: 10px;
+}
+
+.control-section .ovic-field-fieldset .ovic-field .ovic-title {
+    margin-bottom: 5px;
+}
+
+.control-section .ovic-field-fieldset .ovic-field h4 {
+    font-size: 12px;
+}
+
+.control-section .ovic-field-group .ovic-field,
+.control-section .ovic-field-tabbed .ovic-field,
+.control-section .ovic-field-sortable .ovic-field,
+.control-section .ovic-field-repeater .ovic-field,
+.control-section .ovic-field-accordion .ovic-field {
+    padding: 10px;
+}
+
+.control-section .ovic-field-group .ovic-field .ovic-title,
+.control-section .ovic-field-tabbed .ovic-field .ovic-title,
+.control-section .ovic-field-sortable .ovic-field .ovic-title,
+.control-section .ovic-field-repeater .ovic-field .ovic-title,
+.control-section .ovic-field-accordion .ovic-field .ovic-title {
+    margin-bottom: 5px;
+}
+
+.control-section .ovic-field-group .ovic-field h4,
+.control-section .ovic-field-tabbed .ovic-field h4,
+.control-section .ovic-field-sortable .ovic-field h4,
+.control-section .ovic-field-repeater .ovic-field h4,
+.control-section .ovic-field-accordion .ovic-field h4 {
+    font-size: 12px;
+}
+
+.control-section .ovic-dependency-control.hidden {
+    display: none !important;
+}
+
+/**
+ * 06. Taxonomy
+ */
+.ovic-taxonomy > .ovic-field {
+    border-top: none !important;
+}
+
+.ovic-taxonomy > .ovic-field-heading {
+    font-size: 1.1em;
+    padding: 20px !important;
+    border: 1px solid #ddd;
+}
+
+.ovic-taxonomy > .ovic-field-subheading {
+    font-size: 12px;
+    padding: 15px !important;
+    border: 1px solid #ddd;
+}
+
+.ovic-taxonomy > .ovic-field-submessage .ovic-submessage {
+    padding: 15px;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+
+.ovic-taxonomy > .ovic-field-notice {
+    background-color: transparent;
+}
+
+.ovic-taxonomy .ovic-section-title {
+    display: block;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.ovic-taxonomy-add-fields > .ovic-field {
+    padding: 8px 0;
+}
+
+.ovic-taxonomy-add-fields > .ovic-field > .ovic-title {
+    float: none;
+    width: 100%;
+    padding: 2px 2px 4px 0;
+}
+
+.ovic-taxonomy-add-fields > .ovic-field > .ovic-title h4 {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.ovic-taxonomy-add-fields > .ovic-field > .ovic-fieldset {
+    float: none;
+    width: 100%;
+}
+
+.ovic-taxonomy-add-fields > .ovic-field > .ovic-fieldset > .ovic-help {
+    right: -5px;
+}
+
+.ovic-taxonomy-add-fields + p.submit {
+    margin-top: 0;
+}
+
+.ovic-taxonomy-edit-fields > .ovic-field {
+    padding: 20px 0;
+}
+
+.ovic-taxonomy-edit-fields > .ovic-field > .ovic-title {
+    width: 200px;
+}
+
+.ovic-taxonomy-edit-fields > .ovic-field > .ovic-title h4 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.3;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ovic-taxonomy-edit-fields > .ovic-field > .ovic-fieldset {
+    width: calc(100% - 220px);
+}
+
+.ovic-taxonomy-edit-fields > .ovic-field > .ovic-fieldset > .ovic-help {
+    top: -5px;
+    right: -5px;
+}
+
+.ovic-taxonomy-edit-fields > .ovic-field-submessage {
+    margin: 20px 0;
+}
+
+.ovic-taxonomy-edit-fields > .ovic-field-subheading,
+.ovic-taxonomy-edit-fields > .ovic-field-heading {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+/**
+ * 07. Profile
+ */
+.ovic-profile > h2 > .fa {
+    padding-right: 7px;
+}
+
+.ovic-profile > .ovic-field {
+    max-width: 800px;
+    padding: 15px 0;
+    border-top: none !important;
+}
+
+.ovic-profile > .ovic-field > .ovic-title {
+    width: 200px;
+}
+
+.ovic-profile > .ovic-field > .ovic-title h4 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.3;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ovic-profile > .ovic-field > .ovic-fieldset {
+    width: calc(100% - 220px);
+}
+
+.ovic-profile > .ovic-field > .ovic-fieldset > .ovic-help {
+    top: -15px;
+    right: -5px;
+}
+
+.ovic-profile > .ovic-field-heading {
+    font-size: 1.1em;
+}
+
+.ovic-profile > .ovic-field-subheading {
+    font-size: 12px;
+}
+
+.ovic-profile > .ovic-field-subheading,
+.ovic-profile > .ovic-field-heading {
+    margin: 10px 0;
+    padding: 15px !important;
+    border: 1px solid #ddd;
+}
+
+.ovic-profile > .ovic-field-submessage {
+    margin: 20px 0;
+}
+
+.ovic-profile > .ovic-field-submessage .ovic-submessage {
+    padding: 10px;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+
+.ovic-profile > .ovic-field-notice {
+    background-color: transparent;
+}
+
+/**
+ * 08. Nav Menu
+ */
+.ovic-nav-menu-options {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+.ovic-nav-menu-options > .ovic-fields {
+    margin-left: -10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.ovic-nav-menu-options > .ovic-fields > .ovic-field {
+    padding: 12px 14px 12px 12px;
+}
+
+.ovic-nav-menu-options > .ovic-fields > .ovic-field .ovic-title {
+    float: none;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.ovic-nav-menu-options > .ovic-fields > .ovic-field .ovic-fieldset {
+    float: none;
+    width: 100%;
+}
+
+.ovic-nav-menu-options .ovic-field-text input {
+    width: 100%;
+}
+
+.ovic-nav-menu-options .ovic-field-notice .ovic-notice {
+    padding: 15px;
+}
+
+.ovic-nav-menu-title {
+    padding: 12px 14px 12px 12px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.ovic-nav-menu-title:first-child {
+    border-top: 0;
+}
+
+.ovic-nav-menu-title h4 {
+    margin: 0;
+    padding: 0;
+    color: #23282d;
+}
+
+.ovic-nav-menu-icon {
+    margin-right: 5px;
+}
+
+/**
+ * 09. Modal
+ */
+.ovic-modal {
+    display: none;
+    position: fixed;
+    z-index: 100101;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.ovic-modal-icon {
+    z-index: 100102;
+}
+
+.ovic-modal-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.ovic-modal-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 100px 0;
+}
+
+.ovic-modal-inner {
+    position: relative;
+    z-index: 10;
+    width: 760px;
+    height: 750px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.ovic-modal-content {
+    position: relative;
+    overflow: hidden;
+    overflow-y: auto;
+    height: 595px;
+}
+
+.ovic-modal-content .ovic-shortcode-button {
+    display: none;
+}
+
+.ovic-modal-content .ovic-field {
+    padding: 15px 30px 15px 15px;
+}
+
+.ovic-modal-content a:active, .ovic-modal-content a:focus {
+    outline: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.ovic-modal-content h4 {
+    font-size: 13px;
+}
+
+.ovic-modal-content h4 small {
+    font-style: italic;
+    font-weight: 400;
+    color: #aaa;
+}
+
+.ovic-modal-title {
+    position: relative;
+    background-color: #fcfcfc;
+    border-bottom: 1px solid #ddd;
+    height: 36px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 36px;
+    margin: 0;
+    padding: 0 36px 0 16px;
+}
+
+.ovic-modal-header {
+    width: 100%;
+    padding: 14px 0;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #eee;
+}
+
+.ovic-modal-header select {
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+    font-size: 13px;
+    line-height: 1;
+    height: 30px;
+    min-height: 30px;
+    background-color: #fff;
+}
+
+.ovic-modal-close {
+    color: #666;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.ovic-modal-close:before {
+    font: normal 20px/36px dashicons;
+    content: "\f158";
+    vertical-align: top;
+    width: 36px;
+    height: 36px;
+}
+
+.ovic-modal-close:hover {
+    opacity: 0.5;
+}
+
+.ovic-modal-insert-wrapper {
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+    background-color: #f5f5f5;
+    border-top: 1px solid #eee;
+}
+
+.ovic-modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+/**
+ * 09. 01. Shortcode Modal
+ */
+.ovic--repeatable {
+    padding: 15px 15px 0 15px;
+}
+
+.ovic--repeat-button-block {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.ovic--repeat-shortcode {
+    position: relative;
+    margin-bottom: 15px;
+    border: 1px dashed #ddd;
+}
+
+.ovic--repeat-shortcode:first-child .ovic-repeat-remove {
+    display: none;
+}
+
+.ovic--repeat-shortcode .ovic-repeat-remove {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 10;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 11px;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 2px;
+    color: #fff;
+    background-color: #e14d43;
+    opacity: 0.5;
+}
+
+.ovic--repeat-shortcode .ovic-repeat-remove:hover {
+    opacity: 1;
+}
+
+.ovic-shortcode-single .ovic-modal-inner {
+    height: 750px;
+}
+
+.ovic-shortcode-single .ovic-modal-content {
+    height: 652px;
+}
+
+.elementor-editor-active .ovic-shortcode-button {
+    margin-left: 5px;
+}
+
+.elementor-editor-active .ovic-modal .hidden {
+    display: none !important;
+}
+
+/**
+ * 09. 02. Gutenberg Modal
+ */
+.ovic-shortcode-block {
+    text-align: center;
+    padding: 14px;
+    font-size: 13px;
+    background-color: #f5f5f5;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.ovic-shortcode-block .button {
+    margin: 10px 0;
+}
+
+/**
+ * 09. 03. Icon Modal
+ */
+.ovic-modal-icon .ovic-icon-title {
+    padding: 15px 0;
+    margin: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #eee;
+    background-color: #f7f7f7;
+}
+
+.ovic-modal-icon .ovic-icon-search {
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+}
+
+.ovic-modal-icon i {
+    cursor: pointer;
+    display: inline-block;
+    margin: 4px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.05);
+}
+
+.ovic-modal-icon i:hover {
+    color: #fff;
+    border-color: #222;
+    background-color: #222;
+}
+
+.ovic-modal-icon .ovic-modal-content {
+    padding: 10px;
+    height: 618px;
+}
+
+.ovic-modal-icon .ovic-text-error {
+    padding: 10px;
+}
+
+.ovic-modal-loading {
+    display: none;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.ovic-loading {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background: #ccc;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07);
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07);
+}
+
+.ovic-loading:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 4px;
+    height: 4px;
+    content: "";
+    margin-top: -2px;
+    margin-left: -2px;
+    background-color: white;
+    -moz-animation-duration: 0.5s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -moz-animation-name: ovicLoader;
+    -webkit-animation-name: ovicLoader;
+    animation-name: ovicLoader;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+@-moz-keyframes ovicLoader {
+    0% {
+        -moz-transform: rotate(0deg) translateX(-6px) rotate(0deg);
+        transform: rotate(0deg) translateX(-6px) rotate(0deg);
+    }
+    100% {
+        -moz-transform: rotate(360deg) translateX(-6px) rotate(-360deg);
+        transform: rotate(360deg) translateX(-6px) rotate(-360deg);
+    }
+}
+
+@-webkit-keyframes ovicLoader {
+    0% {
+        -webkit-transform: rotate(0deg) translateX(-6px) rotate(0deg);
+        transform: rotate(0deg) translateX(-6px) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg) translateX(-6px) rotate(-360deg);
+        transform: rotate(360deg) translateX(-6px) rotate(-360deg);
+    }
+}
+
+@keyframes ovicLoader {
+    0% {
+        -moz-transform: rotate(0deg) translateX(-6px) rotate(0deg);
+        -ms-transform: rotate(0deg) translateX(-6px) rotate(0deg);
+        -webkit-transform: rotate(0deg) translateX(-6px) rotate(0deg);
+        transform: rotate(0deg) translateX(-6px) rotate(0deg);
+    }
+    100% {
+        -moz-transform: rotate(360deg) translateX(-6px) rotate(-360deg);
+        -ms-transform: rotate(360deg) translateX(-6px) rotate(-360deg);
+        -webkit-transform: rotate(360deg) translateX(-6px) rotate(-360deg);
+        transform: rotate(360deg) translateX(-6px) rotate(-360deg);
+    }
+}
+
+/**
+ * 10. Helper
+ */
+.ovic-text-subtitle {
+    margin-top: 10px;
+    font-weight: 400;
+    color: #999;
+}
+
+.ovic-text-desc {
+    clear: both;
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    font-weight: 400;
+    color: #999;
+}
+
+.ovic-text-success {
+    color: #2b542c;
+}
+
+.ovic-text-error {
+    margin-top: 5px;
+    color: #d02c21;
+}
+
+.ovic-text-info {
+    color: #31708f;
+}
+
+.ovic-text-warning {
+    color: #ffb900;
+}
+
+.ovic-text-muted {
+    color: #aaa;
+}
+
+.ovic-text-left {
+    text-align: left;
+}
+
+.ovic-text-center {
+    text-align: center;
+}
+
+.ovic-text-right {
+    text-align: right;
+}
+
+.ovic-block-left {
+    float: left;
+}
+
+.ovic-block-right {
+    float: right;
+}
+
+.ovic-full-width {
+    width: 100%;
+}
+
+.ovic-full-half {
+    width: 50%;
+}
+
+.ovic-table {
+    width: 100%;
+    display: table;
+}
+
+.ovic-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.ovic-table-expanded {
+    width: 100%;
+}
+
+.ovic-nowrap {
+    white-space: nowrap;
+}
+
+.ovic-text-highlight {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.ovic-text-highlight-gray {
+    padding: 2px 4px;
+    font-size: 90%;
+    background-color: #f0f0f0;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.ovic-hidden {
+    display: none;
+}
+
+.ovic-hide {
+    display: none !important;
+}
+
+.ovic-show {
+    display: block !important;
+}
+
+.ovic-opacity {
+    opacity: 0.5;
+}
+
+.ovic-warning-primary {
+    color: #fff !important;
+    border-color: #dc3545 !important;
+    background: #dc3545 !important;
+}
+
+.ovic-warning-primary:hover, .ovic-warning-primary:focus {
+    border-color: #bd2130 !important;
+    background: #bd2130 !important;
+}
+
+.ovic-warning-primary:focus {
+    box-shadow: 0 0 0 1px #fff, 0 0 0 3px #bd2130 !important;
+}
+
+.ovic-warning-primary:active {
+    border-color: #bd2130 !important;
+    background: #bd2130 !important;
+}
+
+.ovic-form-result {
+    display: none;
+    float: left;
+    padding: 0 8px;
+    margin-right: 4px;
+    font-size: 11px;
+    line-height: 28px;
+    user-select: none;
+    border-radius: 2px;
+}
+
+.ovic-form-show {
+    display: block;
+}
+
+.ovic-form-success {
+    color: #fff;
+    background-color: #46b450;
+}
+
+.ovic-form-warning {
+    color: #8a6d3b;
+    background-color: #faebcc;
+}
+
+.ovic-label-error {
+    position: relative;
+    top: -2px;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 10px;
+    height: 10px;
+    width: 10px;
+    padding: 1px;
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+    vertical-align: middle;
+    background-color: #e10000;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.ovic-no-option {
+    padding: 30px;
+}
+
+.ovic-input-number {
+    -moz-appearance: textfield;
+}
+
+.ovic-input-number::-webkit-inner-spin-button,
+.ovic-input-number::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/**
+ * 11. Welcome Page
+ */
+.ovic-welcome-wrap {
+    position: relative;
+    margin: 25px 40px 0 20px;
+    font-size: 15px;
+    max-width: 1200px;
+}
+
+.ovic-welcome-wrap p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.ovic-welcome-wrap h1 {
+    margin: 0.2em 200px 0 0;
+    padding: 0;
+    color: #32373c;
+    line-height: 1.2em;
+    font-size: 2.8em;
+    font-weight: 400;
+}
+
+.ovic-welcome-wrap .ovic-logo {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    height: 160px;
+    width: 140px;
+    background-image: linear-gradient(45deg, #2d67cb, #ad19f3);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25), inset 0 0 0 4px rgba(0, 0, 0, 0.25);
+}
+
+.ovic-welcome-wrap .ovic-logo .ovic--effects i {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.15);
+    transform: rotate(-45deg);
+}
+
+.ovic-welcome-wrap .ovic-logo .ovic--effects i:nth-child(1) {
+    bottom: -20px;
+    right: -70px;
+}
+
+.ovic-welcome-wrap .ovic-logo .ovic--effects i:nth-child(2) {
+    bottom: -35px;
+    right: -80px;
+}
+
+.ovic-welcome-wrap .ovic-logo .ovic--effects i:nth-child(3) {
+    bottom: -50px;
+    right: -90px;
+}
+
+.ovic-welcome-wrap .ovic-logo .ovic--effects i:nth-child(4) {
+    bottom: -65px;
+    right: -100px;
+}
+
+.ovic-welcome-wrap .ovic-logo .ovic--wp-logos {
+    position: relative;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.ovic-welcome-wrap .ovic-logo .ovic--wp-logo {
+    position: absolute;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(../images/wp-logo.svg);
+}
+
+.ovic-welcome-wrap .ovic-logo .ovic--wp-plugin-logo {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #fff;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(../images/wp-plugin-logo.svg);
+    border-radius: 100%;
+    vertical-align: middle;
+}
+
+.ovic-welcome-wrap .ovic-logo .ovic--text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 90px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 1.2em;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.ovic-welcome-wrap .ovic-logo .ovic--version {
+    top: auto;
+    left: auto;
+    right: 8px;
+    bottom: 4px;
+    font-size: 11px;
+    text-transform: lowercase;
+}
+
+.ovic-welcome-wrap .ovic-about-text {
+    font-weight: 400;
+    line-height: 1.6em;
+    font-size: 19px;
+    margin: 1em 200px 1em 0;
+    color: #555d66;
+}
+
+.ovic-welcome-wrap .ovic-demo-button {
+    margin: 1em 200px 2em 0;
+}
+
+.ovic-welcome-wrap .nav-tab-wrapper {
+    margin-bottom: 20px;
+}
+
+.ovic-welcome-wrap ul {
+    list-style-type: disc;
+    padding-left: 15px;
+}
+
+.ovic-welcome-wrap .ovic--col {
+    float: left;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.ovic-welcome-wrap .ovic--col-2 {
+    width: 50%;
+}
+
+.ovic-welcome-wrap .ovic--col-3 {
+    width: 33.333%;
+}
+
+.ovic-welcome-wrap .ovic--col-4 {
+    width: 25%;
+}
+
+.ovic-welcome-wrap .ovic--col-5 {
+    width: 20%;
+}
+
+.ovic-welcome-wrap .ovic--col-last {
+    padding-right: 0;
+}
+
+.ovic-welcome-wrap .ovic--col-upgrade {
+    padding: 10px 0;
+    text-align: center;
+    border-top: 1px solid #e5e5e5;
+}
+
+.ovic--table-compare thead td,
+.ovic--table-compare tfoot td {
+    text-align: center;
+}
+
+.ovic--table-compare td {
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.ovic--table-compare td:first-child {
+    text-align: left;
+}
+
+.ovic--table-compare tfoot td {
+    padding: 15px 0;
+}
+
+.ovic--table-compare .fa {
+    font-size: 18px;
+}
+
+.ovic--table-compare .fa-check-circle {
+    color: #46b450;
+}
+
+.ovic--table-compare .fa-times-circle {
+    color: #dc3232;
+}
+
+.ovic-welcome-cols {
+    clear: both;
+    margin: 20px 0;
+    background-color: #fff;
+    padding: 0 0;
+    border-radius: 2px;
+    border: 1px solid #e5e5e5;
+}
+
+.ovic-welcome-cols .ovic--col {
+    width: 25%;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    min-height: 200px;
+    border-right: 1px solid #e5e5e5;
+}
+
+.ovic-welcome-cols .ovic--left,
+.ovic-welcome-cols .ovic--block {
+    float: left;
+    width: 20%;
+    padding: 0 30px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.ovic-welcome-cols .ovic--block {
+    width: 80%;
+}
+
+.ovic-welcome-cols .ovic--col-first {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.ovic-welcome-cols .ovic--last {
+    border-right: none;
+}
+
+.ovic-welcome-cols .ovic--space {
+    height: 20px;
+}
+
+.ovic-welcome-cols .ovic--icon {
+    display: inline-block;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #fff;
+    background-color: #555;
+    border-radius: 30px;
+}
+
+.ovic-welcome-cols .ovic--active {
+    background-color: #5cb85c;
+}
+
+.ovic-welcome-cols .ovic--deactive {
+    background-color: #e14d43;
+}
+
+.ovic-welcome-cols .ovic--title {
+    font-weight: bold;
+    display: block;
+}
+
+.ovic-welcome-cols p:last-child {
+    margin-bottom: 0;
+}
+
+.ovic-features-cols .ovic--key-features {
+    width: 30%;
+}
+
+.ovic-features-cols .ovic--available-fields {
+    width: 70%;
+}
+
+.ovic-code-block {
+    margin: 20px 0;
+    padding: 5px 20px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.ovic-code-block pre {
+    font-size: 13px;
+    color: #0073aa;
+}
+
+.ovic-code-block pre span {
+    color: #999;
+}
+
+.ovic--table-fields td {
+    font-size: 14px;
+}
+
+.ovic--upgrade a {
+    color: #5cb85c;
+    font-weight: bold;
+}
+
+.ovic--upgrade a:focus, .ovic--upgrade a:hover {
+    color: #4aa14a;
+    outline: none;
+    box-shadow: none;
+}
+
+@media only screen and (max-width: 782px) {
+    .ovic-welcome-cols .ovic--col {
+        width: 100%;
+        min-height: auto;
+        border-right: none;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .ovic-features-cols .ovic--key-features {
+        width: 100%;
+    }
+
+    .ovic-features-cols .ovic--available-fields {
+        width: 100%;
+    }
+}
+
+/**
+ * 12. Responsive
+ */
+@media only screen and (max-width: 1200px) {
+    .ovic-metabox .ovic-field .ovic-title {
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .ovic-metabox .ovic-field .ovic-fieldset {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 782px) {
+    .ovic-header-inner {
+        text-align: center;
+    }
+
+    .ovic-header-inner h1 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .ovic-form-result {
+        float: none;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .ovic-search,
+    .ovic-header-right,
+    .ovic-header-left {
+        width: 100%;
+    }
+
+    .ovic-search {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .ovic-footer {
+        text-align: center;
+    }
+
+    .ovic-buttons {
+        float: none;
+    }
+
+    .ovic-copyright {
+        float: none;
+        margin-top: 10px;
+    }
+
+    .ovic-nav,
+    .ovic-expand-all,
+    .ovic-reset-section,
+    .ovic-nav-background {
+        display: none !important;
+    }
+
+    .ovic-content {
+        margin-left: 0;
+    }
+
+    .ovic-section-title,
+    .ovic-section {
+        display: block !important;
+    }
+
+    .ovic-field .ovic-title {
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .ovic-field .ovic-fieldset {
+        float: none;
+        width: 100%;
+    }
+
+    .ovic-field-color .button.wp-picker-clear {
+        padding: 0 8px;
+        line-height: 2.14285714;
+        min-height: 32px;
+    }
+
+    .ovic-modal-inner {
+        width: 350px;
+        height: 400px;
+    }
+
+    .ovic-modal-content {
+        height: 237px;
+    }
+
+    .ovic-icon-dialog .ovic-modal-inner {
+        width: 305px;
+        height: 380px;
+    }
+
+    .ovic-icon-dialog .ovic-modal-content {
+        height: 267px;
+    }
+
+    .ovic-modal-icon .ovic-modal-inner {
+        width: 330px;
+        height: 385px;
+    }
+
+    .ovic-modal-icon .ovic-modal-content {
+        height: 252px;
+    }
+
+    .ovic-profile > .ovic-field > .ovic-title,
+    .ovic-taxonomy-edit-fields > .ovic-field > .ovic-title {
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .ovic-profile > .ovic-field > .ovic-fieldset,
+    .ovic-taxonomy-edit-fields > .ovic-field > .ovic-fieldset {
+        float: none;
+        width: 100%;
+    }
+}
+
+/**
+ * Chosen JS Styles
+ */
+.chosen-container {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+    user-select: none;
+}
+
+.chosen-container * {
+    box-sizing: border-box;
+}
+
+.chosen-container .chosen-drop {
+    position: absolute;
+    top: 100%;
+    z-index: 1010;
+    width: 100%;
+    border: 1px solid #aaa;
+    border-top: 0;
+    background: #fff;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(100% 100%);
+}
+
+.chosen-container.chosen-with-drop .chosen-drop {
+    clip: auto;
+    clip-path: none;
+}
+
+.chosen-container a {
+    cursor: pointer;
+}
+
+.chosen-container .search-choice .group-name, .chosen-container .chosen-single .group-name {
+    margin-right: 4px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: normal;
+    color: #999999;
+}
+
+.chosen-container .search-choice .group-name:after, .chosen-container .chosen-single .group-name:after {
+    content: ":";
+    padding-left: 2px;
+    vertical-align: top;
+}
+
+.chosen-container-single .chosen-single {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 0 0 0 8px;
+    height: 25px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    background-color: #fff;
+    background: linear-gradient(#ffffff 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
+    background-clip: padding-box;
+    box-shadow: 0 0 3px #fff inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #444;
+    text-decoration: none;
+    white-space: nowrap;
+    line-height: 24px;
+}
+
+.chosen-container-single .chosen-default {
+    color: #999;
+}
+
+.chosen-container-single .chosen-single span {
+    display: block;
+    overflow: hidden;
+    margin-right: 26px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.chosen-container-single .chosen-single-with-deselect span {
+    margin-right: 38px;
+}
+
+.chosen-container-single .chosen-single abbr {
+    position: absolute;
+    top: 6px;
+    right: 26px;
+    display: block;
+    width: 12px;
+    height: 12px;
+    font-size: 1px;
+}
+
+.chosen-container-single .chosen-single div {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 18px;
+    height: 100%;
+}
+
+.chosen-container-single .chosen-single div b {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.chosen-container-single .chosen-search {
+    position: relative;
+    z-index: 1010;
+    margin: 0;
+    padding: 3px 4px;
+    white-space: nowrap;
+}
+
+.chosen-container-single .chosen-search input[type="text"] {
+    margin: 1px 0;
+    padding: 4px 20px 4px 5px;
+    width: 100%;
+    height: auto;
+    outline: 0;
+    border: 1px solid #aaa;
+    font-size: 1em;
+    font-family: sans-serif;
+    line-height: normal;
+    border-radius: 0;
+}
+
+.chosen-container-single .chosen-drop {
+    margin-top: -1px;
+    border-radius: 0 0 4px 4px;
+    background-clip: padding-box;
+}
+
+.chosen-container-single.chosen-container-single-nosearch .chosen-search {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(100% 100%);
+}
+
+.chosen-container .chosen-results {
+    color: #444;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0 4px 4px 0;
+    padding: 0 0 0 4px;
+    max-height: 240px;
+    -webkit-overflow-scrolling: touch;
+}
+
+.chosen-container .chosen-results li {
+    display: none;
+    margin: 0;
+    padding: 5px 6px;
+    list-style: none;
+    line-height: 15px;
+    word-wrap: break-word;
+    -webkit-touch-callout: none;
+}
+
+.chosen-container .chosen-results li.active-result {
+    display: list-item;
+    cursor: pointer;
+}
+
+.chosen-container .chosen-results li.disabled-result {
+    display: list-item;
+    color: #ccc;
+    cursor: default;
+}
+
+.chosen-container .chosen-results li.highlighted {
+    background-color: #3875d7;
+    background-image: linear-gradient(#3875d7 20%, #2a62bc 90%);
+    color: #fff;
+}
+
+.chosen-container .chosen-results li.no-results {
+    color: #777;
+    display: list-item;
+    background: #f4f4f4;
+}
+
+.chosen-container .chosen-results li.group-result {
+    display: list-item;
+    font-weight: bold;
+    cursor: default;
+}
+
+.chosen-container .chosen-results li.group-option {
+    padding-left: 15px;
+}
+
+.chosen-container .chosen-results li em {
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.chosen-container-multi .chosen-choices {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0 5px;
+    width: 100%;
+    height: auto;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    background-image: linear-gradient(#eeeeee 1%, #ffffff 15%);
+    cursor: text;
+}
+
+.chosen-container-multi .chosen-choices li {
+    float: left;
+    list-style: none;
+}
+
+.chosen-container-multi .chosen-choices li.search-field {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+    margin: 1px 0;
+    padding: 0;
+    outline: 0;
+    border: 0 !important;
+    background: transparent !important;
+    box-shadow: none;
+    color: #999;
+    font-size: 100%;
+    font-family: sans-serif;
+    line-height: normal;
+    border-radius: 0;
+    width: 25px;
+    height: 25px;
+    min-height: 25px;
+}
+
+.chosen-container-multi .chosen-choices li.search-choice {
+    position: relative;
+    margin: 3px 5px 3px 0;
+    padding: 3px 20px 3px 6px;
+    border: 1px solid #aaa;
+    max-width: 100%;
+    border-radius: 3px;
+    background-color: #eeeeee;
+    background-image: linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+    background-size: 100% 19px;
+    background-repeat: repeat-x;
+    background-clip: padding-box;
+    box-shadow: 0 0 2px #fff inset, 0 1px 0 rgba(0, 0, 0, 0.05);
+    color: #333;
+    line-height: 13px;
+    cursor: default;
+}
+
+.chosen-container-multi .chosen-choices li.search-choice span {
+    word-wrap: break-word;
+    white-space: nowrap;
+}
+
+.chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 12px;
+    height: 12px;
+    font-size: 1px;
+}
+
+.chosen-container-multi .chosen-choices li.search-choice-disabled {
+    padding-right: 5px;
+    border: 1px solid #ccc;
+    background-color: #e4e4e4;
+    background-image: linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+    color: #666;
+}
+
+.chosen-container-multi .chosen-choices li.search-choice-focus {
+    background: #d4d4d4;
+}
+
+.chosen-container-multi .chosen-results {
+    margin: 0;
+    padding: 0;
+}
+
+.chosen-container-multi .chosen-drop .result-selected {
+    display: list-item;
+    color: #ccc;
+    cursor: default;
+}
+
+.chosen-container-active .chosen-single {
+    border: 1px solid #5897fb;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.chosen-container-active.chosen-with-drop .chosen-single {
+    border: 1px solid #aaa;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background-image: linear-gradient(#eeeeee 20%, #ffffff 80%);
+    box-shadow: 0 1px 0 #fff inset;
+}
+
+.chosen-container-active.chosen-with-drop .chosen-single div {
+    border-left: none;
+    background: transparent;
+}
+
+.chosen-container-active .chosen-choices {
+    border: 1px solid #5897fb;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.chosen-container-active .chosen-choices li.search-field input[type="text"] {
+    color: #222 !important;
+}
+
+.chosen-disabled {
+    opacity: 0.5 !important;
+    cursor: default;
+}
+
+.chosen-disabled .chosen-single {
+    cursor: default;
+}
+
+.chosen-disabled .chosen-choices .search-choice .search-choice-close {
+    cursor: default;
+}
+
+.chosen-rtl {
+    text-align: right;
+}
+
+.chosen-rtl .chosen-single {
+    overflow: visible;
+    padding: 0 8px 0 0;
+}
+
+.chosen-rtl .chosen-single span {
+    margin-right: 0;
+    margin-left: 26px;
+    direction: rtl;
+}
+
+.chosen-rtl .chosen-single-with-deselect span {
+    margin-left: 38px;
+}
+
+.chosen-rtl .chosen-single div {
+    right: auto;
+    left: 3px;
+}
+
+.chosen-rtl .chosen-single abbr {
+    right: auto;
+    left: 26px;
+}
+
+.chosen-rtl .chosen-choices li {
+    float: right;
+}
+
+.chosen-rtl .chosen-choices li.search-field input[type="text"] {
+    direction: rtl;
+}
+
+.chosen-rtl .chosen-choices li.search-choice {
+    margin: 3px 5px 3px 0;
+    padding: 3px 5px 3px 19px;
+}
+
+.chosen-rtl .chosen-choices li.search-choice .search-choice-close {
+    right: auto;
+    left: 4px;
+}
+
+.chosen-rtl.chosen-container-single .chosen-results {
+    margin: 0 0 4px 4px;
+    padding: 0 4px 0 0;
+}
+
+.chosen-rtl .chosen-results li.group-option {
+    padding-right: 15px;
+    padding-left: 0;
+}
+
+.chosen-rtl.chosen-container-active.chosen-with-drop .chosen-single div {
+    border-right: none;
+}
+
+.chosen-rtl .chosen-search input[type="text"] {
+    padding: 4px 5px 4px 20px;
+    direction: rtl;
+}
+
+/**
+ * flatpickr JS Styles
+ */
+.flatpickr-calendar {
+    background         : 0 0;
+    opacity            : 0;
+    display            : none;
+    text-align         : center;
+    visibility         : hidden;
+    padding            : 0;
+    -webkit-animation  : none;
+    animation          : none;
+    direction          : ltr;
+    border             : 0;
+    font-size          : 14px;
+    line-height        : 24px;
+    border-radius      : 5px;
+    position           : absolute;
+    width              : 307.875px;
+    -webkit-box-sizing : border-box;
+    box-sizing         : border-box;
+    -ms-touch-action   : manipulation;
+    touch-action       : manipulation;
+    background         : #fff;
+    -webkit-box-shadow : 1px 0 0 #e6e6e6, -1px 0 0 #e6e6e6, 0 1px 0 #e6e6e6, 0 -1px 0 #e6e6e6, 0 3px 13px rgba(0, 0, 0, .08);
+    box-shadow         : 1px 0 0 #e6e6e6, -1px 0 0 #e6e6e6, 0 1px 0 #e6e6e6, 0 -1px 0 #e6e6e6, 0 3px 13px rgba(0, 0, 0, .08)
+}
+
+.flatpickr-calendar.inline, .flatpickr-calendar.open {
+    opacity    : 1;
+    max-height : 640px;
+    visibility : visible
+}
+
+.flatpickr-calendar.open {
+    display : inline-block;
+    z-index : 99999
+}
+
+.flatpickr-calendar.animate.open {
+    -webkit-animation : fpFadeInDown .3s cubic-bezier(.23, 1, .32, 1);
+    animation         : fpFadeInDown .3s cubic-bezier(.23, 1, .32, 1)
+}
+
+.flatpickr-calendar.inline {
+    display  : block;
+    position : relative;
+    top      : 2px
+}
+
+.flatpickr-calendar.static {
+    position : absolute;
+    top      : calc(100% + 2px)
+}
+
+.flatpickr-calendar.static.open {
+    z-index : 999;
+    display : block
+}
+
+.flatpickr-calendar.multiMonth .flatpickr-days .dayContainer:nth-child(n+1) .flatpickr-day.inRange:nth-child(7n+7) {
+    -webkit-box-shadow : none !important;
+    box-shadow         : none !important
+}
+
+.flatpickr-calendar.multiMonth .flatpickr-days .dayContainer:nth-child(n+2) .flatpickr-day.inRange:nth-child(7n+1) {
+    -webkit-box-shadow : -2px 0 0 #e6e6e6, 5px 0 0 #e6e6e6;
+    box-shadow         : -2px 0 0 #e6e6e6, 5px 0 0 #e6e6e6
+}
+
+.flatpickr-calendar .hasTime .dayContainer, .flatpickr-calendar .hasWeeks .dayContainer {
+    border-bottom              : 0;
+    border-bottom-right-radius : 0;
+    border-bottom-left-radius  : 0
+}
+
+.flatpickr-calendar .hasWeeks .dayContainer {
+    border-left : 0
+}
+
+.flatpickr-calendar.hasTime .flatpickr-time {
+    height     : 40px;
+    border-top : 1px solid #e6e6e6
+}
+
+.flatpickr-calendar.noCalendar.hasTime .flatpickr-time {
+    height : auto
+}
+
+.flatpickr-calendar:after, .flatpickr-calendar:before {
+    position       : absolute;
+    display        : block;
+    pointer-events : none;
+    border         : solid transparent;
+    content        : "";
+    height         : 0;
+    width          : 0;
+    left           : 22px
+}
+
+.flatpickr-calendar.arrowRight:after, .flatpickr-calendar.arrowRight:before, .flatpickr-calendar.rightMost:after, .flatpickr-calendar.rightMost:before {
+    left  : auto;
+    right : 22px
+}
+
+.flatpickr-calendar.arrowCenter:after, .flatpickr-calendar.arrowCenter:before {
+    left  : 50%;
+    right : 50%
+}
+
+.flatpickr-calendar:before {
+    border-width : 5px;
+    margin       : 0 -5px
+}
+
+.flatpickr-calendar:after {
+    border-width : 4px;
+    margin       : 0 -4px
+}
+
+.flatpickr-calendar.arrowTop:after, .flatpickr-calendar.arrowTop:before {
+    bottom : 100%
+}
+
+.flatpickr-calendar.arrowTop:before {
+    border-bottom-color : #e6e6e6
+}
+
+.flatpickr-calendar.arrowTop:after {
+    border-bottom-color : #fff
+}
+
+.flatpickr-calendar.arrowBottom:after, .flatpickr-calendar.arrowBottom:before {
+    top : 100%
+}
+
+.flatpickr-calendar.arrowBottom:before {
+    border-top-color : #e6e6e6
+}
+
+.flatpickr-calendar.arrowBottom:after {
+    border-top-color : #fff
+}
+
+.flatpickr-calendar:focus {
+    outline : 0
+}
+
+.flatpickr-wrapper {
+    position : relative;
+    display  : inline-block
+}
+
+.flatpickr-months {
+    display : -webkit-box;
+    display : -webkit-flex;
+    display : -ms-flexbox;
+    display : flex
+}
+
+.flatpickr-months .flatpickr-month {
+    background          : 0 0;
+    color               : rgba(0, 0, 0, .9);
+    fill                : rgba(0, 0, 0, .9);
+    height              : 34px;
+    line-height         : 1;
+    text-align          : center;
+    position            : relative;
+    -webkit-user-select : none;
+    -moz-user-select    : none;
+    -ms-user-select     : none;
+    user-select         : none;
+    overflow            : hidden;
+    -webkit-box-flex    : 1;
+    -webkit-flex        : 1;
+    -ms-flex            : 1;
+    flex                : 1
+}
+
+.flatpickr-months .flatpickr-next-month, .flatpickr-months .flatpickr-prev-month {
+    text-decoration : none;
+    cursor          : pointer;
+    position        : absolute;
+    top             : 0;
+    height          : 34px;
+    padding         : 10px;
+    z-index         : 3;
+    color           : rgba(0, 0, 0, .9);
+    fill            : rgba(0, 0, 0, .9)
+}
+
+.flatpickr-months .flatpickr-next-month.flatpickr-disabled, .flatpickr-months .flatpickr-prev-month.flatpickr-disabled {
+    display : none
+}
+
+.flatpickr-months .flatpickr-next-month i, .flatpickr-months .flatpickr-prev-month i {
+    position : relative
+}
+
+.flatpickr-months .flatpickr-next-month.flatpickr-prev-month, .flatpickr-months .flatpickr-prev-month.flatpickr-prev-month {
+    left : 0
+}
+
+.flatpickr-months .flatpickr-next-month.flatpickr-next-month, .flatpickr-months .flatpickr-prev-month.flatpickr-next-month {
+    right : 0
+}
+
+.flatpickr-months .flatpickr-next-month:hover, .flatpickr-months .flatpickr-prev-month:hover {
+    color : #959ea9
+}
+
+.flatpickr-months .flatpickr-next-month:hover svg, .flatpickr-months .flatpickr-prev-month:hover svg {
+    fill : #f64747
+}
+
+.flatpickr-months .flatpickr-next-month svg, .flatpickr-months .flatpickr-prev-month svg {
+    width  : 14px;
+    height : 14px
+}
+
+.flatpickr-months .flatpickr-next-month svg path, .flatpickr-months .flatpickr-prev-month svg path {
+    -webkit-transition : fill .1s;
+    transition         : fill .1s;
+    fill               : inherit
+}
+
+.numInputWrapper {
+    position : relative;
+    height   : auto
+}
+
+.numInputWrapper input, .numInputWrapper span {
+    display : inline-block
+}
+
+.numInputWrapper input {
+    width : 100%
+}
+
+.numInputWrapper input::-ms-clear {
+    display : none
+}
+
+.numInputWrapper input::-webkit-inner-spin-button, .numInputWrapper input::-webkit-outer-spin-button {
+    margin             : 0;
+    -webkit-appearance : none
+}
+
+.numInputWrapper span {
+    position           : absolute;
+    right              : 0;
+    width              : 14px;
+    padding            : 0 4px 0 2px;
+    height             : 50%;
+    line-height        : 50%;
+    opacity            : 0;
+    cursor             : pointer;
+    border             : 1px solid rgba(57, 57, 57, .15);
+    -webkit-box-sizing : border-box;
+    box-sizing         : border-box
+}
+
+.numInputWrapper span:hover {
+    background : rgba(0, 0, 0, .1)
+}
+
+.numInputWrapper span:active {
+    background : rgba(0, 0, 0, .2)
+}
+
+.numInputWrapper span:after {
+    display  : block;
+    content  : "";
+    position : absolute
+}
+
+.numInputWrapper span.arrowUp {
+    top           : 0;
+    border-bottom : 0
+}
+
+.numInputWrapper span.arrowUp:after {
+    border-left   : 4px solid transparent;
+    border-right  : 4px solid transparent;
+    border-bottom : 4px solid rgba(57, 57, 57, .6);
+    top           : 26%
+}
+
+.numInputWrapper span.arrowDown {
+    top : 50%
+}
+
+.numInputWrapper span.arrowDown:after {
+    border-left  : 4px solid transparent;
+    border-right : 4px solid transparent;
+    border-top   : 4px solid rgba(57, 57, 57, .6);
+    top          : 40%
+}
+
+.numInputWrapper span svg {
+    width  : inherit;
+    height : auto
+}
+
+.numInputWrapper span svg path {
+    fill : rgba(0, 0, 0, .5)
+}
+
+.numInputWrapper:hover {
+    background : rgba(0, 0, 0, .05)
+}
+
+.numInputWrapper:hover span {
+    opacity : 1
+}
+
+.flatpickr-current-month {
+    font-size         : 135%;
+    line-height       : inherit;
+    font-weight       : 300;
+    color             : inherit;
+    position          : absolute;
+    width             : 75%;
+    left              : 12.5%;
+    padding           : 7.48px 0 0 0;
+    line-height       : 1;
+    height            : 34px;
+    display           : inline-block;
+    text-align        : center;
+    -webkit-transform : translate3d(0, 0, 0);
+    transform         : translate3d(0, 0, 0)
+}
+
+.flatpickr-current-month span.cur-month {
+    font-family : inherit;
+    font-weight : 700;
+    color       : inherit;
+    display     : inline-block;
+    margin-left : .5ch;
+    padding     : 0
+}
+
+.flatpickr-current-month span.cur-month:hover {
+    background : rgba(0, 0, 0, .05)
+}
+
+.flatpickr-current-month .numInputWrapper {
+    width   : 6ch;
+    display : inline-block
+}
+
+.flatpickr-current-month .numInputWrapper span.arrowUp:after {
+    border-bottom-color : rgba(0, 0, 0, .9)
+}
+
+.flatpickr-current-month .numInputWrapper span.arrowDown:after {
+    border-top-color : rgba(0, 0, 0, .9)
+}
+
+.flatpickr-current-month input.cur-year {
+    background         : 0 0;
+    -webkit-box-sizing : border-box;
+    box-sizing         : border-box;
+    color              : inherit;
+    cursor             : text;
+    padding            : 0 0 0 .5ch;
+    margin             : 0;
+    display            : inline-block;
+    font-size          : inherit;
+    font-family        : inherit;
+    font-weight        : 300;
+    line-height        : inherit;
+    height             : auto;
+    border             : 0;
+    border-radius      : 0;
+    vertical-align     : initial;
+    -webkit-appearance : textfield;
+    -moz-appearance    : textfield;
+    appearance         : textfield
+}
+
+.flatpickr-current-month input.cur-year:focus {
+    outline : 0
+}
+
+.flatpickr-current-month input.cur-year[disabled], .flatpickr-current-month input.cur-year[disabled]:hover {
+    font-size      : 100%;
+    color          : rgba(0, 0, 0, .5);
+    background     : 0 0;
+    pointer-events : none
+}
+
+.flatpickr-current-month .flatpickr-monthDropdown-months {
+    appearance         : menulist;
+    background         : 0 0;
+    border             : none;
+    border-radius      : 0;
+    box-sizing         : border-box;
+    color              : inherit;
+    cursor             : pointer;
+    font-size          : inherit;
+    font-family        : inherit;
+    font-weight        : 300;
+    height             : auto;
+    line-height        : inherit;
+    margin             : -1px 0 0 0;
+    outline            : 0;
+    padding            : 0 0 0 .5ch;
+    position           : relative;
+    vertical-align     : initial;
+    -webkit-box-sizing : border-box;
+    -webkit-appearance : menulist;
+    -moz-appearance    : menulist;
+    width              : auto
+}
+
+.flatpickr-current-month .flatpickr-monthDropdown-months:active, .flatpickr-current-month .flatpickr-monthDropdown-months:focus {
+    outline : 0
+}
+
+.flatpickr-current-month .flatpickr-monthDropdown-months:hover {
+    background : rgba(0, 0, 0, .05)
+}
+
+.flatpickr-current-month .flatpickr-monthDropdown-months .flatpickr-monthDropdown-month {
+    background-color : transparent;
+    outline          : 0;
+    padding          : 0
+}
+
+.flatpickr-weekdays {
+    background          : 0 0;
+    text-align          : center;
+    overflow            : hidden;
+    width               : 100%;
+    display             : -webkit-box;
+    display             : -webkit-flex;
+    display             : -ms-flexbox;
+    display             : flex;
+    -webkit-box-align   : center;
+    -webkit-align-items : center;
+    -ms-flex-align      : center;
+    align-items         : center;
+    height              : 28px
+}
+
+.flatpickr-weekdays .flatpickr-weekdaycontainer {
+    display          : -webkit-box;
+    display          : -webkit-flex;
+    display          : -ms-flexbox;
+    display          : flex;
+    -webkit-box-flex : 1;
+    -webkit-flex     : 1;
+    -ms-flex         : 1;
+    flex             : 1
+}
+
+span.flatpickr-weekday {
+    cursor           : default;
+    font-size        : 90%;
+    background       : 0 0;
+    color            : rgba(0, 0, 0, .54);
+    line-height      : 1;
+    margin           : 0;
+    text-align       : center;
+    display          : block;
+    -webkit-box-flex : 1;
+    -webkit-flex     : 1;
+    -ms-flex         : 1;
+    flex             : 1;
+    font-weight      : bolder
+}
+
+.dayContainer, .flatpickr-weeks {
+    padding : 1px 0 0 0
+}
+
+.flatpickr-days {
+    position            : relative;
+    overflow            : hidden;
+    display             : -webkit-box;
+    display             : -webkit-flex;
+    display             : -ms-flexbox;
+    display             : flex;
+    -webkit-box-align   : start;
+    -webkit-align-items : flex-start;
+    -ms-flex-align      : start;
+    align-items         : flex-start;
+    width               : 307.875px
+}
+
+.flatpickr-days:focus {
+    outline : 0
+}
+
+.dayContainer {
+    padding                 : 0;
+    outline                 : 0;
+    text-align              : left;
+    width                   : 307.875px;
+    min-width               : 307.875px;
+    max-width               : 307.875px;
+    -webkit-box-sizing      : border-box;
+    box-sizing              : border-box;
+    display                 : inline-block;
+    display                 : -ms-flexbox;
+    display                 : -webkit-box;
+    display                 : -webkit-flex;
+    display                 : flex;
+    -webkit-flex-wrap       : wrap;
+    flex-wrap               : wrap;
+    -ms-flex-wrap           : wrap;
+    -ms-flex-pack           : justify;
+    -webkit-justify-content : space-around;
+    justify-content         : space-around;
+    -webkit-transform       : translate3d(0, 0, 0);
+    transform               : translate3d(0, 0, 0);
+    opacity                 : 1
+}
+
+.dayContainer + .dayContainer {
+    -webkit-box-shadow : -1px 0 0 #e6e6e6;
+    box-shadow         : -1px 0 0 #e6e6e6
+}
+
+.flatpickr-day {
+    background              : 0 0;
+    border                  : 1px solid transparent;
+    border-radius           : 150px;
+    -webkit-box-sizing      : border-box;
+    box-sizing              : border-box;
+    color                   : #393939;
+    cursor                  : pointer;
+    font-weight             : 400;
+    width                   : 14.2857143%;
+    -webkit-flex-basis      : 14.2857143%;
+    -ms-flex-preferred-size : 14.2857143%;
+    flex-basis              : 14.2857143%;
+    max-width               : 39px;
+    height                  : 39px;
+    line-height             : 39px;
+    margin                  : 0;
+    display                 : inline-block;
+    position                : relative;
+    -webkit-box-pack        : center;
+    -webkit-justify-content : center;
+    -ms-flex-pack           : center;
+    justify-content         : center;
+    text-align              : center
+}
+
+.flatpickr-day.inRange, .flatpickr-day.nextMonthDay.inRange, .flatpickr-day.nextMonthDay.today.inRange, .flatpickr-day.nextMonthDay:focus, .flatpickr-day.nextMonthDay:hover, .flatpickr-day.prevMonthDay.inRange, .flatpickr-day.prevMonthDay.today.inRange, .flatpickr-day.prevMonthDay:focus, .flatpickr-day.prevMonthDay:hover, .flatpickr-day.today.inRange, .flatpickr-day:focus, .flatpickr-day:hover {
+    cursor       : pointer;
+    outline      : 0;
+    background   : #e6e6e6;
+    border-color : #e6e6e6
+}
+
+.flatpickr-day.today {
+    border-color : #959ea9
+}
+
+.flatpickr-day.today:focus, .flatpickr-day.today:hover {
+    border-color : #959ea9;
+    background   : #959ea9;
+    color        : #fff
+}
+
+.flatpickr-day.endRange, .flatpickr-day.endRange.inRange, .flatpickr-day.endRange.nextMonthDay, .flatpickr-day.endRange.prevMonthDay, .flatpickr-day.endRange:focus, .flatpickr-day.endRange:hover, .flatpickr-day.selected, .flatpickr-day.selected.inRange, .flatpickr-day.selected.nextMonthDay, .flatpickr-day.selected.prevMonthDay, .flatpickr-day.selected:focus, .flatpickr-day.selected:hover, .flatpickr-day.startRange, .flatpickr-day.startRange.inRange, .flatpickr-day.startRange.nextMonthDay, .flatpickr-day.startRange.prevMonthDay, .flatpickr-day.startRange:focus, .flatpickr-day.startRange:hover {
+    background         : #569ff7;
+    -webkit-box-shadow : none;
+    box-shadow         : none;
+    color              : #fff;
+    border-color       : #569ff7
+}
+
+.flatpickr-day.endRange.startRange, .flatpickr-day.selected.startRange, .flatpickr-day.startRange.startRange {
+    border-radius : 50px 0 0 50px
+}
+
+.flatpickr-day.endRange.endRange, .flatpickr-day.selected.endRange, .flatpickr-day.startRange.endRange {
+    border-radius : 0 50px 50px 0
+}
+
+.flatpickr-day.endRange.startRange + .endRange:not(:nth-child(7n+1)), .flatpickr-day.selected.startRange + .endRange:not(:nth-child(7n+1)), .flatpickr-day.startRange.startRange + .endRange:not(:nth-child(7n+1)) {
+    -webkit-box-shadow : -10px 0 0 #569ff7;
+    box-shadow         : -10px 0 0 #569ff7
+}
+
+.flatpickr-day.endRange.startRange.endRange, .flatpickr-day.selected.startRange.endRange, .flatpickr-day.startRange.startRange.endRange {
+    border-radius : 50px
+}
+
+.flatpickr-day.inRange {
+    border-radius      : 0;
+    -webkit-box-shadow : -5px 0 0 #e6e6e6, 5px 0 0 #e6e6e6;
+    box-shadow         : -5px 0 0 #e6e6e6, 5px 0 0 #e6e6e6
+}
+
+.flatpickr-day.flatpickr-disabled, .flatpickr-day.flatpickr-disabled:hover, .flatpickr-day.nextMonthDay, .flatpickr-day.notAllowed, .flatpickr-day.notAllowed.nextMonthDay, .flatpickr-day.notAllowed.prevMonthDay, .flatpickr-day.prevMonthDay {
+    color        : rgba(57, 57, 57, .3);
+    background   : 0 0;
+    border-color : transparent;
+    cursor       : default
+}
+
+.flatpickr-day.flatpickr-disabled, .flatpickr-day.flatpickr-disabled:hover {
+    cursor : not-allowed;
+    color  : rgba(57, 57, 57, .1)
+}
+
+.flatpickr-day.week.selected {
+    border-radius      : 0;
+    -webkit-box-shadow : -5px 0 0 #569ff7, 5px 0 0 #569ff7;
+    box-shadow         : -5px 0 0 #569ff7, 5px 0 0 #569ff7
+}
+
+.flatpickr-day.hidden {
+    visibility : hidden
+}
+
+.rangeMode .flatpickr-day {
+    margin-top : 1px
+}
+
+.flatpickr-weekwrapper {
+    float : left
+}
+
+.flatpickr-weekwrapper .flatpickr-weeks {
+    padding            : 0 12px;
+    -webkit-box-shadow : 1px 0 0 #e6e6e6;
+    box-shadow         : 1px 0 0 #e6e6e6
+}
+
+.flatpickr-weekwrapper .flatpickr-weekday {
+    float       : none;
+    width       : 100%;
+    line-height : 28px
+}
+
+.flatpickr-weekwrapper span.flatpickr-day, .flatpickr-weekwrapper span.flatpickr-day:hover {
+    display    : block;
+    width      : 100%;
+    max-width  : none;
+    color      : rgba(57, 57, 57, .3);
+    background : 0 0;
+    cursor     : default;
+    border     : none
+}
+
+.flatpickr-innerContainer {
+    display            : block;
+    display            : -webkit-box;
+    display            : -webkit-flex;
+    display            : -ms-flexbox;
+    display            : flex;
+    -webkit-box-sizing : border-box;
+    box-sizing         : border-box;
+    overflow           : hidden
+}
+
+.flatpickr-rContainer {
+    display            : inline-block;
+    padding            : 0;
+    -webkit-box-sizing : border-box;
+    box-sizing         : border-box
+}
+
+.flatpickr-time {
+    text-align         : center;
+    outline            : 0;
+    display            : block;
+    height             : 0;
+    line-height        : 40px;
+    max-height         : 40px;
+    -webkit-box-sizing : border-box;
+    box-sizing         : border-box;
+    overflow           : hidden;
+    display            : -webkit-box;
+    display            : -webkit-flex;
+    display            : -ms-flexbox;
+    display            : flex
+}
+
+.flatpickr-time:after {
+    content : "";
+    display : table;
+    clear   : both
+}
+
+.flatpickr-time .numInputWrapper {
+    -webkit-box-flex : 1;
+    -webkit-flex     : 1;
+    -ms-flex         : 1;
+    flex             : 1;
+    width            : 40%;
+    height           : 40px;
+    float            : left
+}
+
+.flatpickr-time .numInputWrapper span.arrowUp:after {
+    border-bottom-color : #393939
+}
+
+.flatpickr-time .numInputWrapper span.arrowDown:after {
+    border-top-color : #393939
+}
+
+.flatpickr-time.hasSeconds .numInputWrapper {
+    width : 26%
+}
+
+.flatpickr-time.time24hr .numInputWrapper {
+    width : 49%
+}
+
+.flatpickr-time input {
+    background         : 0 0;
+    -webkit-box-shadow : none;
+    box-shadow         : none;
+    border             : 0;
+    border-radius      : 0;
+    text-align         : center;
+    margin             : 0;
+    padding            : 0;
+    height             : inherit;
+    line-height        : inherit;
+    color              : #393939;
+    font-size          : 14px;
+    position           : relative;
+    -webkit-box-sizing : border-box;
+    box-sizing         : border-box;
+    -webkit-appearance : textfield;
+    -moz-appearance    : textfield;
+    appearance         : textfield
+}
+
+.flatpickr-time input.flatpickr-hour {
+    font-weight : 700
+}
+
+.flatpickr-time input.flatpickr-minute, .flatpickr-time input.flatpickr-second {
+    font-weight : 400
+}
+
+.flatpickr-time input:focus {
+    outline : 0;
+    border  : 0
+}
+
+.flatpickr-time .flatpickr-am-pm, .flatpickr-time .flatpickr-time-separator {
+    height              : inherit;
+    float               : left;
+    line-height         : inherit;
+    color               : #393939;
+    font-weight         : 700;
+    width               : 2%;
+    -webkit-user-select : none;
+    -moz-user-select    : none;
+    -ms-user-select     : none;
+    user-select         : none;
+    -webkit-align-self  : center;
+    -ms-flex-item-align : center;
+    align-self          : center
+}
+
+.flatpickr-time .flatpickr-am-pm {
+    outline     : 0;
+    width       : 18%;
+    cursor      : pointer;
+    text-align  : center;
+    font-weight : 400
+}
+
+.flatpickr-time .flatpickr-am-pm:focus, .flatpickr-time .flatpickr-am-pm:hover, .flatpickr-time input:focus, .flatpickr-time input:hover {
+    background : #eee
+}
+
+.flatpickr-input[readonly] {
+    cursor : pointer
+}
+
+@-webkit-keyframes fpFadeInDown {
+    from {
+        opacity           : 0;
+        -webkit-transform : translate3d(0, -20px, 0);
+        transform         : translate3d(0, -20px, 0)
+    }
+    to {
+        opacity           : 1;
+        -webkit-transform : translate3d(0, 0, 0);
+        transform         : translate3d(0, 0, 0)
+    }
+}
+
+@keyframes fpFadeInDown {
+    from {
+        opacity           : 0;
+        -webkit-transform : translate3d(0, -20px, 0);
+        transform         : translate3d(0, -20px, 0)
+    }
+    to {
+        opacity           : 1;
+        -webkit-transform : translate3d(0, 0, 0);
+        transform         : translate3d(0, 0, 0)
+    }
+}

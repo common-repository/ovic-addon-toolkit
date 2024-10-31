@@ -1,0 +1,2527 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ovic Addon Toolkit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-20 04:15+0000\n"
+"PO-Revision-Date: 2021-07-21 01:47+0000\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.3; wp-5.5"
+
+#: includes/admin/dashboard/dashboard.php:307
+msgid " features and elements for your reference."
+msgstr " функции и элементы для ссылки."
+
+#: includes/admin/admin-functions.php:190
+msgid " Products"
+msgstr " Продукты"
+
+#: includes/admin/dashboard/dashboard.php:316
+msgid " theme, make sure that the feature works as it's designed."
+msgstr " тема, убедитесь, что компонент работает так, как он разработан."
+
+#: includes/admin/dashboard/settings.php:44
+msgid "%n transient database entries have been deleted."
+msgstr ""
+
+#. %s template
+#: includes/classes/ovic-core-functions.php:388
+#, php-format
+msgid "%s does not exist."
+msgstr "%s не существует."
+
+#: includes/admin/admin-functions.php:257
+#, php-format
+msgid "%s product items per row on portrait tablet"
+msgstr "Число элементов продукта %s в строке на портретном планшете"
+
+#: includes/admin/admin-functions.php:208
+#, php-format
+msgid "%s Products"
+msgstr "Продукты %s"
+
+#: includes/admin/admin-functions.php:299
+#, php-format
+msgid "%s products Items"
+msgstr "Элементы продуктов %s"
+
+#: includes/admin/admin-functions.php:221
+#: includes/admin/admin-functions.php:233
+#, php-format
+msgid "%s products items per row on Desktop"
+msgstr "%s товаров для каждой строки на рабочем столе"
+
+#: includes/admin/admin-functions.php:269
+#, php-format
+msgid "%s products items per row on Ipad"
+msgstr "%s продуктов в строке на Ipad"
+
+#: includes/admin/admin-functions.php:245
+#, php-format
+msgid "%s products items per row on Laptop"
+msgstr "%s товаров в строке на ноутбуке"
+
+#: includes/admin/admin-functions.php:281
+#, php-format
+msgid "%s products items per row on Mobile"
+msgstr "%s товаров для каждой строки в мобильной связи"
+
+#: includes/admin/admin-functions.php:205
+#: includes/admin/admin-functions.php:206
+#, php-format
+msgid "%s products title"
+msgstr "%s название продуктов"
+
+#: includes/options/fields/background/background.php:119
+msgid "&#8658; left to right"
+msgstr ""
+
+#: includes/options/fields/background/background.php:118
+msgid "&#8659; top to bottom"
+msgstr ""
+
+#: includes/options/fields/background/background.php:120
+msgid "&#8664; corner top to right"
+msgstr ""
+
+#: includes/options/fields/background/background.php:121
+msgid "&#8665; corner top to left"
+msgstr ""
+
+#: includes/widgets/widget-custommenu.php:150
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: includes/admin/admin-functions.php:282
+msgid "(Screen resolution of device < 480px)"
+msgstr ""
+
+#: includes/admin/admin-functions.php:234
+msgid "(Screen resolution of device >= 1200px < 1500px )"
+msgstr ""
+
+#: includes/admin/admin-functions.php:222
+msgid "(Screen resolution of device >= 1500px )"
+msgstr ""
+
+#: includes/admin/admin-functions.php:270
+msgid "(Screen resolution of device >=480  add < 768px)"
+msgstr ""
+
+#: includes/admin/admin-functions.php:258
+msgid "(Screen resolution of device >=768px and < 992px )"
+msgstr ""
+
+#: includes/admin/admin-functions.php:246
+msgid "(Screen resolution of device >=992px and < 1200px )"
+msgstr ""
+
+#: includes/admin/admin-functions.php:170
+msgid "--- Choose Revolution Slider ---"
+msgstr "--- Выберите ползунок революции ---"
+
+#: includes/classes/abstract-breadcrumb.php:288
+msgid "404 Not Found"
+msgstr ""
+
+#: includes/admin/class-admin-license.php:69
+#, php-format
+msgid ""
+"<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" class=\"thickbox\" "
+"title=\"%4s\">Check out what's new</a> or <a href=\"%5$s\"%6$s>update now</a>"
+"."
+msgstr ""
+
+#: includes/extends/product-brand/product-brand-widget.php:37
+msgid "A list or dropdown of product brand."
+msgstr "Список или выпадающий список продукта."
+
+#: includes/classes/ovic-core-functions.php:406
+msgid "action_args should not be overwritten when calling ovic_get_template."
+msgstr "Не следует перезаписывать action_args при вызове ovic_get_template."
+
+#: includes/admin/dashboard/envato.php:189
+#, php-format
+msgid "Activate %s"
+msgstr "Активировать %s"
+
+#: includes/admin/class-admin-license.php:54
+msgid "Activate License"
+msgstr "Активировать лицензию"
+
+#: includes/admin/dashboard/envato.php:102
+msgid "Activated"
+msgstr "Активирован"
+
+#: includes/options/fields/link_color/link_color.php:42
+msgid "Active"
+msgstr "Активно"
+
+#: includes/admin/dashboard/envato.php:155
+msgid "Active Theme License"
+msgstr "Лицензия на активную тему"
+
+#: includes/options/fields/gallery/gallery.php:25
+msgid "Add Gallery"
+msgstr "Добавить галерею"
+
+#: includes/options/functions/actions.php:262
+#: includes/options/fields/icon/icon.php:25
+msgid "Add Icon"
+msgstr "Добавить значок"
+
+#: includes/options/fields/image/image.php:24
+msgid "Add Image"
+msgstr "Добавить изображение"
+
+#: includes/options/fields/link/link.php:25
+msgid "Add Link"
+msgstr ""
+
+#: includes/options/fields/group/group.php:28
+msgid "Add New"
+msgstr "Добавить новое"
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:165
+#: includes/extends/attributes-swatches/product-attribute-meta.php:203
+msgid "Add new"
+msgstr "Добавить новый"
+
+#: includes/extends/product-brand/product-brand.php:153
+msgid "Add new brand"
+msgstr "Добавить новый бренд"
+
+#: includes/options/classes/shortcode.class.php:30
+msgid "Add ovic shortcode to content editor"
+msgstr "Добавить код краткого кода в редактор материалов"
+
+#: includes/extends/product-brand/product-brand.php:146
+msgctxt "Admin menu name"
+msgid "Brands"
+msgstr "Бренды"
+
+#: includes/classes/abstract-shortcode.php:1056
+msgid "Advanced Width"
+msgstr "Расширенная ширина"
+
+#: includes/options/fields/spacing/spacing.php:34
+#: includes/options/fields/border/border.php:34
+msgid "all"
+msgstr "Все"
+
+#: includes/extends/product-brand/product-brand.php:148
+msgid "All brands"
+msgstr "Все марки"
+
+#: includes/options/fields/typography/typography.php:181
+msgid "All Small Caps"
+msgstr "Все маленькие шапки"
+
+#: includes/widgets/widget-attribute-product.php:157
+#: includes/widgets/widget-attribute-product.php:258
+msgid "AND"
+msgstr "И"
+
+#: includes/classes/abstract-shortcode.php:882
+#: includes/classes/abstract-elementor.php:665
+msgid "Animation Speed"
+msgstr "Скорость анимации"
+
+#: includes/extends/question-answers/question-answers.php:186
+msgid "Answers"
+msgstr ""
+
+#. %s: taxonomy name
+#: includes/widgets/widget-attribute-product.php:418
+#, php-format
+msgid "Any %s"
+msgstr "Любой %s"
+
+#: includes/extends/mailchimp/mailchimp-settings.php:167
+msgid "API Key"
+msgstr "Ключ API"
+
+#: includes/widgets/widget-attribute-product.php:458
+msgid "Apply"
+msgstr "Применить"
+
+#: includes/classes/abstract-breadcrumb.php:289
+msgid "Archives"
+msgstr ""
+
+#: includes/options/fields/group/group.php:52
+#: includes/options/fields/group/group.php:93
+#: includes/options/fields/repeater/repeater.php:55
+#: includes/options/fields/repeater/repeater.php:83
+msgid "Are you sure to delete this item?"
+msgstr "Вы действительно хотите удалить этот элемент?"
+
+#: includes/options/classes/options.class.php:467
+#: includes/options/classes/options.class.php:574
+msgid "Are you sure to reset all options?"
+msgstr "Вы действительно хотите сбросить все опции?"
+
+#: includes/options/classes/options.class.php:466
+#: includes/options/classes/options.class.php:573
+msgid "Are you sure to reset this section options?"
+msgstr "Вы действительно хотите сбросить опции этого раздела?"
+
+#: includes/options/classes/setup.class.php:260
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+#: includes/classes/abstract-shortcode.php:820
+#: includes/classes/abstract-elementor.php:603
+msgid "Arrows"
+msgstr "Стрелки"
+
+#: includes/classes/abstract-shortcode.php:819
+#: includes/classes/abstract-elementor.php:602
+msgid "Arrows and Dots"
+msgstr "Стрелки и доты"
+
+#: includes/extends/question-answers/question-answers.php:57
+msgid "Ask"
+msgstr ""
+
+#: includes/extends/question-answers/question-answers.php:110
+msgid "Ask a question"
+msgstr ""
+
+#: includes/widgets/widget-attribute-product.php:239
+msgid "Attribute"
+msgstr "Атрибут"
+
+#: includes/extends/product-brand/product-brand.php:469
+msgid ""
+"Attribute terms can be assigned to products and variations.<br/><br/><b>"
+"Note</b>: Deleting a term will remove it from all products and variations to "
+"which it has been assigned. Recreating a term will not automatically assign "
+"it back to products."
+msgstr ""
+
+#: includes/admin/dashboard/settings.php:37
+msgid "Auto Update Theme"
+msgstr ""
+
+#: includes/classes/abstract-shortcode.php:843
+#: includes/classes/abstract-elementor.php:626
+msgid "Autoplay"
+msgstr "Автопилот"
+
+#: includes/classes/abstract-shortcode.php:856
+#: includes/classes/abstract-elementor.php:639
+msgid "Autoplay Speed"
+msgstr "Скорость автопилота"
+
+#: includes/admin/class-admin-profile.php:120
+msgid "Avatar Profile"
+msgstr "Профиль Аватара"
+
+#: includes/options/fields/background/background.php:205
+msgid "Background Attachment"
+msgstr "Вложение фона"
+
+#: includes/options/fields/background/background.php:271
+msgid "Background Blend Mode"
+msgstr "Режим Blend фона"
+
+#: includes/options/fields/background/background.php:254
+msgid "Background Clip"
+msgstr "Фоновый клип"
+
+#: includes/classes/abstract-shortcode.php:1076
+#: includes/classes/abstract-elementor.php:260
+msgid "Background Effect"
+msgstr "Фоновый эффект"
+
+#: includes/options/fields/background/background.php:237
+msgid "Background Origin"
+msgstr "Исходное происхождение"
+
+#: includes/extends/megamenu/templates/form-settings.php:198
+#: includes/options/fields/background/background.php:164
+msgid "Background Position"
+msgstr "Исходная позиция"
+
+#: includes/options/fields/background/background.php:187
+msgid "Background Repeat"
+msgstr "Повтор фона"
+
+#: includes/options/fields/background/background.php:221
+msgid "Background Size"
+msgstr "Фоновый размер"
+
+#: includes/classes/abstract-shortcode.php:1082
+#: includes/classes/abstract-elementor.php:266
+msgid "Background Slide"
+msgstr "Фоновый слайд"
+
+#: includes/classes/abstract-shortcode.php:1081
+#: includes/classes/abstract-elementor.php:265
+msgid "Background Zoom"
+msgstr "Фоновый масштаб"
+
+#: includes/options/fields/typography/typography.php:98
+msgid "Backup Font Family"
+msgstr "Семейство шрифтов резервных копий"
+
+#: includes/extends/product-cat/product-cat.php:28
+#: includes/extends/product-cat/product-cat.php:146
+#: includes/extends/product-cat/product-cat.php:248
+#: includes/extends/product-cat/product-cat.php:278
+msgid "Banner"
+msgstr ""
+
+#: includes/classes/abstract-elementor.php:357
+msgid "Bootstrap"
+msgstr "Начальная загрузка"
+
+#: includes/options/fields/background/background.php:239
+#: includes/options/fields/background/background.php:255
+msgid "Border Box"
+msgstr "Рамка"
+
+#: includes/classes/abstract-shortcode.php:1088
+#: includes/classes/abstract-elementor.php:272
+msgid "Border Plus"
+msgstr "Пограничный плюс"
+
+#: includes/classes/abstract-shortcode.php:1087
+#: includes/classes/abstract-elementor.php:271
+msgid "Border ScaleUp"
+msgstr "Масштабирование границы"
+
+#: includes/classes/abstract-shortcode.php:1086
+#: includes/classes/abstract-elementor.php:270
+msgid "Border Zoom"
+msgstr "Масштаб границы"
+
+#: includes/extends/megamenu/templates/form-settings.php:221
+msgid "Bottom"
+msgstr "Снизу"
+
+#: includes/options/fields/spacing/spacing.php:32
+#: includes/options/fields/border/border.php:32
+msgid "bottom"
+msgstr "нижние"
+
+#: includes/classes/abstract-shortcode.php:1095
+#: includes/classes/abstract-elementor.php:279
+msgid "Bounce In"
+msgstr "Отскок В"
+
+#: includes/widgets/widget-attribute-product.php:144
+#: includes/widgets/widget-attribute-product.php:249
+#: includes/extends/attributes-swatches/product-attribute-meta.php:49
+msgid "Box Style"
+msgstr "Стиль Box"
+
+#: includes/extends/product-brand/product-brand.php:251
+#: includes/extends/product-brand/product-brand.php:302
+msgid "Brand Logo"
+msgstr "Логотип бренда"
+
+#: includes/extends/product-brand/product-brand-widget.php:51
+msgid "Brand order"
+msgstr "Заказ торговой марки"
+
+#: includes/extends/product-brand/product-brand.php:142
+#: includes/extends/product-brand/product-brand.php:145
+msgid "Brands"
+msgstr "Бренды"
+
+#: includes/extends/product-brand/product-brand.php:181
+#, php-format
+msgid "Brands (%d)"
+msgstr "Бренды (%d)"
+
+#: includes/classes/abstract-breadcrumb.php:286
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: includes/admin/dashboard/envato.php:312
+msgid "Browse theme"
+msgstr "Обзор темы"
+
+#: includes/classes/class-frontend-scripts.php:346
+msgid "Browse Wishlist"
+msgstr "Просмотр списка"
+
+#: includes/classes/abstract-breadcrumb.php:285
+msgid "Browse:"
+msgstr ""
+
+#: includes/admin/dashboard/dashboard.php:325
+msgid ""
+"Can't find the solution on documentation? We're here to help, even on "
+"weekend. Just click here to start 1on1 chatting with us!"
+msgstr ""
+"Не удалось найти решение по документации? Мы здесь, чтобы помочь, даже в "
+"выходные. Просто нажмите здесь, чтобы запустить 1on1 болтать с нами!"
+
+#: includes/options/classes/metabox.class.php:214
+#: includes/options/classes/comment.class.php:174
+msgid "Cancel"
+msgstr "Отмена"
+
+#: includes/options/fields/typography/typography.php:193
+msgid "Capitalize"
+msgstr "Капитализация"
+
+#: includes/classes/abstract-shortcode.php:730
+#: includes/classes/abstract-elementor.php:509
+msgid "Carousel Settings"
+msgstr "Параметры карусели"
+
+#: includes/extends/megamenu/templates/form-settings.php:205
+#: includes/options/fields/typography/typography.php:165
+msgid "Center"
+msgstr "Центр"
+
+#: includes/options/fields/background/background.php:170
+msgid "Center Bottom"
+msgstr "Снизу по центру"
+
+#: includes/options/fields/background/background.php:169
+msgid "Center Center"
+msgstr "Центр центра"
+
+#: includes/options/fields/background/background.php:168
+msgid "Center Top"
+msgstr "Сверху по центру"
+
+#: includes/admin/dashboard/dashboard.php:234
+msgid "Changelog"
+msgstr "Протокол изменений"
+
+#: includes/admin/dashboard/settings.php:38
+msgid "Check and download new version from Kutethemes."
+msgstr ""
+
+#: includes/extends/product-cat/product-cat.php:79
+#: includes/extends/product-cat/product-cat.php:183
+#: includes/extends/attributes-swatches/product-attribute-meta.php:287
+#: includes/extends/attributes-swatches/product-attribute-meta.php:440
+msgid "Choose an image"
+msgstr "Выберите изображение"
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:549
+msgid "Choose an option"
+msgstr "Выберите опцию"
+
+#: includes/extends/megamenu/templates/form-settings.php:71
+msgid "Class Megamenu Responsive"
+msgstr "Класс Megamenu"
+
+#: includes/options/fields/gallery/gallery.php:27
+msgid "Clear"
+msgstr "Очистить"
+
+#: includes/admin/dashboard/settings.php:158
+#: includes/admin/dashboard/settings.php:176
+msgid "Click"
+msgstr "Щелчок"
+
+#: includes/extends/megamenu/templates/form-settings.php:21
+msgid ""
+"Click \"Enable Mega Builder\" in the Settings tab before building content."
+msgstr ""
+
+#: includes/extends/mailchimp/mailchimp-settings.php:205
+msgid "Click here to get your Mailchimp API key"
+msgstr "Щелкните здесь, чтобы получить ключ API Mailchimp"
+
+#: includes/options/functions/actions.php:274
+#: includes/options/classes/shortcode.class.php:34
+msgid "Close"
+msgstr "Закрыть"
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:219
+#: includes/extends/attributes-swatches/product-attribute-meta.php:360
+#: includes/options/fields/link_color/link_color.php:40
+#: includes/options/fields/background/background.php:280
+msgid "Color"
+msgstr "Цвет"
+
+#: includes/options/fields/background/background.php:278
+msgid "Color Dodge"
+msgstr "Цветной додж"
+
+#. %s is the page number.
+#: includes/classes/abstract-breadcrumb.php:295
+#, php-format
+msgid "Comment Page %s"
+msgstr ""
+
+#: includes/options/classes/fields.class.php:128
+msgid "CONFIG"
+msgstr "CONFIG"
+
+#: includes/options/fields/background/background.php:223
+msgid "Contain"
+msgstr "Содержать"
+
+#: includes/extends/megamenu/templates/form-settings.php:57
+msgid "Content"
+msgstr "Содержимое"
+
+#: includes/options/fields/background/background.php:240
+#: includes/options/fields/background/background.php:257
+msgid "Content Box"
+msgstr "Поле содержимого"
+
+#: includes/options/fields/backup/backup.php:35
+msgid "copy-paste your backup string here"
+msgstr "скопировать-вставить строку резервной копии"
+
+#: includes/options/fields/background/background.php:222
+msgid "Cover"
+msgstr "Обложка"
+
+#: includes/options/fields/typography/typography.php:288
+msgid "Custom Style"
+msgstr "Пользовательский стиль"
+
+#: includes/options/fields/typography/typography.php:357
+msgid "Custom Web Fonts"
+msgstr "Пользовательские веб-шрифты"
+
+#: includes/classes/abstract-shortcode.php:1065
+msgid "Custom Width"
+msgstr "Пользовательская ширина"
+
+#: includes/classes/abstract-breadcrumb.php:821
+#: includes/classes/abstract-breadcrumb.php:1279
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: includes/options/fields/background/background.php:276
+msgid "Darken"
+msgstr "Даркен"
+
+#: includes/options/fields/typography/typography.php:210
+#: includes/options/fields/border/border.php:57
+msgid "Dashed"
+msgstr "Пунктир"
+
+#: includes/admin/class-admin-license.php:53
+msgid "Deactivate License"
+msgstr "Деактивировать лицензию"
+
+#: includes/classes/abstract-shortcode.php:806
+#: includes/classes/abstract-shortcode.php:928
+#: includes/classes/abstract-elementor.php:589
+#: includes/classes/abstract-elementor.php:711
+#: includes/admin/dashboard/settings.php:157
+#: includes/options/fields/typography/typography.php:112
+#: includes/options/fields/typography/typography.php:125
+#: includes/options/fields/typography/typography.php:138
+#: includes/options/fields/typography/typography.php:153
+#: includes/options/fields/typography/typography.php:169
+#: includes/options/fields/typography/typography.php:182
+#: includes/options/fields/typography/typography.php:196
+#: includes/options/fields/typography/typography.php:214
+msgid "Default"
+msgstr "По умолчанию"
+
+#: includes/extends/product-brand/product-brand.php:444
+msgctxt "Default brand slug"
+msgid "Uncategorized"
+msgstr "Неклассифицированные"
+
+#: includes/options/classes/options.class.php:219
+msgid "Default options restored for only this section."
+msgstr "Опции по умолчанию восстановлены только для этого раздела."
+
+#: includes/options/classes/options.class.php:203
+msgid "Default options restored."
+msgstr "Опции по умолчанию восстановлены."
+
+#: includes/admin/dashboard/settings.php:169
+msgid "Delay"
+msgstr "Задержка"
+
+#: includes/admin/dashboard/settings.php:44
+msgid "Delete Cache"
+msgstr "Удалить кэш"
+
+#: includes/admin/dashboard/settings.php:45
+msgid "Delete WP Cache"
+msgstr "Удалить кэш WP"
+
+#. %s: default brand
+#: includes/extends/product-brand/product-brand.php:453
+#, php-format
+msgid ""
+"Deleting a brand does not delete the products in that brand. Instead, "
+"products that were only assigned to the deleted brand are set to the brand "
+"%s."
+msgstr ""
+"Удаление бренда не удаляет продукты в этой торговой марке. Вместо этого для "
+"продуктов, которые были назначены только для удаленного бренда, установлен "
+"бренд %s."
+
+#: includes/admin/dashboard/settings.php:23
+msgid "Demo Theme Options"
+msgstr "Опции демонстрационной темы"
+
+#: includes/widgets/widget-iconbox.php:41
+msgid "Descriptions"
+msgstr "Описания"
+
+#: includes/classes/abstract-elementor.php:396
+msgid "Desktop"
+msgstr "Рабочий стол"
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:80
+#: includes/extends/attributes-swatches/product-attribute-meta.php:116
+msgid "Determines Size in this attribute.{width}x{height}"
+msgstr ""
+
+#: includes/classes/abstract-shortcode.php:892
+#: includes/classes/abstract-elementor.php:675
+#: includes/options/fields/background/background.php:110
+msgid "Direction"
+msgstr "Направление"
+
+#: includes/admin/admin-functions.php:198
+msgid "Disable"
+msgstr "Выключить"
+
+#: includes/extends/megamenu/templates/form-settings.php:142
+msgid "Disable link"
+msgstr "Отключить ссылку"
+
+#: includes/options/fields/sorter/sorter.php:29
+msgid "Disabled"
+msgstr "Выключено"
+
+#: includes/widgets/widget-iconbox.php:46
+msgid "Display the customer Iconbox."
+msgstr "Показать клиент Iconbox."
+
+#: includes/widgets/widget-attribute-product.php:245
+#: includes/extends/attributes-swatches/product-attribute-meta.php:216
+#: includes/extends/attributes-swatches/product-attribute-meta.php:353
+msgid "Display type"
+msgstr "Тип отображения"
+
+#: includes/widgets/widget-attribute-product.php:134
+msgid "Display type:"
+msgstr "Тип отображения:"
+
+#: includes/admin/dashboard/dashboard.php:306
+msgid "Documentation"
+msgstr "Документация"
+
+#: includes/classes/abstract-shortcode.php:821
+#: includes/classes/abstract-elementor.php:604
+msgid "Dots"
+msgstr "Точки"
+
+#: includes/options/fields/typography/typography.php:209
+#: includes/options/fields/border/border.php:58
+msgid "Dotted"
+msgstr "С точками"
+
+#: includes/options/fields/typography/typography.php:208
+#: includes/options/fields/border/border.php:59
+msgid "Double"
+msgstr "Двойной"
+
+#: includes/widgets/widget-attribute-product.php:248
+#: includes/extends/product-brand/product-brand-widget.php:61
+msgid "Dropdown"
+msgstr "Выпадающий список"
+
+#: includes/widgets/widget-attribute-product.php:141
+msgid "Dropdown Style"
+msgstr "Стиль раскрывающегося списка"
+
+#: includes/extends/megamenu/templates/form-settings.php:114
+msgid "Edit"
+msgstr "Изменить"
+
+#: includes/extends/product-brand/product-brand.php:151
+msgid "Edit brand"
+msgstr "Изменить бренд"
+
+#: includes/extends/footer-builder/footer-builder.php:77
+msgid "Edit Footer"
+msgstr "Изменить нижний колонтитул"
+
+#: includes/options/fields/gallery/gallery.php:26
+msgid "Edit Gallery"
+msgstr "Изменить галерею"
+
+#: includes/options/fields/link/link.php:26
+msgid "Edit Link"
+msgstr ""
+
+#: includes/widgets/widget-custommenu.php:163
+msgid "Edit Menu"
+msgstr "Меню Правка"
+
+#: includes/extends/megamenu/templates/form-settings.php:112
+msgid "Edit this selected megamenu in new window."
+msgstr "Измените выбранную мегамену в новом окне."
+
+#: includes/classes/abstract-shortcode.php:1066
+msgid "Eg: 100px, 20%, calc( 100% - 30px )"
+msgstr ""
+
+#: includes/admin/dashboard/settings.php:30
+msgid "Elementor Template"
+msgstr "Элементарный Шаблон"
+
+#: includes/extends/mailchimp/mailchimp.php:39
+msgid "Email field is empty."
+msgstr "Поле электронной почты пусто."
+
+#. ID
+#: includes/extends/mailchimp/mailchimp-settings.php:122
+msgid "Email Lists"
+msgstr "Списки электронной почты"
+
+#: includes/admin/admin-functions.php:197
+msgid "Enable"
+msgstr "Включить"
+
+#: includes/admin/admin-functions.php:200
+#, php-format
+msgid "Enable %s Products"
+msgstr "Включить продукты %s"
+
+#: includes/extends/megamenu/templates/form-settings.php:83
+msgid "Enable Mega"
+msgstr "Включить мега"
+
+#: includes/classes/abstract-shortcode.php:1049
+msgid "Enable Slider"
+msgstr "Включить ползунок"
+
+#: includes/options/fields/sorter/sorter.php:28
+msgid "Enabled"
+msgstr "Включено"
+
+#: includes/widgets/widget-attribute-product.php:496
+#: includes/extends/product-brand/product-brand-widget.php:264
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr "Совпадений не найдено"
+
+#: includes/admin/class-admin-license.php:50
+msgid "Enter your item license key."
+msgstr "Введите ключ лицензии на элемент."
+
+#: includes/extends/mailchimp/mailchimp-settings.php:201
+msgid ""
+"Enter your mail Chimp API key to enable a newsletter signup option with the "
+"registration form."
+msgstr ""
+"Введите ключ API Chimp почты, чтобы включить опцию регистрации "
+"информационного бюллетеня в форме регистрации."
+
+#: includes/classes/abstract-elementor.php:147
+msgid "Enter your shortcode"
+msgstr "Введите код shortcode"
+
+#: includes/admin/dashboard/dashboard.php:231
+msgid "Envato License"
+msgstr "Лицензия Envato"
+
+#: includes/options/classes/options.class.php:129
+msgid "Error while saving."
+msgstr "Ошибка при сохранении."
+
+#: includes/options/functions/validate.php:124
+msgid "Error! This field is required!"
+msgstr "Ошибка! Это обязательное поле!"
+
+#: includes/options/fields/group/group.php:41
+#: includes/options/fields/repeater/repeater.php:34
+msgid "Error: Field ID conflict."
+msgstr ""
+
+#: includes/options/functions/actions.php:153
+msgid "Error: Import data could not valid."
+msgstr "Ошибка: недопустимые данные импорта."
+
+#: includes/options/functions/actions.php:221
+msgid "Error: Missing request arguments."
+msgstr "Ошибка: Отсутствующие аргументы запроса."
+
+#: includes/options/functions/actions.php:22
+#: includes/options/functions/actions.php:100
+#: includes/options/functions/actions.php:141
+#: includes/options/functions/actions.php:184
+#: includes/options/functions/actions.php:216
+msgid "Error: Nonce verification has failed. Please try again."
+msgstr ""
+"Ошибка: проверка одноразовой системы завершилась неудачно. Повторите попытку."
+
+#: includes/options/functions/actions.php:104
+#: includes/options/functions/actions.php:147
+msgid "Error: Options unique id could not valid."
+msgstr "Ошибка: Не удалось задать уникальный ИД."
+
+#: includes/options/classes/shortcode.class.php:323
+msgid "Error: Shortcode content load failed. Please try again."
+msgstr "Ошибка: Не удалось загрузить содержимое ярлыка. Повторите попытку."
+
+#: includes/admin/class-admin-license.php:59
+#, php-format
+msgid "Expires %s."
+msgstr "Срок действия %s истекает."
+
+#: includes/options/fields/backup/backup.php:39
+msgid "Export and Download Backup"
+msgstr "Экспортировать и загрузить резервную копию"
+
+#: includes/admin/class-admin-profile.php:39
+#: templates/share-button/share-button.php:29
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/classes/abstract-shortcode.php:1094
+#: includes/classes/abstract-elementor.php:278
+msgid "Faded In"
+msgstr "Исчезло в"
+
+#: includes/extends/mailchimp/mailchimp.php:71
+msgid "Failed"
+msgstr "Сбой"
+
+#: includes/options/functions/validate.php:52
+msgid "Fatal Error! This field is required!"
+msgstr "Неисправимая ошибка! Это обязательное поле!"
+
+#: includes/extends/megamenu/templates/form-settings.php:78
+msgid "Field empty value is default ( .ovic-menu-wapper )"
+msgstr "Пустое значение поля-по умолчанию (.ovic-menu-wapper)"
+
+#: includes/widgets/widget-attribute-product.php:77
+#: includes/widgets/widget-attribute-product.php:234
+msgid "Filter by"
+msgstr "Фильтр по"
+
+#: includes/options/fields/background/background.php:207
+msgid "Fixed"
+msgstr "Фиксированный"
+
+#: includes/classes/abstract-shortcode.php:1093
+#: includes/classes/abstract-elementor.php:277
+msgid "Flashlight"
+msgstr "Фонарик"
+
+#: includes/options/fields/link_color/link_color.php:44
+msgid "Focus"
+msgstr "Фокус"
+
+#: includes/options/fields/typography/typography.php:277
+msgid "Font Color"
+msgstr "Цвет шрифта"
+
+#: includes/options/fields/typography/typography.php:89
+msgid "Font Family"
+msgstr "Семейство шрифтов"
+
+#: includes/options/fields/typography/typography.php:226
+msgid "Font Size"
+msgstr "Размер шрифта"
+
+#: includes/options/fields/typography/typography.php:123
+msgid "Font Style"
+msgstr "Стиль шрифта"
+
+#: includes/options/fields/typography/typography.php:177
+msgid "Font Variant"
+msgstr "Вариант шрифта"
+
+#: includes/extends/megamenu/templates/icon-fonts.php:1049
+msgid "Fonts Custom"
+msgstr ""
+
+#: includes/admin/dashboard/dashboard.php:324
+msgid "Forum"
+msgstr "Форум"
+
+#: includes/options/fields/date/date.php:34
+#: includes/options/fields/background/background.php:72
+msgid "From"
+msgstr "От"
+
+#: includes/admin/dashboard/settings.php:31
+msgid "Get our source Elementor template."
+msgstr "Получите наш исходный шаблон Elementor."
+
+#: includes/admin/class-admin-profile.php:42
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: includes/options/fields/typography/typography.php:384
+msgid "Google Web Fonts"
+msgstr "Веб-шрифты Google"
+
+#: includes/options/fields/background/background.php:117
+msgid "Gradient Direction"
+msgstr "Направление уклона"
+
+#: includes/options/fields/border/border.php:62
+msgid "Groove"
+msgstr "Гроув"
+
+#: includes/widgets/widget-attribute-product.php:173
+#: includes/widgets/widget-attribute-product.php:270
+#: includes/classes/abstract-elementor.php:343
+msgid "Height"
+msgstr "Высота"
+
+#: includes/options/fields/dimensions/dimensions.php:28
+msgid "height"
+msgstr "высота"
+
+#: includes/classes/abstract-shortcode.php:550
+#: includes/classes/abstract-shortcode.php:591
+#: includes/classes/abstract-shortcode.php:632
+#: includes/classes/abstract-shortcode.php:673
+#: includes/classes/abstract-shortcode.php:714
+msgid "Hidden"
+msgstr "Скрытый"
+
+#: includes/extends/product-brand/product-brand-widget.php:83
+msgid "Hide empty brand"
+msgstr "Скрыть пустую марку"
+
+#: includes/extends/megamenu/templates/form-settings.php:124
+msgid "Hide title"
+msgstr "Скрыть заголовок"
+
+#: includes/classes/abstract-breadcrumb.php:287
+msgid "Home"
+msgstr ""
+
+#: includes/classes/abstract-breadcrumb.php:802
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: includes/options/fields/link_color/link_color.php:41
+msgid "Hover"
+msgstr "Навести"
+
+#. Author URI of the plugin
+msgid "https://kutethemes.com/contact-us/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://themeforest.net/user/kutethemes/portfolio"
+msgstr ""
+
+#: includes/widgets/widget-iconbox.php:32
+msgid "Icon"
+msgstr "Значок"
+
+#: includes/extends/megamenu/templates/form-settings.php:231
+msgid "Icon Settings"
+msgstr "Параметры значка"
+
+#: includes/extends/megamenu/templates/form-settings.php:50
+msgid "Icons"
+msgstr "Значки"
+
+#: includes/options/classes/fields.class.php:136
+#: includes/options/classes/fields.class.php:164
+msgid "ID"
+msgstr "ИД"
+
+#: includes/extends/question-answers/question-answers.php:235
+#: includes/extends/question-answers/question-answers.php:276
+msgid "ID post do not exists."
+msgstr ""
+
+#: includes/extends/product-brand/product-brand.php:378
+#: includes/extends/attributes-swatches/product-attribute-meta.php:500
+msgid "Image"
+msgstr "Изображение"
+
+#: includes/classes/abstract-elementor.php:320
+msgid "Image size"
+msgstr "Размер изображения"
+
+#: includes/options/fields/backup/backup.php:34
+msgid "Import"
+msgstr "Импорт"
+
+#: includes/options/classes/setup.class.php:262
+msgid "Importing options."
+msgstr "Импорт опций."
+
+#: includes/classes/abstract-shortcode.php:869
+#: includes/classes/abstract-elementor.php:652
+msgid "Infinite Loop"
+msgstr "Бесконечный цикл"
+
+#: includes/options/fields/typography/typography.php:163
+msgid "Inherit"
+msgstr "Наследовать"
+
+#: includes/options/fields/typography/typography.php:168
+msgid "Initial"
+msgstr "Первоначальный"
+
+#: includes/widgets/widget-attribute-product.php:146
+#: includes/widgets/widget-attribute-product.php:250
+msgid "Inline Style"
+msgstr "Встроенный стиль"
+
+#: includes/options/classes/shortcode.class.php:33
+msgid "Insert Shortcode"
+msgstr "Вставить ярлык"
+
+#: includes/options/fields/border/border.php:60
+msgid "Inset"
+msgstr "Инсет"
+
+#: includes/admin/class-admin-profile.php:40
+msgid "Instagram"
+msgstr "Instagram"
+
+#: includes/classes/abstract-shortcode.php:562
+#: includes/classes/abstract-elementor.php:432
+msgid "Ipad"
+msgstr "Ipad"
+
+#: includes/admin/admin-functions.php:226
+#: includes/admin/admin-functions.php:238
+#: includes/admin/admin-functions.php:250
+#: includes/admin/admin-functions.php:262
+#: includes/admin/admin-functions.php:274
+#: includes/admin/admin-functions.php:286
+msgid "item(s)"
+msgstr "(а)"
+
+#: includes/options/fields/typography/typography.php:167
+msgid "Justify"
+msgstr "Обоснование"
+
+#: includes/classes/abstract-shortcode.php:1154
+msgid "Kutethemes"
+msgstr "Kutethemes"
+
+#: includes/admin/dashboard/dashboard.php:50
+msgid "KuteThemes Feature Products"
+msgstr "Продукты компонентов KuteThemes"
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:221
+#: includes/extends/attributes-swatches/product-attribute-meta.php:366
+msgid "Label"
+msgstr "Метка"
+
+#: includes/extends/megamenu/templates/form-settings.php:325
+msgid "Label Settings"
+msgstr "Параметры меток"
+
+#: includes/classes/abstract-shortcode.php:603
+#: includes/classes/abstract-elementor.php:450
+msgid "landscape Tablet"
+msgstr "Пейзаж"
+
+#: includes/classes/abstract-shortcode.php:521
+#: includes/classes/abstract-elementor.php:414
+msgid "Laptop"
+msgstr "Ноутбук"
+
+#: includes/admin/dashboard/settings.php:159
+#: includes/admin/dashboard/settings.php:178
+msgid "Last"
+msgstr "Последние"
+
+#: includes/admin/dashboard/envato.php:121
+msgid "Last update:"
+msgstr "Последнее обновление:"
+
+#: includes/options/fields/map/map.php:28
+msgid "Latitude"
+msgstr "Широта"
+
+#: includes/classes/abstract-shortcode.php:896
+#: includes/classes/abstract-elementor.php:679
+#: includes/extends/megamenu/templates/form-settings.php:209
+#: includes/options/fields/typography/typography.php:164
+msgid "Left"
+msgstr "Слева"
+
+#: includes/options/fields/spacing/spacing.php:33
+#: includes/options/fields/border/border.php:33
+msgid "left"
+msgstr "левый"
+
+#: includes/options/fields/background/background.php:167
+msgid "Left Bottom"
+msgstr "Левый нижний"
+
+#: includes/options/fields/background/background.php:166
+msgid "Left Center"
+msgstr "Левый центр"
+
+#: includes/options/fields/background/background.php:165
+msgid "Left Top"
+msgstr "Левый верхний"
+
+#: includes/options/fields/typography/typography.php:250
+msgid "Letter Spacing"
+msgstr "Интервал между буквой"
+
+#: includes/admin/class-admin-license.php:52
+msgid "License Action"
+msgstr "Действие лицензии"
+
+#: includes/admin/class-admin-license.php:64
+msgid "License is inactive."
+msgstr "Лицензия неактивна."
+
+#: includes/admin/class-admin-license.php:51
+msgid "License Key"
+msgstr "Ключ лицензии"
+
+#: includes/admin/class-admin-license.php:61
+#, php-format
+msgid "License key expired %s."
+msgstr "Ключ лицензии истек %s."
+
+#: includes/admin/class-admin-license.php:62
+msgid "License key has expired."
+msgstr "Срок действия ключа лицензии истек."
+
+#: includes/admin/class-admin-license.php:58
+msgid "License key is active."
+msgstr "Ключ лицензии активен."
+
+#: includes/admin/class-admin-license.php:65
+msgid "License key is disabled."
+msgstr "Ключ лицензии отключен."
+
+#: includes/admin/class-admin-license.php:63
+msgid "License keys do not match."
+msgstr "Ключи лицензий не совпадают."
+
+#: includes/admin/class-admin-license.php:55
+#: includes/admin/class-admin-license.php:67
+msgid "License status is unknown."
+msgstr "Состояние лицензии неизвестно."
+
+#: includes/options/fields/background/background.php:277
+msgid "Lighten"
+msgstr "Мигаль"
+
+#: includes/extends/post-like/post-like.php:216
+msgid "Like"
+msgstr "Как"
+
+#: includes/options/fields/typography/typography.php:238
+msgid "Line Height"
+msgstr "Высота линии"
+
+#: includes/options/fields/typography/typography.php:213
+msgid "Line-through"
+msgstr "Через линию"
+
+#: includes/admin/class-admin-profile.php:43
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: includes/widgets/widget-attribute-product.php:247
+#: includes/extends/product-brand/product-brand-widget.php:60
+msgid "List"
+msgstr "Список"
+
+#: includes/widgets/widget-attribute-product.php:139
+msgid "List Style"
+msgstr "Стиль списка"
+
+#: includes/extends/megamenu/templates/form-settings.php:20
+msgid "LOAD EDITOR"
+msgstr "ЗАГРУЗИТЬ РЕДАКТОР"
+
+#: includes/options/fields/typography/typography.php:137
+#: includes/options/fields/typography/typography.php:138
+msgid "Load Extra Styles"
+msgstr "Загрузить дополнительные стили"
+
+#: includes/classes/ovic-template-functions.php:150
+#, fuzzy
+#| msgid "LOAD MORE"
+msgid "Load more"
+msgstr "ДОПОЛНИТЕЛЬНАЯ НАГРУЗКА"
+
+#: includes/classes/ovic-template-functions.php:151
+#, fuzzy
+#| msgid "LOADING"
+msgid "Loading"
+msgstr "ЗАГРУЗКА"
+
+#: includes/admin/dashboard/envato.php:164
+#: includes/admin/dashboard/settings.php:352
+msgid "Loading..."
+msgstr "Загрузка..."
+
+#: includes/extends/product-brand/product-brand.php:377
+#: includes/extends/product-brand/product-brand.php:519
+#: includes/extends/product-brand/product-brand-widget.php:62
+msgid "Logo"
+msgstr "Логотип"
+
+#: includes/options/fields/map/map.php:29
+msgid "Longitude"
+msgstr "Долгота"
+
+#: includes/options/fields/typography/typography.php:195
+msgid "Lowercase"
+msgstr "Нижний регистр"
+
+#: includes/options/fields/background/background.php:281
+msgid "Luminosity"
+msgstr "Светимость"
+
+#. ID
+#: includes/extends/mailchimp/mailchimp-settings.php:115
+msgid "Mail Chimp API Key"
+msgstr "Ключ API почтового Chimp"
+
+#: includes/extends/mailchimp/mailchimp-settings.php:173
+msgid "Mail List"
+msgstr "Список почты"
+
+#: includes/extends/mailchimp/mailchimp-settings.php:29
+#: includes/extends/mailchimp/mailchimp-settings.php:30
+#: includes/extends/mailchimp/mailchimp-settings.php:44
+msgid "MailChimp Settings"
+msgstr "Параметры MailChimp"
+
+#: includes/extends/megamenu/includes/megamenu-settings.php:308
+#: includes/extends/megamenu/includes/megamenu-settings.php:381
+msgid "Main Menu"
+msgstr "Главное меню"
+
+#. %s: taxonomy term name
+#: includes/extends/product-brand/product-brand.php:402
+#, php-format
+msgid "Make &#8220;%s&#8221; the default brand"
+msgstr "Make &#8220; %s&#8221; марка по умолчанию"
+
+#: includes/extends/product-brand/product-brand.php:404
+msgid "Make default"
+msgstr "Сделать по умолчанию"
+
+#: includes/classes/abstract-shortcode.php:792
+#: includes/classes/abstract-shortcode.php:954
+#: includes/classes/abstract-elementor.php:575
+#: includes/classes/abstract-elementor.php:737
+msgid "Margin"
+msgstr "Маржа"
+
+#: includes/extends/product-brand/product-brand-widget.php:88
+msgid "Maximum depth"
+msgstr "Максимальная глубина"
+
+#: includes/extends/megamenu/templates/form-settings.php:175
+msgid "Menu Background"
+msgstr "Фон меню"
+
+#: includes/extends/megamenu/includes/megamenu-settings.php:813
+#: includes/extends/megamenu/includes/megamenu-settings.php:869
+msgid "Menu item not exists."
+msgstr "Пункт меню не существует."
+
+#: includes/admin/dashboard/settings.php:177
+msgid "Menu load when click open menu."
+msgstr "Меню загружается при нажатии кнопки Открыть меню."
+
+#: includes/admin/dashboard/settings.php:179
+msgid "Menu load when content load complete."
+msgstr "Загрузка меню после завершения загрузки содержимого."
+
+#: includes/extends/megamenu/includes/megamenu-settings.php:444
+msgid "Menu Mobile"
+msgstr "Мобильный меню"
+
+#: includes/extends/megamenu/templates/form-settings.php:32
+msgid "Menu: "
+msgstr "Меню: "
+
+#. Minute archive title. %s is the minute time format.
+#: includes/classes/abstract-breadcrumb.php:297
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: includes/classes/abstract-breadcrumb.php:764
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: includes/classes/abstract-breadcrumb.php:783
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: includes/extends/mailchimp/mailchimp-settings.php:165
+msgid "Missing Settings Mailchimp!"
+msgstr "Отсутствуют параметры Mailchimp!"
+
+#: includes/classes/abstract-shortcode.php:685
+#: includes/classes/abstract-elementor.php:486
+#: includes/admin/dashboard/settings.php:146
+msgid "Mobile"
+msgstr "Мобильный"
+
+#: includes/extends/megamenu/includes/megamenu-settings.php:58
+msgid "Mobile Menu"
+msgstr "Мобильное меню"
+
+#: includes/classes/abstract-breadcrumb.php:820
+#: includes/classes/abstract-breadcrumb.php:881
+#: includes/classes/abstract-breadcrumb.php:1276
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: includes/admin/dashboard/dashboard.php:233
+msgid "More Theme"
+msgstr "Дополнительная тема"
+
+#: includes/options/fields/background/background.php:273
+msgid "Multiply"
+msgstr "Умножить"
+
+#: includes/extends/product-brand/product-brand-widget.php:52
+msgid "Name"
+msgstr "Имя"
+
+#: includes/classes/abstract-shortcode.php:815
+#: includes/classes/abstract-elementor.php:598
+msgid "Navigation"
+msgstr "Навигация"
+
+#: includes/extends/product-brand/product-brand.php:154
+msgid "New brand name"
+msgstr "Новое имя бренда"
+
+#: includes/classes/abstract-shortcode.php:834
+#: includes/classes/abstract-shortcode.php:848
+#: includes/classes/abstract-shortcode.php:874
+#: includes/classes/abstract-shortcode.php:969
+#: includes/classes/abstract-elementor.php:617
+#: includes/classes/abstract-elementor.php:631
+#: includes/classes/abstract-elementor.php:657
+#: includes/classes/abstract-elementor.php:752
+msgid "No"
+msgstr "Нет"
+
+#: includes/options/fields/background/background.php:40
+msgid "No background selected"
+msgstr "Не выбран фон"
+
+#: includes/extends/product-brand/product-brand.php:155
+msgid "No brands found"
+msgstr "Не найдено ни одного бренда"
+
+#: includes/options/fields/checkbox/checkbox.php:80
+#: includes/options/fields/radio/radio.php:78
+#: includes/options/fields/select/select.php:118
+msgid "No data available."
+msgstr ""
+
+#: includes/options/functions/actions.php:69
+msgid "No data provided by developer"
+msgstr "Нет данных, предоставленных разработчиком"
+
+#: includes/options/fields/button_set/button_set.php:61
+msgid "No data provided for this option type."
+msgstr "Для этого типа опций не предоставлены никакие данные."
+
+#: includes/options/fields/media/media.php:62
+msgid "No media selected"
+msgstr "Носитель не выбран"
+
+#: includes/options/classes/options.class.php:549
+msgid "No option provided by developer."
+msgstr "Разработчик не предоставил никакой возможности."
+
+#: includes/extends/product-brand/product-brand-widget.php:283
+msgid "No product brand exist."
+msgstr "Нет бренда продукта."
+
+#: includes/admin/admin-functions.php:155
+msgid "No Product Found"
+msgstr "Не найдено ни одного продукта"
+
+#: includes/options/fields/background/background.php:189
+msgid "No Repeat"
+msgstr "Без повтора"
+
+#: includes/options/classes/setup.class.php:267
+msgid "No results match"
+msgstr "Нет совпадений с результатами"
+
+#: includes/admin/admin-functions.php:179
+msgid "No sliders found"
+msgstr "Ползунки не найдены"
+
+#: includes/classes/abstract-shortcode.php:822
+#: includes/classes/abstract-shortcode.php:1078
+#: includes/classes/abstract-elementor.php:245
+#: includes/classes/abstract-elementor.php:262
+#: includes/classes/abstract-elementor.php:605
+#: includes/extends/attributes-swatches/product-attribute-meta.php:218
+#: includes/extends/attributes-swatches/product-attribute-meta.php:357
+#: includes/admin/dashboard/settings.php:145
+#: includes/options/fields/typography/typography.php:192
+#: includes/options/fields/typography/typography.php:206
+#: includes/options/fields/border/border.php:64
+msgid "None"
+msgstr "Нет"
+
+#: includes/options/fields/typography/typography.php:179
+#: includes/options/fields/background/background.php:272
+msgid "Normal"
+msgstr "Обычный"
+
+#: includes/classes/abstract-shortcode.php:1079
+#: includes/classes/abstract-elementor.php:263
+msgid "Normal Effect"
+msgstr "Обычный эффект"
+
+#: includes/classes/abstract-shortcode.php:1080
+#: includes/classes/abstract-elementor.php:264
+msgid "Normal Effect Dark"
+msgstr "Обычный эффект"
+
+#: includes/admin/dashboard/envato.php:100
+msgid "Not activated"
+msgstr "Не активирован"
+
+#: includes/extends/mailchimp/mailchimp-settings.php:228
+msgid "Not found email list"
+msgstr "Не найден список электронной почты"
+
+#: includes/extends/post-like/post-like.php:51
+msgid "Not permitted"
+msgstr "Не допускается"
+
+#: includes/extends/product-brand/product-brand.php:449
+msgid "Note:"
+msgstr "Примечание:"
+
+#: includes/classes/class-frontend-scripts.php:347
+msgid "Notice!"
+msgstr "Внимание!"
+
+#: includes/admin/admin-functions.php:300
+#, php-format
+msgid "Number %s products to show"
+msgstr "Число продуктов %s для показа"
+
+#: includes/options/fields/switcher/switcher.php:24
+msgid "Off"
+msgstr "Выкл"
+
+#: includes/options/fields/switcher/switcher.php:23
+msgid "On"
+msgstr "Вс"
+
+#: includes/classes/class-core.php:155
+msgid "Once Monthly"
+msgstr ""
+
+#: includes/classes/class-core.php:159
+msgid "Once Yearly"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand-widget.php:78
+msgid "Only show children of the current category"
+msgstr "Показывать только потомков текущей категории"
+
+#: includes/options/classes/setup.class.php:337
+#, php-format
+msgid "Ooops! This field type (%s) can not be used here, yet."
+msgstr "Упс! Этот тип поля (%s) здесь нельзя использовать."
+
+#: includes/widgets/widget-attribute-product.php:160
+#: includes/widgets/widget-attribute-product.php:259
+msgid "OR"
+msgstr "ИЛИ"
+
+#: includes/classes/abstract-shortcode.php:1106
+msgid "Order"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand-widget.php:49
+msgid "Order by"
+msgstr "По порядку"
+
+#: includes/options/fields/border/border.php:61
+msgid "Outset"
+msgstr "Начало"
+
+#: includes/classes/abstract-shortcode.php:1119
+msgid "Overflow"
+msgstr "Переполнение"
+
+#: includes/options/fields/background/background.php:275
+msgid "Overlay"
+msgstr "Наложение"
+
+#: includes/classes/abstract-shortcode.php:1090
+#: includes/classes/abstract-elementor.php:274
+msgid "Overlay Cross"
+msgstr "Перекрытие"
+
+#: includes/classes/abstract-shortcode.php:1091
+#: includes/classes/abstract-elementor.php:275
+msgid "Overlay Horizontal"
+msgstr "По горизонтали"
+
+#: includes/classes/abstract-shortcode.php:1089
+#: includes/classes/abstract-elementor.php:273
+msgid "Overlay Plus"
+msgstr "Наложение плюс"
+
+#: includes/classes/abstract-shortcode.php:1092
+#: includes/classes/abstract-elementor.php:276
+msgid "Overlay Vertical"
+msgstr "Наложение по"
+
+#: includes/options/fields/typography/typography.php:212
+msgid "Overline"
+msgstr "Перегон"
+
+#. Name of the plugin
+msgid "Ovic Addon Toolkit"
+msgstr ""
+
+#: includes/options/classes/shortcode.class.php:29
+msgid "Ovic Shortcode"
+msgstr "Код Клавиши"
+
+#. Author of the plugin
+msgid "Ovic Team"
+msgstr "Командный"
+
+#: includes/widgets/widget-attribute-product.php:45
+msgid "Ovic: Attribute Product"
+msgstr "Ovic: Атрибут продукта"
+
+#: includes/widgets/widget-iconbox.php:48
+msgid "Ovic: Iconbox"
+msgstr "Iconbox"
+
+#: includes/extends/product-brand/product-brand-widget.php:39
+msgid "Ovic: Product Brand"
+msgstr "Ович: Бренд продукта"
+
+#: includes/options/fields/background/background.php:238
+#: includes/options/fields/background/background.php:256
+msgid "Padding Box"
+msgstr "Вставка"
+
+#. %s is the page number.
+#: includes/classes/abstract-breadcrumb.php:293
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand.php:149
+msgid "Parent brand"
+msgstr "Родительский бренд"
+
+#: includes/extends/product-brand/product-brand.php:150
+msgid "Parent brand:"
+msgstr "Родительский бренд:"
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:220
+#: includes/extends/attributes-swatches/product-attribute-meta.php:363
+msgid "Photo"
+msgstr "Фото"
+
+#: includes/admin/class-admin-profile.php:44
+#: templates/share-button/share-button.php:41
+msgid "Pinterest"
+msgstr "Проценты"
+
+#: includes/admin/dashboard/envato.php:188
+msgid ""
+"Please activate this theme, the functionality will stop working if the theme "
+"is not activated."
+msgstr ""
+"Пожалуйста, активируйте эту тему, функциональность перестанет работать, если "
+"тема не будет активирована."
+
+#: includes/options/fields/backup/backup.php:43
+msgid "Please be sure for reset all of options."
+msgstr "Убедитесь, что вы сбросьте все опции."
+
+#: includes/options/classes/setup.class.php:265
+#, php-format
+msgid "Please enter %s or more characters"
+msgstr "Введите %s или более символов"
+
+#: includes/options/functions/validate.php:34
+#: includes/options/functions/validate.php:106
+msgid "Please write a numeric data!"
+msgstr "Напишите числовые данные!"
+
+#: includes/options/functions/validate.php:16
+#: includes/options/functions/validate.php:88
+msgid "Please write a valid email address!"
+msgstr "Напишите действительный адрес электронной почты!"
+
+#: includes/options/functions/validate.php:70
+#: includes/options/functions/validate.php:142
+msgid "Please write a valid url!"
+msgstr "Напишите допустимый URL!"
+
+#: includes/classes/abstract-shortcode.php:1085
+#: includes/classes/abstract-elementor.php:269
+msgid "Plus Zoom"
+msgstr "Плюс масштаб"
+
+#: includes/classes/abstract-shortcode.php:644
+#: includes/classes/abstract-elementor.php:468
+msgid "Portrait Tablet"
+msgstr "Книжная планшет"
+
+#: includes/classes/abstract-shortcode.php:1129
+msgid "Position size"
+msgstr "Размер позиции"
+
+#: includes/admin/admin-functions.php:214
+#, php-format
+msgid "Product %s Layout"
+msgstr "Макет продукта %s"
+
+#: includes/widgets/widget-attribute-product.php:121
+msgid "Product attribute:"
+msgstr "Атрибут продукта:"
+
+#: includes/extends/product-brand/product-brand-widget.php:43
+msgid "Product brand"
+msgstr "Бренд продукта"
+
+#: includes/admin/class-admin-permalink.php:46
+msgid "Product brand base"
+msgstr "База бренда продукта"
+
+#: includes/extends/product-brand/product-brand.php:144
+msgid "Product brands"
+msgstr "Товарные знаки"
+
+#: includes/extends/product-brand/product-brand.php:431
+msgid ""
+"Product brands for your store can be managed here. To change the order of "
+"brands on the front-end you can drag and drop to sort them. To see more "
+"brands listed click the \"screen options\" link at the top-right of this "
+"page."
+msgstr ""
+"Здесь можно управлять брендами продуктов для магазина. Чтобы изменить "
+"порядок брендов на лицевой стороне, можно перетаскивать их для сортировки. "
+"Чтобы увидеть больше брендов, щелкните по ссылке \"опции экрана\" в верхней "
+"правой части этой страницы."
+
+#: includes/classes/class-frontend-scripts.php:342
+msgid "Product has been added to cart!"
+msgstr "Товар добавлен в корзину!"
+
+#: includes/classes/class-frontend-scripts.php:343
+msgid "Product has been added to wishlist!"
+msgstr "Продукт добавлен в список wishlist!"
+
+#: includes/classes/class-frontend-scripts.php:344
+msgid "Product has been removed from wishlist!"
+msgstr "Продукт удален из списка wishlist!"
+
+#: includes/classes/class-frontend-scripts.php:348
+msgid "Product Removed"
+msgstr "Продукт удален"
+
+#: includes/admin/dashboard/envato.php:125
+msgid "Product:"
+msgstr "Продукт:"
+
+#: includes/admin/dashboard/envato.php:60
+msgid "Purchased code"
+msgstr "Приобретенный код"
+
+#: includes/admin/dashboard/envato.php:61
+msgid "Purchased code license item."
+msgstr "Купленный элемент лицензионного кода."
+
+#: includes/widgets/widget-attribute-product.php:151
+#: includes/widgets/widget-attribute-product.php:256
+msgid "Query type"
+msgstr "Тип запроса"
+
+#: includes/extends/question-answers/question-answers.php:185
+msgid "Question"
+msgstr ""
+
+#: includes/extends/question-answers/question-answers.php:56
+msgid "Question & Answers"
+msgstr ""
+
+#: includes/extends/question-answers/question-answers.php:187
+#: includes/extends/question-answers/question-answers.php:311
+msgid "Question from"
+msgstr ""
+
+#: includes/extends/question-answers/question-answers.php:295
+msgid "Question has been sent successfully."
+msgstr ""
+
+#: includes/extends/question-answers/question-answers.php:271
+msgid "Question is empty."
+msgstr ""
+
+#: includes/extends/question-answers/question-answers.php:55
+msgid "Questions and answers of the customers"
+msgstr ""
+
+#: templates/single-product/review-average.php:21
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: includes/admin/dashboard/dashboard.php:310
+msgid "Read Document"
+msgstr "Прочитать документ"
+
+#: includes/extends/mailchimp/MCAPI.class.php:79
+msgid "Read more about common connectivity issues."
+msgstr "Более подробную информацию об общих проблемах связи."
+
+#: includes/classes/class-remote-source.php:81
+msgid "Remote"
+msgstr "Дистанционный"
+
+#: includes/options/fields/upload/upload.php:27
+#: includes/options/fields/media/media.php:29
+msgid "Remove"
+msgstr "Удалить"
+
+#: includes/options/fields/icon/icon.php:26
+msgid "Remove Icon"
+msgstr "Удалить значок"
+
+#: includes/admin/class-admin-profile.php:137
+#: includes/extends/product-cat/product-cat.php:38
+#: includes/extends/product-cat/product-cat.php:158
+#: includes/extends/product-brand/product-brand.php:262
+#: includes/extends/product-brand/product-brand.php:280
+#: includes/extends/product-brand/product-brand.php:335
+#: includes/extends/attributes-swatches/product-attribute-meta.php:263
+#: includes/extends/attributes-swatches/product-attribute-meta.php:416
+#: includes/extends/megamenu/templates/form-settings.php:190
+#: includes/extends/megamenu/templates/form-settings.php:320
+#: includes/extends/megamenu/templates/form-settings.php:338
+msgid "Remove image"
+msgstr "Удалить изображение"
+
+#: includes/options/fields/link/link.php:27
+msgid "Remove Link"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand.php:315
+msgid "Remove logo"
+msgstr "Удалить эмблему"
+
+#: includes/admin/class-admin-license.php:56
+msgid "Renew?"
+msgstr "Обновить?"
+
+#: includes/options/fields/background/background.php:188
+msgid "Repeat"
+msgstr "Повторить"
+
+#: includes/options/fields/background/background.php:190
+msgid "Repeat Horizontally"
+msgstr "Повторять по горизонтали"
+
+#: includes/options/fields/background/background.php:191
+msgid "Repeat Vertically"
+msgstr "Повторять по вертикали"
+
+#: includes/admin/dashboard/dashboard.php:328
+msgid "Request Support"
+msgstr "Поддержка запросов"
+
+#: includes/options/classes/options.class.php:467
+#: includes/options/classes/options.class.php:574
+#: includes/options/fields/backup/backup.php:42
+msgid "Reset All"
+msgstr "Сбросить все"
+
+#: includes/options/classes/options.class.php:466
+#: includes/options/classes/options.class.php:573
+msgid "Reset Section"
+msgstr "Сброс раздела"
+
+#: includes/classes/abstract-shortcode.php:907
+#: includes/classes/abstract-elementor.php:690
+msgid "Responsive"
+msgstr "Отвечает"
+
+#: includes/options/classes/metabox.class.php:213
+#: includes/options/classes/comment.class.php:173
+msgid "Restore"
+msgstr "Восстановить"
+
+#: includes/options/classes/setup.class.php:261
+msgid "Restoring options."
+msgstr "Восстановление опций."
+
+#: includes/options/fields/border/border.php:63
+msgid "ridge"
+msgstr "хребет"
+
+#: includes/classes/abstract-shortcode.php:897
+#: includes/classes/abstract-elementor.php:680
+#: includes/extends/megamenu/templates/form-settings.php:213
+#: includes/options/fields/typography/typography.php:166
+msgid "Right"
+msgstr "Справа"
+
+#: includes/options/fields/spacing/spacing.php:31
+#: includes/options/fields/border/border.php:31
+msgid "right"
+msgstr "правый"
+
+#: includes/options/fields/background/background.php:173
+msgid "Right Bottom"
+msgstr "Правый нижний"
+
+#: includes/options/fields/background/background.php:172
+msgid "Right Center"
+msgstr "Правый центр"
+
+#: includes/options/fields/background/background.php:171
+msgid "Right Top"
+msgstr "Правый верхний"
+
+#: includes/classes/abstract-shortcode.php:1083
+#: includes/classes/abstract-elementor.php:267
+msgid "Rotate Left In"
+msgstr "Повернуть влево в"
+
+#: includes/classes/abstract-shortcode.php:1084
+#: includes/classes/abstract-elementor.php:268
+msgid "Rotate Right In"
+msgstr "Повернуть направо"
+
+#: includes/classes/abstract-shortcode.php:775
+#: includes/classes/abstract-shortcode.php:937
+#: includes/classes/abstract-elementor.php:558
+#: includes/classes/abstract-elementor.php:720
+msgid "Rows"
+msgstr "Строки"
+
+#: includes/classes/abstract-shortcode.php:752
+#: includes/classes/abstract-elementor.php:372
+#: includes/classes/abstract-elementor.php:535
+msgid "Rows space"
+msgstr "Пространство строк"
+
+#: includes/options/fields/typography/typography.php:363
+msgid "Safe Web Fonts"
+msgstr "Безопасные веб-шрифты"
+
+#: includes/admin/dashboard/dashboard.php:456
+msgid "Sales"
+msgstr "Продажи"
+
+#: includes/options/fields/background/background.php:279
+msgid "Saturation"
+msgstr "Насыщение"
+
+#: includes/options/classes/options.class.php:465
+#: includes/options/classes/options.class.php:572
+msgid "Save"
+msgstr "Сохранить"
+
+#: includes/extends/megamenu/templates/form-settings.php:35
+msgid "Save All"
+msgstr "Сохранить все"
+
+#: includes/options/classes/options.class.php:465
+#: includes/options/classes/options.class.php:572
+msgid "Saving..."
+msgstr "Сохранение ..."
+
+#: includes/classes/abstract-shortcode.php:916
+#: includes/classes/abstract-elementor.php:699
+#: includes/options/fields/background/background.php:274
+msgid "Screen"
+msgstr "Экран"
+
+#: includes/classes/abstract-shortcode.php:592
+msgid "screen resolution < 1200px"
+msgstr ""
+
+#: includes/classes/abstract-shortcode.php:551
+msgid "screen resolution < 1500px"
+msgstr ""
+
+#: includes/classes/abstract-shortcode.php:715
+#: includes/classes/abstract-elementor.php:487
+msgid "screen resolution < 480px"
+msgstr ""
+
+#: includes/classes/abstract-shortcode.php:674
+msgid "screen resolution < 768px"
+msgstr ""
+
+#: includes/classes/abstract-shortcode.php:633
+msgid "screen resolution < 992px"
+msgstr ""
+
+#: includes/classes/abstract-elementor.php:415
+msgid "screen resolution >= 1200px and < 1500px"
+msgstr ""
+
+#: includes/classes/abstract-elementor.php:397
+msgid "screen resolution >= 1500px"
+msgstr ""
+
+#: includes/classes/abstract-elementor.php:469
+msgid "screen resolution >= 480px  add < 768px"
+msgstr ""
+
+#: includes/classes/abstract-elementor.php:451
+msgid "screen resolution >= 768px and < 992px"
+msgstr ""
+
+#: includes/classes/abstract-elementor.php:433
+msgid "screen resolution >= 992px and < 1200px"
+msgstr ""
+
+#: includes/classes/abstract-shortcode.php:511
+msgid "Screen Responsive"
+msgstr "Экран, отвечающий требованиям"
+
+#: includes/classes/abstract-shortcode.php:980
+#: includes/classes/abstract-elementor.php:763
+msgid "Screen: "
+msgstr "Экран: "
+
+#: includes/options/fields/background/background.php:206
+msgid "Scroll"
+msgstr "Прокрутка"
+
+#: includes/options/functions/actions.php:268
+msgid "Search a Icon..."
+msgstr "Поиск значка ..."
+
+#: includes/extends/product-brand/product-brand.php:147
+msgid "Search brands"
+msgstr "Поиск брендов"
+
+#: includes/extends/megamenu/templates/form-settings.php:277
+msgid "Search Icon"
+msgstr "Значок поиска"
+
+#: includes/options/classes/options.class.php:462
+msgid "Search option(s)"
+msgstr "Опции поиска"
+
+#. %s is the search query.
+#: includes/classes/abstract-breadcrumb.php:291
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: includes/options/fields/map/map.php:27
+msgid "Search your address..."
+msgstr "Поиск по вашему адресу ..."
+
+#: includes/options/classes/setup.class.php:266
+msgid "Searching..."
+msgstr "Поиск ..."
+
+#: includes/admin/dashboard/dashboard.php:319
+msgid "See Video"
+msgstr "См. Видео"
+
+#: includes/extends/product-brand/product-brand-widget.php:258
+msgid "Select a category"
+msgstr "Выберите категорию"
+
+#: includes/options/fields/typography/typography.php:90
+msgid "Select a font"
+msgstr "Выбрать шрифт"
+
+#: includes/options/classes/shortcode.class.php:32
+msgid "Select a shortcode"
+msgstr "Выберите короткий код"
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:163
+#: includes/extends/attributes-swatches/product-attribute-meta.php:201
+msgid "Select all"
+msgstr "Выбрать все"
+
+#: includes/widgets/widget-custommenu.php:147
+msgid "Select Menu:"
+msgstr "Выберите меню:"
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:164
+#: includes/extends/attributes-swatches/product-attribute-meta.php:202
+msgid "Select none"
+msgstr "Выберите значение Нет"
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:147
+#: includes/extends/attributes-swatches/product-attribute-meta.php:189
+msgid "Select terms"
+msgstr "Выбрать термины"
+
+#. ID
+#: includes/admin/class-admin.php:112
+#: includes/classes/abstract-shortcode.php:742
+#: includes/classes/abstract-elementor.php:528
+#: includes/extends/mailchimp/mailchimp-settings.php:109
+#: includes/admin/dashboard/dashboard.php:235
+#: includes/extends/megamenu/templates/form-settings.php:44
+msgid "Settings"
+msgstr "Параметры"
+
+#: includes/options/classes/options.class.php:458
+msgid "Settings have changed, you should save them!"
+msgstr "Настройки изменились, вы должны их сохранить!"
+
+#: includes/options/classes/options.class.php:290
+msgid "Settings saved."
+msgstr "Параметры сохранены."
+
+#: includes/classes/abstract-elementor.php:45
+#: includes/classes/abstract-elementor.php:140
+msgid "Shortcode"
+msgstr "Короткий код"
+
+#: includes/options/classes/shortcode.class.php:31
+msgid "shortcode"
+msgstr ""
+
+#: includes/options/classes/options.class.php:460
+msgid "show all options"
+msgstr "показать все опции"
+
+#: includes/extends/product-brand/product-brand-widget.php:58
+msgid "Show as"
+msgstr "Показать как"
+
+#: includes/extends/product-brand/product-brand-widget.php:73
+msgid "Show hierarchy"
+msgstr "Показать иерархию"
+
+#: includes/extends/product-brand/product-brand-widget.php:68
+msgid "Show product counts"
+msgstr "Показать счетчики продуктов"
+
+#: includes/widgets/widget-attribute-product.php:43
+msgid "Shows a custom attribute in a widget."
+msgstr "Показывает пользовательский атрибут в виджете."
+
+#: includes/admin/class-admin-license.php:66
+msgid "Site is inactive."
+msgstr "Сайт неактивен."
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:78
+#: includes/extends/attributes-swatches/product-attribute-meta.php:112
+msgid "Size Box"
+msgstr "Поле размера"
+
+#: includes/classes/abstract-shortcode.php:803
+#: includes/classes/abstract-shortcode.php:925
+#: includes/classes/abstract-elementor.php:586
+#: includes/classes/abstract-elementor.php:708
+msgid "Slides to Show"
+msgstr "Слайды для показа"
+
+#: includes/admin/class-admin-permalink.php:64
+#: includes/classes/ovic-core-functions.php:81
+msgctxt "slug"
+msgid "product-brand"
+msgstr "продукт-торговая марка"
+
+#: includes/options/fields/typography/typography.php:180
+msgid "Small Caps"
+msgstr "Маленькие шапки"
+
+#: includes/options/fields/typography/typography.php:207
+#: includes/options/fields/border/border.php:56
+msgid "Solid"
+msgstr "Твердые"
+
+#: includes/admin/dashboard/envato.php:113
+msgid "Status:"
+msgstr "Состояние:"
+
+#: includes/extends/megamenu/templates/form-settings.php:159
+msgid "Sub Menu Item Settings"
+msgstr "Параметры пункта подменю"
+
+#: includes/extends/megamenu/templates/form-settings.php:164
+msgid "Sub menu item width (px only)"
+msgstr "Ширина элемента подменю (только для px)"
+
+#: includes/options/fields/typography/typography.php:151
+msgid "Subset"
+msgstr "Подмножество"
+
+#: includes/extends/mailchimp/mailchimp-settings.php:170
+msgid "Success Message"
+msgstr "Сообщение об успешном"
+
+#. ID
+#: includes/extends/mailchimp/mailchimp-settings.php:129
+msgid "Success message"
+msgstr "Сообщение об успешном"
+
+#: includes/options/classes/options.class.php:191
+msgid "Success. Imported backup options."
+msgstr "Успех. Импортированные опции резервного копирования."
+
+#: includes/admin/dashboard/envato.php:117
+msgid "Support until:"
+msgstr "Поддержка до:"
+
+#: includes/admin/dashboard/settings.php:147
+msgid "Tablet"
+msgstr "Таблетка"
+
+#: includes/options/fields/typography/typography.php:161
+msgid "Text Align"
+msgstr "Выравнивание текста"
+
+#: includes/options/fields/typography/typography.php:204
+msgid "Text Decoration"
+msgstr "Оформление текста"
+
+#: includes/options/fields/typography/typography.php:190
+msgid "Text Transform"
+msgstr "Преобразование текста"
+
+#: includes/admin/dashboard/envato.php:305
+#, fuzzy, php-format
+msgid "Thanks for installing %s !"
+msgstr "Спасибо за установку %s!"
+
+#: includes/extends/mailchimp/mailchimp-settings.php:235
+msgid "Thanks for Subscribe !"
+msgstr "Спасибо за Подписаться!"
+
+#. Description of the plugin
+#, fuzzy
+#| msgid "The Ovic Addon Toolkit For WordPress Theme Kuteshop."
+msgid "The Ovic Addon Toolkit For WordPress Theme Kutethemes."
+msgstr "The Ovic Addon Toolkit For WordPress Theme Kutheshop"
+
+#: includes/admin/dashboard/settings.php:24
+msgid "The sample theme options for developer."
+msgstr "Примеры опций темы для разработчика."
+
+#: includes/admin/class-admin-license.php:49
+#: includes/admin/dashboard/dashboard.php:228
+msgid "Theme License"
+msgstr "Лицензия темы"
+
+#: includes/extends/question-answers/question-answers.php:200
+msgid "There are no answers for this question yet."
+msgstr ""
+
+#: includes/options/classes/setup.class.php:400
+msgid "This field class is not available!"
+msgstr "Этот класс поля недоступен!"
+
+#: includes/extends/product-brand/product-brand.php:490
+#: includes/extends/product-brand/product-brand.php:508
+msgid ""
+"This is the default brand and it cannot be deleted. It will be automatically "
+"assigned to products with no brand."
+msgstr ""
+"Это бренд по умолчанию, и удалить его нельзя. Он будет автоматически "
+"присвоен продуктам без бренда."
+
+#: includes/extends/product-brand/product-brand.php:269
+#: includes/extends/product-brand/product-brand.php:322
+#: includes/extends/product-brand/product-brand.php:501
+#: includes/extends/attributes-swatches/product-attribute-meta.php:252
+#: includes/extends/attributes-swatches/product-attribute-meta.php:404
+msgid "Thumbnail"
+msgstr "Миниатюра"
+
+#: includes/extends/question-answers/question-answers.php:188
+msgid "Time"
+msgstr ""
+
+#: includes/widgets/widget-iconbox.php:28
+#: includes/widgets/widget-attribute-product.php:235
+#: includes/extends/product-brand/product-brand-widget.php:44
+msgid "Title"
+msgstr "Название"
+
+#: includes/widgets/widget-iconbox.php:36
+msgid "Title Icon"
+msgstr "Значок заголовка"
+
+#: includes/widgets/widget-attribute-product.php:113
+#: includes/widgets/widget-custommenu.php:141
+msgid "Title:"
+msgstr "Название:"
+
+#: includes/options/fields/date/date.php:35
+#: includes/options/fields/background/background.php:91
+msgid "To"
+msgstr "В"
+
+#: includes/extends/megamenu/templates/form-settings.php:217
+msgid "Top"
+msgstr "Сверху"
+
+#: includes/options/fields/spacing/spacing.php:30
+#: includes/options/fields/border/border.php:30
+msgid "top"
+msgstr "Верх"
+
+#: includes/extends/megamenu/templates/form-settings.php:66
+msgid "Top Level Item Settings"
+msgstr "Параметры элемента верхнего уровня"
+
+#: includes/extends/megamenu/templates/form-settings.php:108
+msgid "Trash"
+msgstr "Корзина"
+
+#: includes/extends/megamenu/templates/form-settings.php:106
+msgid "Trash this selected megamenu content."
+msgstr "Вымазает выбранное содержимое мегамену."
+
+#: includes/admin/class-admin-profile.php:38
+#: templates/share-button/share-button.php:35
+msgid "Twitter"
+msgstr "Twitter"
+
+#: includes/extends/post-like/post-like.php:217
+msgid "Unlike"
+msgstr "В отличие"
+
+#: includes/admin/class-admin-license.php:57
+msgid "unlimited"
+msgstr "неограниченно"
+
+#: includes/extends/product-brand/product-brand.php:152
+msgid "Update brand"
+msgstr "Обновить бренд"
+
+#: includes/options/classes/metabox.class.php:214
+#: includes/options/classes/comment.class.php:174
+msgid "update post for restore "
+msgstr "обновить пост для восстановления "
+
+#: includes/admin/class-admin-license.php:68
+msgid ""
+"Updating this item will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+"Обновление этого элемента приведет к потере всех настроек, которые вы внесли."
+" 'Отмена' для остановки, 'OK' для обновления."
+
+#: includes/options/fields/upload/upload.php:26
+#: includes/options/fields/media/media.php:28
+msgid "Upload"
+msgstr "Закачать"
+
+#: includes/admin/class-admin-profile.php:134
+#: includes/extends/product-cat/product-cat.php:35
+#: includes/extends/product-cat/product-cat.php:155
+#: includes/extends/product-brand/product-brand.php:259
+#: includes/extends/product-brand/product-brand.php:277
+#: includes/extends/product-brand/product-brand.php:332
+#: includes/extends/attributes-swatches/product-attribute-meta.php:261
+#: includes/extends/attributes-swatches/product-attribute-meta.php:414
+#: includes/extends/megamenu/templates/form-settings.php:186
+#: includes/extends/megamenu/templates/form-settings.php:316
+#: includes/extends/megamenu/templates/form-settings.php:334
+msgid "Upload/Add image"
+msgstr "Закачать/Добавить изображение"
+
+#: includes/extends/product-brand/product-brand.php:312
+msgid "Upload/Add logo"
+msgstr "Выгрузка/Добавить логотип"
+
+#: includes/options/fields/typography/typography.php:194
+msgid "Uppercase"
+msgstr "Верхний регистр"
+
+#: includes/options/classes/fields.class.php:141
+#: includes/options/classes/fields.class.php:169
+msgid "USAGE"
+msgstr "ИСПОЛЬЗОВАНИЕ"
+
+#: includes/extends/megamenu/templates/form-settings.php:237
+msgid "Use Font Icon"
+msgstr "Использовать значок шрифта"
+
+#: includes/extends/megamenu/templates/form-settings.php:241
+msgid "Use Image"
+msgstr "Использовать изображение"
+
+#: includes/extends/product-cat/product-cat.php:81
+#: includes/extends/product-cat/product-cat.php:185
+#: includes/extends/attributes-swatches/product-attribute-meta.php:289
+#: includes/extends/attributes-swatches/product-attribute-meta.php:442
+msgid "Use image"
+msgstr "Использовать изображение"
+
+#: includes/options/classes/fields.class.php:152
+msgid "VALUE"
+msgstr "ЗНАЧЕНИЕ"
+
+#: includes/classes/abstract-shortcode.php:830
+#: includes/classes/abstract-shortcode.php:965
+#: includes/classes/abstract-elementor.php:613
+#: includes/classes/abstract-elementor.php:748
+msgid "Vertical"
+msgstr "Вертикальная"
+
+#: includes/admin/dashboard/dashboard.php:315
+msgid "Video Tutorials"
+msgstr "Учебники по видео"
+
+#: includes/admin/dashboard/dashboard.php:474
+msgid "View All Our Themes"
+msgstr "Просмотреть Все Наши Темы"
+
+#: includes/classes/class-frontend-scripts.php:341
+msgid "View cart"
+msgstr "Просмотреть корзину"
+
+#: includes/admin/class-admin.php:112
+msgid "View Ovic settings"
+msgstr ""
+
+#: includes/options/fields/link_color/link_color.php:43
+msgid "Visited"
+msgstr "Посещенных"
+
+#: includes/options/fields/typography/typography.php:211
+msgid "Wavy"
+msgstr "Волнистая"
+
+#. Weekly archive title. %s is the week date format.
+#: includes/classes/abstract-breadcrumb.php:299
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: includes/classes/abstract-breadcrumb.php:850
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: includes/admin/dashboard/dashboard.php:225
+msgid "Welcome"
+msgstr "Приветствие"
+
+#: includes/extends/megamenu/templates/form-settings.php:145
+msgid "Whether to disable item hyperlink or not."
+msgstr "Отключает ли гиперссылку элемента."
+
+#: includes/extends/megamenu/templates/form-settings.php:127
+msgid "Whether to display item without text or not."
+msgstr "Показывать элемент без текста или нет."
+
+#: includes/widgets/widget-attribute-product.php:165
+#: includes/widgets/widget-attribute-product.php:265
+#: includes/classes/abstract-elementor.php:330
+msgid "Width"
+msgstr "Ширина"
+
+#: includes/options/fields/dimensions/dimensions.php:27
+msgid "width"
+msgstr "ширина"
+
+#: includes/options/fields/typography/typography.php:262
+msgid "Word Spacing"
+msgstr "Интервал между словами"
+
+#: includes/extends/mailchimp/mailchimp.php:40
+msgid "Wrong email format"
+msgstr "Неверный формат электронной почты"
+
+#: includes/classes/abstract-breadcrumb.php:819
+#: includes/classes/abstract-breadcrumb.php:849
+#: includes/classes/abstract-breadcrumb.php:880
+#: includes/classes/abstract-breadcrumb.php:908
+#: includes/classes/abstract-breadcrumb.php:1273
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: includes/classes/abstract-shortcode.php:833
+#: includes/classes/abstract-shortcode.php:847
+#: includes/classes/abstract-shortcode.php:873
+#: includes/classes/abstract-shortcode.php:968
+#: includes/classes/abstract-elementor.php:616
+#: includes/classes/abstract-elementor.php:630
+#: includes/classes/abstract-elementor.php:656
+#: includes/classes/abstract-elementor.php:751
+msgid "Yes"
+msgstr "Да"
+
+#: includes/options/classes/fields.class.php:233
+msgid "You are editing language:"
+msgstr "Вы изменяете язык:"
+
+#: includes/options/fields/group/group.php:127
+#: includes/options/fields/repeater/repeater.php:96
+#, fuzzy
+#| msgid "You can not add more than"
+msgid "You cannot add more."
+msgstr "Вы не можете добавить больше, чем"
+
+#: includes/options/fields/group/group.php:128
+#: includes/options/fields/repeater/repeater.php:97
+msgid "You cannot remove more."
+msgstr ""
+
+#: includes/options/functions/actions.php:228
+msgid "You do not have required permissions to access."
+msgstr "У вас нет необходимых прав доступа."
+
+#: includes/extends/post-like/post-like.php:457
+msgid "You do not like anything yet."
+msgstr "Тебе еще ничего не нравится."
+
+#: includes/admin/class-admin-license.php:60
+#, php-format
+msgid "You have %1$s / %2$s sites activated."
+msgstr ""
+
+#: includes/extends/post-like/post-like.php:426
+msgid "You Liked:"
+msgstr "Вам Понравилось:"
+
+#: includes/extends/mailchimp/mailchimp.php:58
+msgid "Your email added..."
+msgstr "Ваша электронная почта добавлена ..."
+
+#: includes/admin/class-admin-profile.php:41
+msgid "Youtube"
+msgstr "Youtube"

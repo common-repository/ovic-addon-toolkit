@@ -1,0 +1,59 @@
+table.wp-list-table .column-logo,
+table.wp-list-table .column-thumb {
+    width: 52px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+table.wp-list-table td.column-logo img,
+table.wp-list-table td.column-thumb img {
+    margin: 0;
+    width: auto;
+    height: auto;
+    max-width: 40px;
+    max-height: 40px;
+    vertical-align: middle
+}
+
+table.wp-list-table tbody td.column-handle {
+    cursor: move;
+    width: 17px;
+    text-align: center;
+    vertical-align: text-top;
+}
+
+table.wp-list-table .column-handle {
+    width: 17px;
+    display: none;
+}
+
+table.wp-list-table tbody td.column-handle::before {
+    content: "\f333";
+    font-family: Dashicons;
+    text-align: center;
+    line-height: 1;
+    color: #999;
+    display: block;
+    width: 17px;
+    height: 100%;
+    margin: 4px 0 0 0;
+}
+
+@media only screen and (max-width: 782px) {
+    .post-type-product .wp-list-table .column-logo,
+    .post-type-product .wp-list-table .column-thumb {
+        display: none;
+        text-align: left;
+        padding-bottom: 0
+    }
+
+    .post-type-product .wp-list-table .column-logo::before,
+    .post-type-product .wp-list-table .column-thumb::before {
+        display: none !important
+    }
+
+    .post-type-product .wp-list-table .column-logo img,
+    .post-type-product .wp-list-table .column-thumb img {
+        max-width: 32px
+    }
+}

@@ -1,0 +1,26 @@
+.ovic-dashboard-footer {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 12px;
+    border-top: 1px solid #eee;
+    color: #ddd;
+}
+
+.ovic-dashboard-footer a {
+    text-decoration: none;
+}
+
+#ovic_dashboard_widgets .inside {
+    margin: 0;
+    padding: 0;
+}
+
+#ovic_dashboard_widgets .rss-widget {
+    font-size: 13px;
+    padding: 12px 12px 0;
+}
+
+#ovic_dashboard_widgets .rss-widget:last-child {
+    border-bottom: none;
+    padding-bottom: 8px;
+}

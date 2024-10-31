@@ -1,0 +1,67 @@
+.ovic-photo-editor {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.ovic-photo-editor canvas.editor {
+    border: 1px solid #bdc3c7;
+}
+
+.ovic-photo-editor .photo-container {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ovic-photo-editor .photo-galleries {
+    width: 125px;
+    margin-right: 15px;
+    overflow: auto;
+}
+
+.ovic-photo-editor .photo-galleries > *:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.ovic-photo-editor .controls > * {
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    float: left;
+    overflow: hidden;
+}
+
+.ovic-photo-editor .top-controls {
+    display: flex;
+}
+
+.ovic-photo-editor .text-control {
+    width: 90%;
+    margin-left: 15px;
+}
+
+.ovic-photo-editor .text-control > * {
+    display: block;
+}
+
+.ovic-photo-editor .add-file input[type="file"] {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    font-size: 30px;
+    filter: alpha(opacity=0);
+}
+
+.ovic-photo-editor .alignment-control a {
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.ovic-photo-editor .alignment-control a.active {
+    fill: #22A7F0;
+}

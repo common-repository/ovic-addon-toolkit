@@ -1,0 +1,2530 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ovic Addon Toolkit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-20 04:15+0000\n"
+"PO-Revision-Date: 2021-07-21 01:47+0000\n"
+"Last-Translator: \n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.3; wp-5.5"
+
+#: includes/admin/dashboard/dashboard.php:307
+msgid " features and elements for your reference."
+msgstr " le caratteristiche e gli elementi per il vostro riferimento."
+
+#: includes/admin/admin-functions.php:190
+msgid " Products"
+msgstr " Prodotti"
+
+#: includes/admin/dashboard/dashboard.php:316
+msgid " theme, make sure that the feature works as it's designed."
+msgstr " tema, assicurarsi che la funzione funziona come è stato progettato."
+
+#: includes/admin/dashboard/settings.php:44
+msgid "%n transient database entries have been deleted."
+msgstr ""
+
+#. %s template
+#: includes/classes/ovic-core-functions.php:388
+#, php-format
+msgid "%s does not exist."
+msgstr "%s non esiste."
+
+#: includes/admin/admin-functions.php:257
+#, php-format
+msgid "%s product items per row on portrait tablet"
+msgstr "%s prodotto di elementi per riga verticale tablet"
+
+#: includes/admin/admin-functions.php:208
+#, php-format
+msgid "%s Products"
+msgstr "%s Prodotti"
+
+#: includes/admin/admin-functions.php:299
+#, php-format
+msgid "%s products Items"
+msgstr "%s prodotti Elementi"
+
+#: includes/admin/admin-functions.php:221
+#: includes/admin/admin-functions.php:233
+#, php-format
+msgid "%s products items per row on Desktop"
+msgstr "%s prodotti elementi per riga sul Desktop"
+
+#: includes/admin/admin-functions.php:269
+#, php-format
+msgid "%s products items per row on Ipad"
+msgstr "%s prodotti elementi per riga su Ipad"
+
+#: includes/admin/admin-functions.php:245
+#, php-format
+msgid "%s products items per row on Laptop"
+msgstr "%s prodotti elementi per riga su un computer Portatile"
+
+#: includes/admin/admin-functions.php:281
+#, php-format
+msgid "%s products items per row on Mobile"
+msgstr "%s prodotti elementi per riga sul Cellulare"
+
+#: includes/admin/admin-functions.php:205
+#: includes/admin/admin-functions.php:206
+#, php-format
+msgid "%s products title"
+msgstr "%s prodotti titolo"
+
+#: includes/options/fields/background/background.php:119
+msgid "&#8658; left to right"
+msgstr ""
+
+#: includes/options/fields/background/background.php:118
+msgid "&#8659; top to bottom"
+msgstr ""
+
+#: includes/options/fields/background/background.php:120
+msgid "&#8664; corner top to right"
+msgstr ""
+
+#: includes/options/fields/background/background.php:121
+msgid "&#8665; corner top to left"
+msgstr ""
+
+#: includes/widgets/widget-custommenu.php:150
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: includes/admin/admin-functions.php:282
+msgid "(Screen resolution of device < 480px)"
+msgstr ""
+
+#: includes/admin/admin-functions.php:234
+msgid "(Screen resolution of device >= 1200px < 1500px )"
+msgstr ""
+
+#: includes/admin/admin-functions.php:222
+msgid "(Screen resolution of device >= 1500px )"
+msgstr ""
+
+#: includes/admin/admin-functions.php:270
+msgid "(Screen resolution of device >=480  add < 768px)"
+msgstr ""
+
+#: includes/admin/admin-functions.php:258
+msgid "(Screen resolution of device >=768px and < 992px )"
+msgstr ""
+
+#: includes/admin/admin-functions.php:246
+msgid "(Screen resolution of device >=992px and < 1200px )"
+msgstr ""
+
+#: includes/admin/admin-functions.php:170
+msgid "--- Choose Revolution Slider ---"
+msgstr "--- Scegli La Rivoluzione Slider ---"
+
+#: includes/classes/abstract-breadcrumb.php:288
+msgid "404 Not Found"
+msgstr ""
+
+#: includes/admin/class-admin-license.php:69
+#, php-format
+msgid ""
+"<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" class=\"thickbox\" "
+"title=\"%4s\">Check out what's new</a> or <a href=\"%5$s\"%6$s>update now</a>"
+"."
+msgstr ""
+
+#: includes/extends/product-brand/product-brand-widget.php:37
+msgid "A list or dropdown of product brand."
+msgstr "Un elenco a discesa o di marca di prodotto."
+
+#: includes/classes/ovic-core-functions.php:406
+msgid "action_args should not be overwritten when calling ovic_get_template."
+msgstr ""
+"action_args non devono essere sovrascritti quando si chiama "
+"ovic_get_template."
+
+#: includes/admin/dashboard/envato.php:189
+#, php-format
+msgid "Activate %s"
+msgstr "Attivare %s"
+
+#: includes/admin/class-admin-license.php:54
+msgid "Activate License"
+msgstr "Attivare La Licenza"
+
+#: includes/admin/dashboard/envato.php:102
+msgid "Activated"
+msgstr "Attivato"
+
+#: includes/options/fields/link_color/link_color.php:42
+msgid "Active"
+msgstr "Attivo"
+
+#: includes/admin/dashboard/envato.php:155
+msgid "Active Theme License"
+msgstr "Tema Attivo Licenza"
+
+#: includes/options/fields/gallery/gallery.php:25
+msgid "Add Gallery"
+msgstr "Aggiungere Galleria"
+
+#: includes/options/functions/actions.php:262
+#: includes/options/fields/icon/icon.php:25
+msgid "Add Icon"
+msgstr "Aggiungi Icona"
+
+#: includes/options/fields/image/image.php:24
+msgid "Add Image"
+msgstr "Aggiungi Immagine"
+
+#: includes/options/fields/link/link.php:25
+msgid "Add Link"
+msgstr ""
+
+#: includes/options/fields/group/group.php:28
+msgid "Add New"
+msgstr "Aggiungi Nuovo"
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:165
+#: includes/extends/attributes-swatches/product-attribute-meta.php:203
+msgid "Add new"
+msgstr "Aggiungi nuovo"
+
+#: includes/extends/product-brand/product-brand.php:153
+msgid "Add new brand"
+msgstr "Aggiungere un nuovo brand"
+
+#: includes/options/classes/shortcode.class.php:30
+msgid "Add ovic shortcode to content editor"
+msgstr "Aggiungere ovic shortcode per content editor"
+
+#: includes/extends/product-brand/product-brand.php:146
+msgctxt "Admin menu name"
+msgid "Brands"
+msgstr "Marche"
+
+#: includes/classes/abstract-shortcode.php:1056
+msgid "Advanced Width"
+msgstr "Larghezza Avanzata"
+
+#: includes/options/fields/spacing/spacing.php:34
+#: includes/options/fields/border/border.php:34
+msgid "all"
+msgstr "tutti"
+
+#: includes/extends/product-brand/product-brand.php:148
+msgid "All brands"
+msgstr "Tutte le marche"
+
+#: includes/options/fields/typography/typography.php:181
+msgid "All Small Caps"
+msgstr "Tutte Le Small Caps"
+
+#: includes/widgets/widget-attribute-product.php:157
+#: includes/widgets/widget-attribute-product.php:258
+msgid "AND"
+msgstr "E"
+
+#: includes/classes/abstract-shortcode.php:882
+#: includes/classes/abstract-elementor.php:665
+msgid "Animation Speed"
+msgstr "Velocità Di Animazione"
+
+#: includes/extends/question-answers/question-answers.php:186
+msgid "Answers"
+msgstr ""
+
+#. %s: taxonomy name
+#: includes/widgets/widget-attribute-product.php:418
+#, php-format
+msgid "Any %s"
+msgstr "Qualsiasi %s"
+
+#: includes/extends/mailchimp/mailchimp-settings.php:167
+msgid "API Key"
+msgstr "API Key"
+
+#: includes/widgets/widget-attribute-product.php:458
+msgid "Apply"
+msgstr "Applicare"
+
+#: includes/classes/abstract-breadcrumb.php:289
+msgid "Archives"
+msgstr ""
+
+#: includes/options/fields/group/group.php:52
+#: includes/options/fields/group/group.php:93
+#: includes/options/fields/repeater/repeater.php:55
+#: includes/options/fields/repeater/repeater.php:83
+msgid "Are you sure to delete this item?"
+msgstr "Sei sicuro di voler eliminare questo elemento?"
+
+#: includes/options/classes/options.class.php:467
+#: includes/options/classes/options.class.php:574
+msgid "Are you sure to reset all options?"
+msgstr "Sei sicuro di voler ripristinare tutte le opzioni?"
+
+#: includes/options/classes/options.class.php:466
+#: includes/options/classes/options.class.php:573
+msgid "Are you sure to reset this section options?"
+msgstr "Sei sicuro di ripristinare le opzioni in questa sezione?"
+
+#: includes/options/classes/setup.class.php:260
+msgid "Are you sure?"
+msgstr "Sei sicuro?"
+
+#: includes/classes/abstract-shortcode.php:820
+#: includes/classes/abstract-elementor.php:603
+msgid "Arrows"
+msgstr "Frecce"
+
+#: includes/classes/abstract-shortcode.php:819
+#: includes/classes/abstract-elementor.php:602
+msgid "Arrows and Dots"
+msgstr "Frecce e Punti"
+
+#: includes/extends/question-answers/question-answers.php:57
+msgid "Ask"
+msgstr ""
+
+#: includes/extends/question-answers/question-answers.php:110
+msgid "Ask a question"
+msgstr ""
+
+#: includes/widgets/widget-attribute-product.php:239
+msgid "Attribute"
+msgstr "Attributo"
+
+#: includes/extends/product-brand/product-brand.php:469
+msgid ""
+"Attribute terms can be assigned to products and variations.<br/><br/><b>"
+"Note</b>: Deleting a term will remove it from all products and variations to "
+"which it has been assigned. Recreating a term will not automatically assign "
+"it back to products."
+msgstr ""
+
+#: includes/admin/dashboard/settings.php:37
+msgid "Auto Update Theme"
+msgstr ""
+
+#: includes/classes/abstract-shortcode.php:843
+#: includes/classes/abstract-elementor.php:626
+msgid "Autoplay"
+msgstr "Autoplay"
+
+#: includes/classes/abstract-shortcode.php:856
+#: includes/classes/abstract-elementor.php:639
+msgid "Autoplay Speed"
+msgstr "Autoplay Di Velocità"
+
+#: includes/admin/class-admin-profile.php:120
+msgid "Avatar Profile"
+msgstr "Avatar Profilo"
+
+#: includes/options/fields/background/background.php:205
+msgid "Background Attachment"
+msgstr "Sfondo Allegato"
+
+#: includes/options/fields/background/background.php:271
+msgid "Background Blend Mode"
+msgstr "Sfondo Modalità Di Fusione"
+
+#: includes/options/fields/background/background.php:254
+msgid "Background Clip"
+msgstr "Clip Di Sfondo"
+
+#: includes/classes/abstract-shortcode.php:1076
+#: includes/classes/abstract-elementor.php:260
+msgid "Background Effect"
+msgstr "Sfondo Effetto"
+
+#: includes/options/fields/background/background.php:237
+msgid "Background Origin"
+msgstr "Sfondo Di Origine"
+
+#: includes/extends/megamenu/templates/form-settings.php:198
+#: includes/options/fields/background/background.php:164
+msgid "Background Position"
+msgstr "Sfondo Di Posizione"
+
+#: includes/options/fields/background/background.php:187
+msgid "Background Repeat"
+msgstr "Sfondo Ripetere"
+
+#: includes/options/fields/background/background.php:221
+msgid "Background Size"
+msgstr "Sfondo Dimensioni"
+
+#: includes/classes/abstract-shortcode.php:1082
+#: includes/classes/abstract-elementor.php:266
+msgid "Background Slide"
+msgstr "Sfondo Diapositiva"
+
+#: includes/classes/abstract-shortcode.php:1081
+#: includes/classes/abstract-elementor.php:265
+msgid "Background Zoom"
+msgstr "Sfondo Di Zoom"
+
+#: includes/options/fields/typography/typography.php:98
+msgid "Backup Font Family"
+msgstr "Backup Famiglia Di Font"
+
+#: includes/extends/product-cat/product-cat.php:28
+#: includes/extends/product-cat/product-cat.php:146
+#: includes/extends/product-cat/product-cat.php:248
+#: includes/extends/product-cat/product-cat.php:278
+msgid "Banner"
+msgstr ""
+
+#: includes/classes/abstract-elementor.php:357
+msgid "Bootstrap"
+msgstr "Bootstrap"
+
+#: includes/options/fields/background/background.php:239
+#: includes/options/fields/background/background.php:255
+msgid "Border Box"
+msgstr "Confine Box"
+
+#: includes/classes/abstract-shortcode.php:1088
+#: includes/classes/abstract-elementor.php:272
+msgid "Border Plus"
+msgstr "Bordo Plus"
+
+#: includes/classes/abstract-shortcode.php:1087
+#: includes/classes/abstract-elementor.php:271
+msgid "Border ScaleUp"
+msgstr "Confine ScaleUp"
+
+#: includes/classes/abstract-shortcode.php:1086
+#: includes/classes/abstract-elementor.php:270
+msgid "Border Zoom"
+msgstr "Confine Zoom"
+
+#: includes/extends/megamenu/templates/form-settings.php:221
+msgid "Bottom"
+msgstr "Fondo"
+
+#: includes/options/fields/spacing/spacing.php:32
+#: includes/options/fields/border/border.php:32
+msgid "bottom"
+msgstr "fondo"
+
+#: includes/classes/abstract-shortcode.php:1095
+#: includes/classes/abstract-elementor.php:279
+msgid "Bounce In"
+msgstr "Rimbalzo In"
+
+#: includes/widgets/widget-attribute-product.php:144
+#: includes/widgets/widget-attribute-product.php:249
+#: includes/extends/attributes-swatches/product-attribute-meta.php:49
+msgid "Box Style"
+msgstr "Casella Di Stile"
+
+#: includes/extends/product-brand/product-brand.php:251
+#: includes/extends/product-brand/product-brand.php:302
+msgid "Brand Logo"
+msgstr "Logo Del Marchio"
+
+#: includes/extends/product-brand/product-brand-widget.php:51
+msgid "Brand order"
+msgstr "Brand ordine"
+
+#: includes/extends/product-brand/product-brand.php:142
+#: includes/extends/product-brand/product-brand.php:145
+msgid "Brands"
+msgstr "Marche"
+
+#: includes/extends/product-brand/product-brand.php:181
+#, php-format
+msgid "Brands (%d)"
+msgstr "Marche (%d)"
+
+#: includes/classes/abstract-breadcrumb.php:286
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: includes/admin/dashboard/envato.php:312
+msgid "Browse theme"
+msgstr "Sfoglia tema"
+
+#: includes/classes/class-frontend-scripts.php:346
+msgid "Browse Wishlist"
+msgstr "Sfoglia Lista Dei Desideri"
+
+#: includes/classes/abstract-breadcrumb.php:285
+msgid "Browse:"
+msgstr ""
+
+#: includes/admin/dashboard/dashboard.php:325
+msgid ""
+"Can't find the solution on documentation? We're here to help, even on "
+"weekend. Just click here to start 1on1 chatting with us!"
+msgstr ""
+"Non riesci a trovare la soluzione su documentazione? Siamo qui per aiutarti, "
+"anche nel fine settimana. Basta fare clic qui per avviare 1contro1 "
+"chiacchierare con noi!"
+
+#: includes/options/classes/metabox.class.php:214
+#: includes/options/classes/comment.class.php:174
+msgid "Cancel"
+msgstr "Annulla"
+
+#: includes/options/fields/typography/typography.php:193
+msgid "Capitalize"
+msgstr "Capitalizzare"
+
+#: includes/classes/abstract-shortcode.php:730
+#: includes/classes/abstract-elementor.php:509
+msgid "Carousel Settings"
+msgstr "Carosello Impostazioni"
+
+#: includes/extends/megamenu/templates/form-settings.php:205
+#: includes/options/fields/typography/typography.php:165
+msgid "Center"
+msgstr "Centro"
+
+#: includes/options/fields/background/background.php:170
+msgid "Center Bottom"
+msgstr "Al Centro In Basso"
+
+#: includes/options/fields/background/background.php:169
+msgid "Center Center"
+msgstr "Centro Centro"
+
+#: includes/options/fields/background/background.php:168
+msgid "Center Top"
+msgstr "Al Centro In Alto"
+
+#: includes/admin/dashboard/dashboard.php:234
+msgid "Changelog"
+msgstr "Changelog"
+
+#: includes/admin/dashboard/settings.php:38
+msgid "Check and download new version from Kutethemes."
+msgstr ""
+
+#: includes/extends/product-cat/product-cat.php:79
+#: includes/extends/product-cat/product-cat.php:183
+#: includes/extends/attributes-swatches/product-attribute-meta.php:287
+#: includes/extends/attributes-swatches/product-attribute-meta.php:440
+msgid "Choose an image"
+msgstr "Scegli un'immagine"
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:549
+msgid "Choose an option"
+msgstr "Scegliere un'opzione"
+
+#: includes/extends/megamenu/templates/form-settings.php:71
+msgid "Class Megamenu Responsive"
+msgstr "Classe Megamenu Reattivo"
+
+#: includes/options/fields/gallery/gallery.php:27
+msgid "Clear"
+msgstr "Chiaro"
+
+#: includes/admin/dashboard/settings.php:158
+#: includes/admin/dashboard/settings.php:176
+msgid "Click"
+msgstr "Fare clic su"
+
+#: includes/extends/megamenu/templates/form-settings.php:21
+msgid ""
+"Click \"Enable Mega Builder\" in the Settings tab before building content."
+msgstr ""
+
+#: includes/extends/mailchimp/mailchimp-settings.php:205
+msgid "Click here to get your Mailchimp API key"
+msgstr "Clicca qui per ottenere il vostro Mailchimp chiave API"
+
+#: includes/options/functions/actions.php:274
+#: includes/options/classes/shortcode.class.php:34
+msgid "Close"
+msgstr "Chiudere"
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:219
+#: includes/extends/attributes-swatches/product-attribute-meta.php:360
+#: includes/options/fields/link_color/link_color.php:40
+#: includes/options/fields/background/background.php:280
+msgid "Color"
+msgstr "Colore"
+
+#: includes/options/fields/background/background.php:278
+msgid "Color Dodge"
+msgstr "Colore Scherma"
+
+#. %s is the page number.
+#: includes/classes/abstract-breadcrumb.php:295
+#, php-format
+msgid "Comment Page %s"
+msgstr ""
+
+#: includes/options/classes/fields.class.php:128
+msgid "CONFIG"
+msgstr "CONFIG"
+
+#: includes/options/fields/background/background.php:223
+msgid "Contain"
+msgstr "Contenere"
+
+#: includes/extends/megamenu/templates/form-settings.php:57
+msgid "Content"
+msgstr "Contenuto"
+
+#: includes/options/fields/background/background.php:240
+#: includes/options/fields/background/background.php:257
+msgid "Content Box"
+msgstr "Contenuto Scatola"
+
+#: includes/options/fields/backup/backup.php:35
+msgid "copy-paste your backup string here"
+msgstr "copia-incolla di backup stringa qui"
+
+#: includes/options/fields/background/background.php:222
+msgid "Cover"
+msgstr "Coperchio"
+
+#: includes/options/fields/typography/typography.php:288
+msgid "Custom Style"
+msgstr "Stile Personalizzato"
+
+#: includes/options/fields/typography/typography.php:357
+msgid "Custom Web Fonts"
+msgstr "Web Personalizzato Font"
+
+#: includes/classes/abstract-shortcode.php:1065
+msgid "Custom Width"
+msgstr "Larghezza Personalizzata"
+
+#: includes/classes/abstract-breadcrumb.php:821
+#: includes/classes/abstract-breadcrumb.php:1279
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: includes/options/fields/background/background.php:276
+msgid "Darken"
+msgstr "Scurire"
+
+#: includes/options/fields/typography/typography.php:210
+#: includes/options/fields/border/border.php:57
+msgid "Dashed"
+msgstr "Tratteggiata"
+
+#: includes/admin/class-admin-license.php:53
+msgid "Deactivate License"
+msgstr "Disattivare La Licenza"
+
+#: includes/classes/abstract-shortcode.php:806
+#: includes/classes/abstract-shortcode.php:928
+#: includes/classes/abstract-elementor.php:589
+#: includes/classes/abstract-elementor.php:711
+#: includes/admin/dashboard/settings.php:157
+#: includes/options/fields/typography/typography.php:112
+#: includes/options/fields/typography/typography.php:125
+#: includes/options/fields/typography/typography.php:138
+#: includes/options/fields/typography/typography.php:153
+#: includes/options/fields/typography/typography.php:169
+#: includes/options/fields/typography/typography.php:182
+#: includes/options/fields/typography/typography.php:196
+#: includes/options/fields/typography/typography.php:214
+msgid "Default"
+msgstr "Di Default"
+
+#: includes/extends/product-brand/product-brand.php:444
+msgctxt "Default brand slug"
+msgid "Uncategorized"
+msgstr "Uncategorized"
+
+#: includes/options/classes/options.class.php:219
+msgid "Default options restored for only this section."
+msgstr "Opzioni di Default ripristinato solo per questa sezione."
+
+#: includes/options/classes/options.class.php:203
+msgid "Default options restored."
+msgstr "Opzioni di Default restaurato."
+
+#: includes/admin/dashboard/settings.php:169
+msgid "Delay"
+msgstr "Ritardo"
+
+#: includes/admin/dashboard/settings.php:44
+msgid "Delete Cache"
+msgstr "Eliminare La Cache"
+
+#: includes/admin/dashboard/settings.php:45
+msgid "Delete WP Cache"
+msgstr "Eliminare WP Cache"
+
+#. %s: default brand
+#: includes/extends/product-brand/product-brand.php:453
+#, php-format
+msgid ""
+"Deleting a brand does not delete the products in that brand. Instead, "
+"products that were only assigned to the deleted brand are set to the brand "
+"%s."
+msgstr ""
+"Eliminazione di un marchio non elimina i prodotti di quella marca. Invece, a "
+"prodotti che sono stati assegnati per i vari brand sono impostati per il "
+"marchio di %s."
+
+#: includes/admin/dashboard/settings.php:23
+msgid "Demo Theme Options"
+msgstr "Demo Opzioni Del Tema"
+
+#: includes/widgets/widget-iconbox.php:41
+msgid "Descriptions"
+msgstr "Descrizioni"
+
+#: includes/classes/abstract-elementor.php:396
+msgid "Desktop"
+msgstr "Desktop"
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:80
+#: includes/extends/attributes-swatches/product-attribute-meta.php:116
+msgid "Determines Size in this attribute.{width}x{height}"
+msgstr ""
+
+#: includes/classes/abstract-shortcode.php:892
+#: includes/classes/abstract-elementor.php:675
+#: includes/options/fields/background/background.php:110
+msgid "Direction"
+msgstr "Direzione"
+
+#: includes/admin/admin-functions.php:198
+msgid "Disable"
+msgstr "Disattivare"
+
+#: includes/extends/megamenu/templates/form-settings.php:142
+msgid "Disable link"
+msgstr "Disattivare il link"
+
+#: includes/options/fields/sorter/sorter.php:29
+msgid "Disabled"
+msgstr "Disabili"
+
+#: includes/widgets/widget-iconbox.php:46
+msgid "Display the customer Iconbox."
+msgstr "Display cliente Iconbox."
+
+#: includes/widgets/widget-attribute-product.php:245
+#: includes/extends/attributes-swatches/product-attribute-meta.php:216
+#: includes/extends/attributes-swatches/product-attribute-meta.php:353
+msgid "Display type"
+msgstr "Tipo di Display"
+
+#: includes/widgets/widget-attribute-product.php:134
+msgid "Display type:"
+msgstr "Tipo di Display:"
+
+#: includes/admin/dashboard/dashboard.php:306
+msgid "Documentation"
+msgstr "Documentazione"
+
+#: includes/classes/abstract-shortcode.php:821
+#: includes/classes/abstract-elementor.php:604
+msgid "Dots"
+msgstr "Punti"
+
+#: includes/options/fields/typography/typography.php:209
+#: includes/options/fields/border/border.php:58
+msgid "Dotted"
+msgstr "Punteggiato"
+
+#: includes/options/fields/typography/typography.php:208
+#: includes/options/fields/border/border.php:59
+msgid "Double"
+msgstr "Doppio"
+
+#: includes/widgets/widget-attribute-product.php:248
+#: includes/extends/product-brand/product-brand-widget.php:61
+msgid "Dropdown"
+msgstr "A discesa"
+
+#: includes/widgets/widget-attribute-product.php:141
+msgid "Dropdown Style"
+msgstr "A Discesa Stile"
+
+#: includes/extends/megamenu/templates/form-settings.php:114
+msgid "Edit"
+msgstr "Modifica"
+
+#: includes/extends/product-brand/product-brand.php:151
+msgid "Edit brand"
+msgstr "Edit marchio"
+
+#: includes/extends/footer-builder/footer-builder.php:77
+msgid "Edit Footer"
+msgstr "Modificare Il Piè Di Pagina"
+
+#: includes/options/fields/gallery/gallery.php:26
+msgid "Edit Gallery"
+msgstr "Edit Galleria"
+
+#: includes/options/fields/link/link.php:26
+msgid "Edit Link"
+msgstr ""
+
+#: includes/widgets/widget-custommenu.php:163
+msgid "Edit Menu"
+msgstr "Menu Modifica"
+
+#: includes/extends/megamenu/templates/form-settings.php:112
+msgid "Edit this selected megamenu in new window."
+msgstr "Modificare questa opzione, megamenu in una nuova finestra."
+
+#: includes/classes/abstract-shortcode.php:1066
+msgid "Eg: 100px, 20%, calc( 100% - 30px )"
+msgstr ""
+
+#: includes/admin/dashboard/settings.php:30
+msgid "Elementor Template"
+msgstr "Elementor Modello"
+
+#: includes/extends/mailchimp/mailchimp.php:39
+msgid "Email field is empty."
+msgstr "E-mail campo è vuoto."
+
+#. ID
+#: includes/extends/mailchimp/mailchimp-settings.php:122
+msgid "Email Lists"
+msgstr "Liste Di E-Mail"
+
+#: includes/admin/admin-functions.php:197
+msgid "Enable"
+msgstr "Attivare"
+
+#: includes/admin/admin-functions.php:200
+#, php-format
+msgid "Enable %s Products"
+msgstr "Attivare %s Prodotti"
+
+#: includes/extends/megamenu/templates/form-settings.php:83
+msgid "Enable Mega"
+msgstr "Attivare Mega"
+
+#: includes/classes/abstract-shortcode.php:1049
+msgid "Enable Slider"
+msgstr "Attivare Il Dispositivo Di Scorrimento"
+
+#: includes/options/fields/sorter/sorter.php:28
+msgid "Enabled"
+msgstr "Abilitato"
+
+#: includes/widgets/widget-attribute-product.php:496
+#: includes/extends/product-brand/product-brand-widget.php:264
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr "Nessuna corrispondenza trovata"
+
+#: includes/admin/class-admin-license.php:50
+msgid "Enter your item license key."
+msgstr "Inserisci il tuo elemento chiave di licenza."
+
+#: includes/extends/mailchimp/mailchimp-settings.php:201
+msgid ""
+"Enter your mail Chimp API key to enable a newsletter signup option with the "
+"registration form."
+msgstr ""
+"Inserisci la tua mail Chimp API key per attivare una newsletter signup "
+"opzione con il modulo di registrazione."
+
+#: includes/classes/abstract-elementor.php:147
+msgid "Enter your shortcode"
+msgstr "Inserisci il tuo shortcode"
+
+#: includes/admin/dashboard/dashboard.php:231
+msgid "Envato License"
+msgstr "Envato Licenza"
+
+#: includes/options/classes/options.class.php:129
+msgid "Error while saving."
+msgstr "Errore durante il salvataggio."
+
+#: includes/options/functions/validate.php:124
+msgid "Error! This field is required!"
+msgstr "Errore!!! Questo campo è obbligatorio!"
+
+#: includes/options/fields/group/group.php:41
+#: includes/options/fields/repeater/repeater.php:34
+msgid "Error: Field ID conflict."
+msgstr ""
+
+#: includes/options/functions/actions.php:153
+msgid "Error: Import data could not valid."
+msgstr "Errore: Importazione dei dati potrebbe non valido."
+
+#: includes/options/functions/actions.php:221
+msgid "Error: Missing request arguments."
+msgstr "Error: Missing richiesta di argomenti."
+
+#: includes/options/functions/actions.php:22
+#: includes/options/functions/actions.php:100
+#: includes/options/functions/actions.php:141
+#: includes/options/functions/actions.php:184
+#: includes/options/functions/actions.php:216
+msgid "Error: Nonce verification has failed. Please try again."
+msgstr "Errore: Nonce la verifica non è riuscita. Si prega di riprovare."
+
+#: includes/options/functions/actions.php:104
+#: includes/options/functions/actions.php:147
+msgid "Error: Options unique id could not valid."
+msgstr "Errore: Opzioni id univoco potrebbe non valido."
+
+#: includes/options/classes/shortcode.class.php:323
+msgid "Error: Shortcode content load failed. Please try again."
+msgstr ""
+"Errore: Shortcode contenuto di carico non riuscita. Si prega di riprovare."
+
+#: includes/admin/class-admin-license.php:59
+#, php-format
+msgid "Expires %s."
+msgstr "Scade %s."
+
+#: includes/options/fields/backup/backup.php:39
+msgid "Export and Download Backup"
+msgstr "Esportazione e Download Backup"
+
+#: includes/admin/class-admin-profile.php:39
+#: templates/share-button/share-button.php:29
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/classes/abstract-shortcode.php:1094
+#: includes/classes/abstract-elementor.php:278
+msgid "Faded In"
+msgstr "Sfumato In"
+
+#: includes/extends/mailchimp/mailchimp.php:71
+msgid "Failed"
+msgstr "Impossibile"
+
+#: includes/options/functions/validate.php:52
+msgid "Fatal Error! This field is required!"
+msgstr "Errore Fatale! Questo campo è obbligatorio!"
+
+#: includes/extends/megamenu/templates/form-settings.php:78
+msgid "Field empty value is default ( .ovic-menu-wapper )"
+msgstr "Vuoto il campo valore predefinito ( .ovic-menu-wapper )"
+
+#: includes/widgets/widget-attribute-product.php:77
+#: includes/widgets/widget-attribute-product.php:234
+msgid "Filter by"
+msgstr "Filtro"
+
+#: includes/options/fields/background/background.php:207
+msgid "Fixed"
+msgstr "Fisso"
+
+#: includes/classes/abstract-shortcode.php:1093
+#: includes/classes/abstract-elementor.php:277
+msgid "Flashlight"
+msgstr "Torcia elettrica"
+
+#: includes/options/fields/link_color/link_color.php:44
+msgid "Focus"
+msgstr "Focus"
+
+#: includes/options/fields/typography/typography.php:277
+msgid "Font Color"
+msgstr "Font Color"
+
+#: includes/options/fields/typography/typography.php:89
+msgid "Font Family"
+msgstr "La Famiglia Di Font"
+
+#: includes/options/fields/typography/typography.php:226
+msgid "Font Size"
+msgstr "Dimensione Del Carattere"
+
+#: includes/options/fields/typography/typography.php:123
+msgid "Font Style"
+msgstr "Stile Del Tipo Di Carattere"
+
+#: includes/options/fields/typography/typography.php:177
+msgid "Font Variant"
+msgstr "Font Variante"
+
+#: includes/extends/megamenu/templates/icon-fonts.php:1049
+msgid "Fonts Custom"
+msgstr ""
+
+#: includes/admin/dashboard/dashboard.php:324
+msgid "Forum"
+msgstr "Forum"
+
+#: includes/options/fields/date/date.php:34
+#: includes/options/fields/background/background.php:72
+msgid "From"
+msgstr "Da"
+
+#: includes/admin/dashboard/settings.php:31
+msgid "Get our source Elementor template."
+msgstr "Ottenere la nostra fonte Elementor modello."
+
+#: includes/admin/class-admin-profile.php:42
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: includes/options/fields/typography/typography.php:384
+msgid "Google Web Fonts"
+msgstr "Google Web Fonts"
+
+#: includes/options/fields/background/background.php:117
+msgid "Gradient Direction"
+msgstr "Direzione Del Gradiente"
+
+#: includes/options/fields/border/border.php:62
+msgid "Groove"
+msgstr "Groove"
+
+#: includes/widgets/widget-attribute-product.php:173
+#: includes/widgets/widget-attribute-product.php:270
+#: includes/classes/abstract-elementor.php:343
+msgid "Height"
+msgstr "Altezza"
+
+#: includes/options/fields/dimensions/dimensions.php:28
+msgid "height"
+msgstr "altezza"
+
+#: includes/classes/abstract-shortcode.php:550
+#: includes/classes/abstract-shortcode.php:591
+#: includes/classes/abstract-shortcode.php:632
+#: includes/classes/abstract-shortcode.php:673
+#: includes/classes/abstract-shortcode.php:714
+msgid "Hidden"
+msgstr "Nascosto"
+
+#: includes/extends/product-brand/product-brand-widget.php:83
+msgid "Hide empty brand"
+msgstr "Nascondere il vuoto di marca"
+
+#: includes/extends/megamenu/templates/form-settings.php:124
+msgid "Hide title"
+msgstr "Nascondi titolo"
+
+#: includes/classes/abstract-breadcrumb.php:287
+msgid "Home"
+msgstr ""
+
+#: includes/classes/abstract-breadcrumb.php:802
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: includes/options/fields/link_color/link_color.php:41
+msgid "Hover"
+msgstr "Hover"
+
+#. Author URI of the plugin
+msgid "https://kutethemes.com/contact-us/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://themeforest.net/user/kutethemes/portfolio"
+msgstr ""
+
+#: includes/widgets/widget-iconbox.php:32
+msgid "Icon"
+msgstr "Icona"
+
+#: includes/extends/megamenu/templates/form-settings.php:231
+msgid "Icon Settings"
+msgstr "Icona Impostazioni"
+
+#: includes/extends/megamenu/templates/form-settings.php:50
+msgid "Icons"
+msgstr "Icone"
+
+#: includes/options/classes/fields.class.php:136
+#: includes/options/classes/fields.class.php:164
+msgid "ID"
+msgstr "ID"
+
+#: includes/extends/question-answers/question-answers.php:235
+#: includes/extends/question-answers/question-answers.php:276
+msgid "ID post do not exists."
+msgstr ""
+
+#: includes/extends/product-brand/product-brand.php:378
+#: includes/extends/attributes-swatches/product-attribute-meta.php:500
+msgid "Image"
+msgstr "Immagine"
+
+#: includes/classes/abstract-elementor.php:320
+msgid "Image size"
+msgstr "Dimensione dell'immagine"
+
+#: includes/options/fields/backup/backup.php:34
+msgid "Import"
+msgstr "Importazione"
+
+#: includes/options/classes/setup.class.php:262
+msgid "Importing options."
+msgstr "Le opzioni di importazione."
+
+#: includes/classes/abstract-shortcode.php:869
+#: includes/classes/abstract-elementor.php:652
+msgid "Infinite Loop"
+msgstr "Loop Infinito"
+
+#: includes/options/fields/typography/typography.php:163
+msgid "Inherit"
+msgstr "Ereditare"
+
+#: includes/options/fields/typography/typography.php:168
+msgid "Initial"
+msgstr "Iniziale"
+
+#: includes/widgets/widget-attribute-product.php:146
+#: includes/widgets/widget-attribute-product.php:250
+msgid "Inline Style"
+msgstr "Di Stile In Linea"
+
+#: includes/options/classes/shortcode.class.php:33
+msgid "Insert Shortcode"
+msgstr "Inserire Shortcode"
+
+#: includes/options/fields/border/border.php:60
+msgid "Inset"
+msgstr "Inset"
+
+#: includes/admin/class-admin-profile.php:40
+msgid "Instagram"
+msgstr "Instagram"
+
+#: includes/classes/abstract-shortcode.php:562
+#: includes/classes/abstract-elementor.php:432
+msgid "Ipad"
+msgstr "Ipad"
+
+#: includes/admin/admin-functions.php:226
+#: includes/admin/admin-functions.php:238
+#: includes/admin/admin-functions.php:250
+#: includes/admin/admin-functions.php:262
+#: includes/admin/admin-functions.php:274
+#: includes/admin/admin-functions.php:286
+msgid "item(s)"
+msgstr "item(s)"
+
+#: includes/options/fields/typography/typography.php:167
+msgid "Justify"
+msgstr "Giustificare"
+
+#: includes/classes/abstract-shortcode.php:1154
+msgid "Kutethemes"
+msgstr "Kutethemes"
+
+#: includes/admin/dashboard/dashboard.php:50
+msgid "KuteThemes Feature Products"
+msgstr "KuteThemes Prodotti"
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:221
+#: includes/extends/attributes-swatches/product-attribute-meta.php:366
+msgid "Label"
+msgstr "Etichetta"
+
+#: includes/extends/megamenu/templates/form-settings.php:325
+msgid "Label Settings"
+msgstr "Impostazioni Dell'Etichetta"
+
+#: includes/classes/abstract-shortcode.php:603
+#: includes/classes/abstract-elementor.php:450
+msgid "landscape Tablet"
+msgstr "paesaggio Tablet"
+
+#: includes/classes/abstract-shortcode.php:521
+#: includes/classes/abstract-elementor.php:414
+msgid "Laptop"
+msgstr "Computer portatile"
+
+#: includes/admin/dashboard/settings.php:159
+#: includes/admin/dashboard/settings.php:178
+msgid "Last"
+msgstr "Ultimo"
+
+#: includes/admin/dashboard/envato.php:121
+msgid "Last update:"
+msgstr "Ultimo aggiornamento:"
+
+#: includes/options/fields/map/map.php:28
+msgid "Latitude"
+msgstr "Latitudine"
+
+#: includes/classes/abstract-shortcode.php:896
+#: includes/classes/abstract-elementor.php:679
+#: includes/extends/megamenu/templates/form-settings.php:209
+#: includes/options/fields/typography/typography.php:164
+msgid "Left"
+msgstr "A sinistra"
+
+#: includes/options/fields/spacing/spacing.php:33
+#: includes/options/fields/border/border.php:33
+msgid "left"
+msgstr "a sinistra"
+
+#: includes/options/fields/background/background.php:167
+msgid "Left Bottom"
+msgstr "In Basso A Sinistra"
+
+#: includes/options/fields/background/background.php:166
+msgid "Left Center"
+msgstr "A Sinistra Al Centro"
+
+#: includes/options/fields/background/background.php:165
+msgid "Left Top"
+msgstr "A Sinistra In Alto"
+
+#: includes/options/fields/typography/typography.php:250
+msgid "Letter Spacing"
+msgstr "Spaziatura Tra Le Lettere"
+
+#: includes/admin/class-admin-license.php:52
+msgid "License Action"
+msgstr "Licenza D'Azione"
+
+#: includes/admin/class-admin-license.php:64
+msgid "License is inactive."
+msgstr "La licenza è inattivo."
+
+#: includes/admin/class-admin-license.php:51
+msgid "License Key"
+msgstr "Chiave Di Licenza"
+
+#: includes/admin/class-admin-license.php:61
+#, php-format
+msgid "License key expired %s."
+msgstr "Chiave di licenza è scaduta %s."
+
+#: includes/admin/class-admin-license.php:62
+msgid "License key has expired."
+msgstr "Chiave di licenza è scaduta."
+
+#: includes/admin/class-admin-license.php:58
+msgid "License key is active."
+msgstr "Chiave di licenza è attiva."
+
+#: includes/admin/class-admin-license.php:65
+msgid "License key is disabled."
+msgstr "Chiave di licenza è disattivato."
+
+#: includes/admin/class-admin-license.php:63
+msgid "License keys do not match."
+msgstr "Le chiavi di licenza non corrispondono."
+
+#: includes/admin/class-admin-license.php:55
+#: includes/admin/class-admin-license.php:67
+msgid "License status is unknown."
+msgstr "Stato di licenza è sconosciuto."
+
+#: includes/options/fields/background/background.php:277
+msgid "Lighten"
+msgstr "Alleggerire"
+
+#: includes/extends/post-like/post-like.php:216
+msgid "Like"
+msgstr "Come"
+
+#: includes/options/fields/typography/typography.php:238
+msgid "Line Height"
+msgstr "Altezza Della Linea Di"
+
+#: includes/options/fields/typography/typography.php:213
+msgid "Line-through"
+msgstr "Line-through"
+
+#: includes/admin/class-admin-profile.php:43
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: includes/widgets/widget-attribute-product.php:247
+#: includes/extends/product-brand/product-brand-widget.php:60
+msgid "List"
+msgstr "Elenco"
+
+#: includes/widgets/widget-attribute-product.php:139
+msgid "List Style"
+msgstr "Elenco Di Stile"
+
+#: includes/extends/megamenu/templates/form-settings.php:20
+msgid "LOAD EDITOR"
+msgstr "CARICO EDITOR"
+
+#: includes/options/fields/typography/typography.php:137
+#: includes/options/fields/typography/typography.php:138
+msgid "Load Extra Styles"
+msgstr "Caricare Gli Stili Aggiuntivi"
+
+#: includes/classes/ovic-template-functions.php:150
+#, fuzzy
+#| msgid "LOAD MORE"
+msgid "Load more"
+msgstr "CARICARE DI PIÙ"
+
+#: includes/classes/ovic-template-functions.php:151
+#, fuzzy
+#| msgid "LOADING"
+msgid "Loading"
+msgstr "Il CARICAMENTO"
+
+#: includes/admin/dashboard/envato.php:164
+#: includes/admin/dashboard/settings.php:352
+msgid "Loading..."
+msgstr "Il caricamento..."
+
+#: includes/extends/product-brand/product-brand.php:377
+#: includes/extends/product-brand/product-brand.php:519
+#: includes/extends/product-brand/product-brand-widget.php:62
+msgid "Logo"
+msgstr "Logo"
+
+#: includes/options/fields/map/map.php:29
+msgid "Longitude"
+msgstr "Longitudine"
+
+#: includes/options/fields/typography/typography.php:195
+msgid "Lowercase"
+msgstr "Minuscolo"
+
+#: includes/options/fields/background/background.php:281
+msgid "Luminosity"
+msgstr "Luminosità"
+
+#. ID
+#: includes/extends/mailchimp/mailchimp-settings.php:115
+msgid "Mail Chimp API Key"
+msgstr "Posta Chimp Chiave API"
+
+#: includes/extends/mailchimp/mailchimp-settings.php:173
+msgid "Mail List"
+msgstr "Mail Elenco"
+
+#: includes/extends/mailchimp/mailchimp-settings.php:29
+#: includes/extends/mailchimp/mailchimp-settings.php:30
+#: includes/extends/mailchimp/mailchimp-settings.php:44
+msgid "MailChimp Settings"
+msgstr "MailChimp Impostazioni"
+
+#: includes/extends/megamenu/includes/megamenu-settings.php:308
+#: includes/extends/megamenu/includes/megamenu-settings.php:381
+msgid "Main Menu"
+msgstr "Menu Principale"
+
+#. %s: taxonomy term name
+#: includes/extends/product-brand/product-brand.php:402
+#, php-format
+msgid "Make &#8220;%s&#8221; the default brand"
+msgstr "Fare “%s” il marchio di default"
+
+#: includes/extends/product-brand/product-brand.php:404
+msgid "Make default"
+msgstr "Marca predefinita"
+
+#: includes/classes/abstract-shortcode.php:792
+#: includes/classes/abstract-shortcode.php:954
+#: includes/classes/abstract-elementor.php:575
+#: includes/classes/abstract-elementor.php:737
+msgid "Margin"
+msgstr "Margine"
+
+#: includes/extends/product-brand/product-brand-widget.php:88
+msgid "Maximum depth"
+msgstr "Profondità massima"
+
+#: includes/extends/megamenu/templates/form-settings.php:175
+msgid "Menu Background"
+msgstr "Sfondo Del Menu"
+
+#: includes/extends/megamenu/includes/megamenu-settings.php:813
+#: includes/extends/megamenu/includes/megamenu-settings.php:869
+msgid "Menu item not exists."
+msgstr "Voce di Menu non esiste."
+
+#: includes/admin/dashboard/settings.php:177
+msgid "Menu load when click open menu."
+msgstr "Menu di carico quando si fare clic su apri dal menu."
+
+#: includes/admin/dashboard/settings.php:179
+msgid "Menu load when content load complete."
+msgstr "Menu di carico quando il contenuto di carico completo."
+
+#: includes/extends/megamenu/includes/megamenu-settings.php:444
+msgid "Menu Mobile"
+msgstr "Menu Mobile"
+
+#: includes/extends/megamenu/templates/form-settings.php:32
+msgid "Menu: "
+msgstr "Menu: "
+
+#. Minute archive title. %s is the minute time format.
+#: includes/classes/abstract-breadcrumb.php:297
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: includes/classes/abstract-breadcrumb.php:764
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: includes/classes/abstract-breadcrumb.php:783
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: includes/extends/mailchimp/mailchimp-settings.php:165
+msgid "Missing Settings Mailchimp!"
+msgstr "Impostazioni Mancanti Mailchimp!"
+
+#: includes/classes/abstract-shortcode.php:685
+#: includes/classes/abstract-elementor.php:486
+#: includes/admin/dashboard/settings.php:146
+msgid "Mobile"
+msgstr "Mobile"
+
+#: includes/extends/megamenu/includes/megamenu-settings.php:58
+msgid "Mobile Menu"
+msgstr "Mobile Menu"
+
+#: includes/classes/abstract-breadcrumb.php:820
+#: includes/classes/abstract-breadcrumb.php:881
+#: includes/classes/abstract-breadcrumb.php:1276
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: includes/admin/dashboard/dashboard.php:233
+msgid "More Theme"
+msgstr "Più A Tema"
+
+#: includes/options/fields/background/background.php:273
+msgid "Multiply"
+msgstr "Moltiplicare"
+
+#: includes/extends/product-brand/product-brand-widget.php:52
+msgid "Name"
+msgstr "Nome"
+
+#: includes/classes/abstract-shortcode.php:815
+#: includes/classes/abstract-elementor.php:598
+msgid "Navigation"
+msgstr "Navigazione"
+
+#: includes/extends/product-brand/product-brand.php:154
+msgid "New brand name"
+msgstr "Nuovo di marca"
+
+#: includes/classes/abstract-shortcode.php:834
+#: includes/classes/abstract-shortcode.php:848
+#: includes/classes/abstract-shortcode.php:874
+#: includes/classes/abstract-shortcode.php:969
+#: includes/classes/abstract-elementor.php:617
+#: includes/classes/abstract-elementor.php:631
+#: includes/classes/abstract-elementor.php:657
+#: includes/classes/abstract-elementor.php:752
+msgid "No"
+msgstr "No"
+
+#: includes/options/fields/background/background.php:40
+msgid "No background selected"
+msgstr "In background non selezionato"
+
+#: includes/extends/product-brand/product-brand.php:155
+msgid "No brands found"
+msgstr "No marchi trovato"
+
+#: includes/options/fields/checkbox/checkbox.php:80
+#: includes/options/fields/radio/radio.php:78
+#: includes/options/fields/select/select.php:118
+msgid "No data available."
+msgstr ""
+
+#: includes/options/functions/actions.php:69
+msgid "No data provided by developer"
+msgstr "Nessun dato fornito dallo sviluppatore"
+
+#: includes/options/fields/button_set/button_set.php:61
+msgid "No data provided for this option type."
+msgstr "No i dati forniti per questo tipo di opzione."
+
+#: includes/options/fields/media/media.php:62
+msgid "No media selected"
+msgstr "Nessun prodotto selezionato"
+
+#: includes/options/classes/options.class.php:549
+msgid "No option provided by developer."
+msgstr "Nessuna opzione prevista dallo sviluppatore."
+
+#: includes/extends/product-brand/product-brand-widget.php:283
+msgid "No product brand exist."
+msgstr "Nessun prodotto marca esiste."
+
+#: includes/admin/admin-functions.php:155
+msgid "No Product Found"
+msgstr "Nessun Prodotto Trovato"
+
+#: includes/options/fields/background/background.php:189
+msgid "No Repeat"
+msgstr "Non Ripetere"
+
+#: includes/options/classes/setup.class.php:267
+msgid "No results match"
+msgstr "Nessun risultato corrisponde"
+
+#: includes/admin/admin-functions.php:179
+msgid "No sliders found"
+msgstr "Non cursori trovato"
+
+#: includes/classes/abstract-shortcode.php:822
+#: includes/classes/abstract-shortcode.php:1078
+#: includes/classes/abstract-elementor.php:245
+#: includes/classes/abstract-elementor.php:262
+#: includes/classes/abstract-elementor.php:605
+#: includes/extends/attributes-swatches/product-attribute-meta.php:218
+#: includes/extends/attributes-swatches/product-attribute-meta.php:357
+#: includes/admin/dashboard/settings.php:145
+#: includes/options/fields/typography/typography.php:192
+#: includes/options/fields/typography/typography.php:206
+#: includes/options/fields/border/border.php:64
+msgid "None"
+msgstr "Nessuno"
+
+#: includes/options/fields/typography/typography.php:179
+#: includes/options/fields/background/background.php:272
+msgid "Normal"
+msgstr "Normale"
+
+#: includes/classes/abstract-shortcode.php:1079
+#: includes/classes/abstract-elementor.php:263
+msgid "Normal Effect"
+msgstr "Effetto Normale"
+
+#: includes/classes/abstract-shortcode.php:1080
+#: includes/classes/abstract-elementor.php:264
+msgid "Normal Effect Dark"
+msgstr "Normale Effetto Scuro"
+
+#: includes/admin/dashboard/envato.php:100
+msgid "Not activated"
+msgstr "Non attivato"
+
+#: includes/extends/mailchimp/mailchimp-settings.php:228
+msgid "Not found email list"
+msgstr "Non trovare lista e-mail"
+
+#: includes/extends/post-like/post-like.php:51
+msgid "Not permitted"
+msgstr "Non è consentito"
+
+#: includes/extends/product-brand/product-brand.php:449
+msgid "Note:"
+msgstr "Nota:"
+
+#: includes/classes/class-frontend-scripts.php:347
+msgid "Notice!"
+msgstr "Avviso!"
+
+#: includes/admin/admin-functions.php:300
+#, php-format
+msgid "Number %s products to show"
+msgstr "Numero di %s prodotti per mostrare"
+
+#: includes/options/fields/switcher/switcher.php:24
+msgid "Off"
+msgstr "Off"
+
+#: includes/options/fields/switcher/switcher.php:23
+msgid "On"
+msgstr "Su"
+
+#: includes/classes/class-core.php:155
+msgid "Once Monthly"
+msgstr ""
+
+#: includes/classes/class-core.php:159
+msgid "Once Yearly"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand-widget.php:78
+msgid "Only show children of the current category"
+msgstr "Solo spettacolo per bambini della categoria corrente"
+
+#: includes/options/classes/setup.class.php:337
+#, php-format
+msgid "Ooops! This field type (%s) can not be used here, yet."
+msgstr ""
+"Ooops! Questo tipo di campo (%s) non può essere utilizzato qui, ancora."
+
+#: includes/widgets/widget-attribute-product.php:160
+#: includes/widgets/widget-attribute-product.php:259
+msgid "OR"
+msgstr "O"
+
+#: includes/classes/abstract-shortcode.php:1106
+msgid "Order"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand-widget.php:49
+msgid "Order by"
+msgstr "Ordine"
+
+#: includes/options/fields/border/border.php:61
+msgid "Outset"
+msgstr "Inizio"
+
+#: includes/classes/abstract-shortcode.php:1119
+msgid "Overflow"
+msgstr "Overflow"
+
+#: includes/options/fields/background/background.php:275
+msgid "Overlay"
+msgstr "Sovrapposizione"
+
+#: includes/classes/abstract-shortcode.php:1090
+#: includes/classes/abstract-elementor.php:274
+msgid "Overlay Cross"
+msgstr "Sovrapposizione Croce"
+
+#: includes/classes/abstract-shortcode.php:1091
+#: includes/classes/abstract-elementor.php:275
+msgid "Overlay Horizontal"
+msgstr "Sovrapposizione Orizzontale"
+
+#: includes/classes/abstract-shortcode.php:1089
+#: includes/classes/abstract-elementor.php:273
+msgid "Overlay Plus"
+msgstr "Overlay Plus"
+
+#: includes/classes/abstract-shortcode.php:1092
+#: includes/classes/abstract-elementor.php:276
+msgid "Overlay Vertical"
+msgstr "Sovrapposizione Verticale"
+
+#: includes/options/fields/typography/typography.php:212
+msgid "Overline"
+msgstr "Overline"
+
+#. Name of the plugin
+msgid "Ovic Addon Toolkit"
+msgstr "Ovic Addon Toolkit"
+
+#: includes/options/classes/shortcode.class.php:29
+msgid "Ovic Shortcode"
+msgstr "Ovic Shortcode"
+
+#. Author of the plugin
+msgid "Ovic Team"
+msgstr "Ovic Team"
+
+#: includes/widgets/widget-attribute-product.php:45
+msgid "Ovic: Attribute Product"
+msgstr "Ovic: Attributo Del Prodotto"
+
+#: includes/widgets/widget-iconbox.php:48
+msgid "Ovic: Iconbox"
+msgstr "Ovic: Iconbox"
+
+#: includes/extends/product-brand/product-brand-widget.php:39
+msgid "Ovic: Product Brand"
+msgstr "Ovic: Marca Prodotto"
+
+#: includes/options/fields/background/background.php:238
+#: includes/options/fields/background/background.php:256
+msgid "Padding Box"
+msgstr "Imbottitura Box"
+
+#. %s is the page number.
+#: includes/classes/abstract-breadcrumb.php:293
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand.php:149
+msgid "Parent brand"
+msgstr "Parent brand"
+
+#: includes/extends/product-brand/product-brand.php:150
+msgid "Parent brand:"
+msgstr "Padre marca:"
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:220
+#: includes/extends/attributes-swatches/product-attribute-meta.php:363
+msgid "Photo"
+msgstr "Foto"
+
+#: includes/admin/class-admin-profile.php:44
+#: templates/share-button/share-button.php:41
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: includes/admin/dashboard/envato.php:188
+msgid ""
+"Please activate this theme, the functionality will stop working if the theme "
+"is not activated."
+msgstr ""
+"Si prega di attivare questo tema, la funzionalità smetterà di funzionare se "
+"il tema non è attivato."
+
+#: includes/options/fields/backup/backup.php:43
+msgid "Please be sure for reset all of options."
+msgstr "Si prega di essere sicuri per reimpostare tutte le opzioni."
+
+#: includes/options/classes/setup.class.php:265
+#, php-format
+msgid "Please enter %s or more characters"
+msgstr "Si prega di inserire %s o più caratteri"
+
+#: includes/options/functions/validate.php:34
+#: includes/options/functions/validate.php:106
+msgid "Please write a numeric data!"
+msgstr "Si prega di scrivere in dati numerici!"
+
+#: includes/options/functions/validate.php:16
+#: includes/options/functions/validate.php:88
+msgid "Please write a valid email address!"
+msgstr "Si prega di scrivere un indirizzo email valido!"
+
+#: includes/options/functions/validate.php:70
+#: includes/options/functions/validate.php:142
+msgid "Please write a valid url!"
+msgstr "Si prega di scrivere un url valido!"
+
+#: includes/classes/abstract-shortcode.php:1085
+#: includes/classes/abstract-elementor.php:269
+msgid "Plus Zoom"
+msgstr "Plus Zoom"
+
+#: includes/classes/abstract-shortcode.php:644
+#: includes/classes/abstract-elementor.php:468
+msgid "Portrait Tablet"
+msgstr "Ritratto Tablet"
+
+#: includes/classes/abstract-shortcode.php:1129
+msgid "Position size"
+msgstr "Dimensione della posizione"
+
+#: includes/admin/admin-functions.php:214
+#, php-format
+msgid "Product %s Layout"
+msgstr "Prodotto %s Layout"
+
+#: includes/widgets/widget-attribute-product.php:121
+msgid "Product attribute:"
+msgstr "Prodotto attributo:"
+
+#: includes/extends/product-brand/product-brand-widget.php:43
+msgid "Product brand"
+msgstr "Prodotto di marca"
+
+#: includes/admin/class-admin-permalink.php:46
+msgid "Product brand base"
+msgstr "Marca del prodotto di base"
+
+#: includes/extends/product-brand/product-brand.php:144
+msgid "Product brands"
+msgstr "Marchi di prodotto"
+
+#: includes/extends/product-brand/product-brand.php:431
+msgid ""
+"Product brands for your store can be managed here. To change the order of "
+"brands on the front-end you can drag and drop to sort them. To see more "
+"brands listed click the \"screen options\" link at the top-right of this "
+"page."
+msgstr ""
+"Marchi di prodotti per il tuo negozio può essere gestito qui. Per modificare "
+"l'ordine delle marche sul front-end, è possibile trascinare e rilasciare per "
+"ordinare loro. Per vedere di più marchi elencati, fare clic su \"opzioni "
+"della schermata\" link in alto a destra della pagina."
+
+#: includes/classes/class-frontend-scripts.php:342
+msgid "Product has been added to cart!"
+msgstr "Il prodotto è stato aggiunto al carrello!!!"
+
+#: includes/classes/class-frontend-scripts.php:343
+msgid "Product has been added to wishlist!"
+msgstr "Il prodotto è stato aggiunto alla wishlist!"
+
+#: includes/classes/class-frontend-scripts.php:344
+msgid "Product has been removed from wishlist!"
+msgstr "Prodotto è stato rimosso dalla wishlist!"
+
+#: includes/classes/class-frontend-scripts.php:348
+msgid "Product Removed"
+msgstr "Prodotto Rimosso"
+
+#: includes/admin/dashboard/envato.php:125
+msgid "Product:"
+msgstr "Prodotto:"
+
+#: includes/admin/dashboard/envato.php:60
+msgid "Purchased code"
+msgstr "Acquistato il codice"
+
+#: includes/admin/dashboard/envato.php:61
+msgid "Purchased code license item."
+msgstr "Acquistato il codice di licenza voce."
+
+#: includes/widgets/widget-attribute-product.php:151
+#: includes/widgets/widget-attribute-product.php:256
+msgid "Query type"
+msgstr "Tipo di Query"
+
+#: includes/extends/question-answers/question-answers.php:185
+msgid "Question"
+msgstr ""
+
+#: includes/extends/question-answers/question-answers.php:56
+msgid "Question & Answers"
+msgstr ""
+
+#: includes/extends/question-answers/question-answers.php:187
+#: includes/extends/question-answers/question-answers.php:311
+msgid "Question from"
+msgstr ""
+
+#: includes/extends/question-answers/question-answers.php:295
+msgid "Question has been sent successfully."
+msgstr ""
+
+#: includes/extends/question-answers/question-answers.php:271
+msgid "Question is empty."
+msgstr ""
+
+#: includes/extends/question-answers/question-answers.php:55
+msgid "Questions and answers of the customers"
+msgstr ""
+
+#: templates/single-product/review-average.php:21
+msgid "Rating"
+msgstr "Valutazione"
+
+#: includes/admin/dashboard/dashboard.php:310
+msgid "Read Document"
+msgstr "Leggi Il Documento"
+
+#: includes/extends/mailchimp/MCAPI.class.php:79
+msgid "Read more about common connectivity issues."
+msgstr "Leggi di più sulle più comuni problemi di connettività."
+
+#: includes/classes/class-remote-source.php:81
+msgid "Remote"
+msgstr "Remoto"
+
+#: includes/options/fields/upload/upload.php:27
+#: includes/options/fields/media/media.php:29
+msgid "Remove"
+msgstr "Rimuovere"
+
+#: includes/options/fields/icon/icon.php:26
+msgid "Remove Icon"
+msgstr "Rimuovere L'Icona"
+
+#: includes/admin/class-admin-profile.php:137
+#: includes/extends/product-cat/product-cat.php:38
+#: includes/extends/product-cat/product-cat.php:158
+#: includes/extends/product-brand/product-brand.php:262
+#: includes/extends/product-brand/product-brand.php:280
+#: includes/extends/product-brand/product-brand.php:335
+#: includes/extends/attributes-swatches/product-attribute-meta.php:263
+#: includes/extends/attributes-swatches/product-attribute-meta.php:416
+#: includes/extends/megamenu/templates/form-settings.php:190
+#: includes/extends/megamenu/templates/form-settings.php:320
+#: includes/extends/megamenu/templates/form-settings.php:338
+msgid "Remove image"
+msgstr "Rimuovi immagine"
+
+#: includes/options/fields/link/link.php:27
+msgid "Remove Link"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand.php:315
+msgid "Remove logo"
+msgstr "Rimuovere il logo"
+
+#: includes/admin/class-admin-license.php:56
+msgid "Renew?"
+msgstr "Rinnovare?"
+
+#: includes/options/fields/background/background.php:188
+msgid "Repeat"
+msgstr "Ripetere"
+
+#: includes/options/fields/background/background.php:190
+msgid "Repeat Horizontally"
+msgstr "Ripetere Orizzontalmente"
+
+#: includes/options/fields/background/background.php:191
+msgid "Repeat Vertically"
+msgstr "Ripetere Verticalmente"
+
+#: includes/admin/dashboard/dashboard.php:328
+msgid "Request Support"
+msgstr "Richiesta Di Supporto"
+
+#: includes/options/classes/options.class.php:467
+#: includes/options/classes/options.class.php:574
+#: includes/options/fields/backup/backup.php:42
+msgid "Reset All"
+msgstr "Il Reset Di Tutti"
+
+#: includes/options/classes/options.class.php:466
+#: includes/options/classes/options.class.php:573
+msgid "Reset Section"
+msgstr "Reset Sezione"
+
+#: includes/classes/abstract-shortcode.php:907
+#: includes/classes/abstract-elementor.php:690
+msgid "Responsive"
+msgstr "Reattivo"
+
+#: includes/options/classes/metabox.class.php:213
+#: includes/options/classes/comment.class.php:173
+msgid "Restore"
+msgstr "Ripristino"
+
+#: includes/options/classes/setup.class.php:261
+msgid "Restoring options."
+msgstr "Il ripristino di opzioni."
+
+#: includes/options/fields/border/border.php:63
+msgid "ridge"
+msgstr "ridge"
+
+#: includes/classes/abstract-shortcode.php:897
+#: includes/classes/abstract-elementor.php:680
+#: includes/extends/megamenu/templates/form-settings.php:213
+#: includes/options/fields/typography/typography.php:166
+msgid "Right"
+msgstr "A destra"
+
+#: includes/options/fields/spacing/spacing.php:31
+#: includes/options/fields/border/border.php:31
+msgid "right"
+msgstr "a destra"
+
+#: includes/options/fields/background/background.php:173
+msgid "Right Bottom"
+msgstr "A Destra In Basso"
+
+#: includes/options/fields/background/background.php:172
+msgid "Right Center"
+msgstr "A Destra Al Centro"
+
+#: includes/options/fields/background/background.php:171
+msgid "Right Top"
+msgstr "In Alto A Destra"
+
+#: includes/classes/abstract-shortcode.php:1083
+#: includes/classes/abstract-elementor.php:267
+msgid "Rotate Left In"
+msgstr "Ruota A Sinistra In"
+
+#: includes/classes/abstract-shortcode.php:1084
+#: includes/classes/abstract-elementor.php:268
+msgid "Rotate Right In"
+msgstr "Ruota A Destra In"
+
+#: includes/classes/abstract-shortcode.php:775
+#: includes/classes/abstract-shortcode.php:937
+#: includes/classes/abstract-elementor.php:558
+#: includes/classes/abstract-elementor.php:720
+msgid "Rows"
+msgstr "Righe"
+
+#: includes/classes/abstract-shortcode.php:752
+#: includes/classes/abstract-elementor.php:372
+#: includes/classes/abstract-elementor.php:535
+msgid "Rows space"
+msgstr "Righe di spazio"
+
+#: includes/options/fields/typography/typography.php:363
+msgid "Safe Web Fonts"
+msgstr "Cassetta Di Sicurezza Web Fonts"
+
+#: includes/admin/dashboard/dashboard.php:456
+msgid "Sales"
+msgstr "Vendita"
+
+#: includes/options/fields/background/background.php:279
+msgid "Saturation"
+msgstr "Saturazione"
+
+#: includes/options/classes/options.class.php:465
+#: includes/options/classes/options.class.php:572
+msgid "Save"
+msgstr "Salva"
+
+#: includes/extends/megamenu/templates/form-settings.php:35
+msgid "Save All"
+msgstr "Salvare Tutti"
+
+#: includes/options/classes/options.class.php:465
+#: includes/options/classes/options.class.php:572
+msgid "Saving..."
+msgstr "Il risparmio..."
+
+#: includes/classes/abstract-shortcode.php:916
+#: includes/classes/abstract-elementor.php:699
+#: includes/options/fields/background/background.php:274
+msgid "Screen"
+msgstr "Schermo"
+
+#: includes/classes/abstract-shortcode.php:592
+msgid "screen resolution < 1200px"
+msgstr ""
+
+#: includes/classes/abstract-shortcode.php:551
+msgid "screen resolution < 1500px"
+msgstr ""
+
+#: includes/classes/abstract-shortcode.php:715
+#: includes/classes/abstract-elementor.php:487
+msgid "screen resolution < 480px"
+msgstr ""
+
+#: includes/classes/abstract-shortcode.php:674
+msgid "screen resolution < 768px"
+msgstr ""
+
+#: includes/classes/abstract-shortcode.php:633
+msgid "screen resolution < 992px"
+msgstr ""
+
+#: includes/classes/abstract-elementor.php:415
+msgid "screen resolution >= 1200px and < 1500px"
+msgstr ""
+
+#: includes/classes/abstract-elementor.php:397
+msgid "screen resolution >= 1500px"
+msgstr ""
+
+#: includes/classes/abstract-elementor.php:469
+msgid "screen resolution >= 480px  add < 768px"
+msgstr ""
+
+#: includes/classes/abstract-elementor.php:451
+msgid "screen resolution >= 768px and < 992px"
+msgstr ""
+
+#: includes/classes/abstract-elementor.php:433
+msgid "screen resolution >= 992px and < 1200px"
+msgstr ""
+
+#: includes/classes/abstract-shortcode.php:511
+msgid "Screen Responsive"
+msgstr "Schermo Reattivo"
+
+#: includes/classes/abstract-shortcode.php:980
+#: includes/classes/abstract-elementor.php:763
+msgid "Screen: "
+msgstr "Schermo: "
+
+#: includes/options/fields/background/background.php:206
+msgid "Scroll"
+msgstr "Scorrere"
+
+#: includes/options/functions/actions.php:268
+msgid "Search a Icon..."
+msgstr "Ricerca un Icona..."
+
+#: includes/extends/product-brand/product-brand.php:147
+msgid "Search brands"
+msgstr "Cerca marche"
+
+#: includes/extends/megamenu/templates/form-settings.php:277
+msgid "Search Icon"
+msgstr "Icona Di Ricerca"
+
+#: includes/options/classes/options.class.php:462
+msgid "Search option(s)"
+msgstr "Opzione di ricerca(s)"
+
+#. %s is the search query.
+#: includes/classes/abstract-breadcrumb.php:291
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: includes/options/fields/map/map.php:27
+msgid "Search your address..."
+msgstr "Ricerca il tuo indirizzo..."
+
+#: includes/options/classes/setup.class.php:266
+msgid "Searching..."
+msgstr "La ricerca..."
+
+#: includes/admin/dashboard/dashboard.php:319
+msgid "See Video"
+msgstr "Vedere Video"
+
+#: includes/extends/product-brand/product-brand-widget.php:258
+msgid "Select a category"
+msgstr "Selezionare una categoria"
+
+#: includes/options/fields/typography/typography.php:90
+msgid "Select a font"
+msgstr "Selezionare un tipo di carattere"
+
+#: includes/options/classes/shortcode.class.php:32
+msgid "Select a shortcode"
+msgstr "Selezionare un shortcode"
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:163
+#: includes/extends/attributes-swatches/product-attribute-meta.php:201
+msgid "Select all"
+msgstr "Seleziona tutto"
+
+#: includes/widgets/widget-custommenu.php:147
+msgid "Select Menu:"
+msgstr "Selezionare Il Menu:"
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:164
+#: includes/extends/attributes-swatches/product-attribute-meta.php:202
+msgid "Select none"
+msgstr "Selezionare nessuno"
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:147
+#: includes/extends/attributes-swatches/product-attribute-meta.php:189
+msgid "Select terms"
+msgstr "Selezionare termini"
+
+#. ID
+#: includes/admin/class-admin.php:112
+#: includes/classes/abstract-shortcode.php:742
+#: includes/classes/abstract-elementor.php:528
+#: includes/extends/mailchimp/mailchimp-settings.php:109
+#: includes/admin/dashboard/dashboard.php:235
+#: includes/extends/megamenu/templates/form-settings.php:44
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: includes/options/classes/options.class.php:458
+msgid "Settings have changed, you should save them!"
+msgstr "Sono state modificate le impostazioni, è necessario salvare!"
+
+#: includes/options/classes/options.class.php:290
+msgid "Settings saved."
+msgstr "Salvate le impostazioni."
+
+#: includes/classes/abstract-elementor.php:45
+#: includes/classes/abstract-elementor.php:140
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/options/classes/shortcode.class.php:31
+msgid "shortcode"
+msgstr ""
+
+#: includes/options/classes/options.class.php:460
+msgid "show all options"
+msgstr "mostra tutte le opzioni"
+
+#: includes/extends/product-brand/product-brand-widget.php:58
+msgid "Show as"
+msgstr "Vedi come"
+
+#: includes/extends/product-brand/product-brand-widget.php:73
+msgid "Show hierarchy"
+msgstr "Mostra gerarchia"
+
+#: includes/extends/product-brand/product-brand-widget.php:68
+msgid "Show product counts"
+msgstr "Vedi prodotto conta"
+
+#: includes/widgets/widget-attribute-product.php:43
+msgid "Shows a custom attribute in a widget."
+msgstr "Mostra un attributo personalizzato in un widget."
+
+#: includes/admin/class-admin-license.php:66
+msgid "Site is inactive."
+msgstr "Il sito è inattivo."
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:78
+#: includes/extends/attributes-swatches/product-attribute-meta.php:112
+msgid "Size Box"
+msgstr "Dimensione Della Casella"
+
+#: includes/classes/abstract-shortcode.php:803
+#: includes/classes/abstract-shortcode.php:925
+#: includes/classes/abstract-elementor.php:586
+#: includes/classes/abstract-elementor.php:708
+msgid "Slides to Show"
+msgstr "Diapositive per Mostrare"
+
+#: includes/admin/class-admin-permalink.php:64
+#: includes/classes/ovic-core-functions.php:81
+msgctxt "slug"
+msgid "product-brand"
+msgstr "prodotto di marca"
+
+#: includes/options/fields/typography/typography.php:180
+msgid "Small Caps"
+msgstr "Small Caps"
+
+#: includes/options/fields/typography/typography.php:207
+#: includes/options/fields/border/border.php:56
+msgid "Solid"
+msgstr "Solido"
+
+#: includes/admin/dashboard/envato.php:113
+msgid "Status:"
+msgstr "Stato:"
+
+#: includes/extends/megamenu/templates/form-settings.php:159
+msgid "Sub Menu Item Settings"
+msgstr "Sub Voce Di Menu Impostazioni"
+
+#: includes/extends/megamenu/templates/form-settings.php:164
+msgid "Sub menu item width (px only)"
+msgstr "Sub voce di menu larghezza (px solo)"
+
+#: includes/options/fields/typography/typography.php:151
+msgid "Subset"
+msgstr "Sottoinsieme"
+
+#: includes/extends/mailchimp/mailchimp-settings.php:170
+msgid "Success Message"
+msgstr "Il Messaggio Di Successo"
+
+#. ID
+#: includes/extends/mailchimp/mailchimp-settings.php:129
+msgid "Success message"
+msgstr "Il messaggio di successo"
+
+#: includes/options/classes/options.class.php:191
+msgid "Success. Imported backup options."
+msgstr "Successo. Importati opzioni di backup."
+
+#: includes/admin/dashboard/envato.php:117
+msgid "Support until:"
+msgstr "Supporto fino a:"
+
+#: includes/admin/dashboard/settings.php:147
+msgid "Tablet"
+msgstr "Tablet"
+
+#: includes/options/fields/typography/typography.php:161
+msgid "Text Align"
+msgstr "Allineare Il Testo A"
+
+#: includes/options/fields/typography/typography.php:204
+msgid "Text Decoration"
+msgstr "Decorazione Del Testo"
+
+#: includes/options/fields/typography/typography.php:190
+msgid "Text Transform"
+msgstr "Testo Di Trasformazione"
+
+#: includes/admin/dashboard/envato.php:305
+#, php-format
+msgid "Thanks for installing %s !"
+msgstr "Grazie per l'installazione di %s !"
+
+#: includes/extends/mailchimp/mailchimp-settings.php:235
+msgid "Thanks for Subscribe !"
+msgstr "Grazie per Iscriversi !"
+
+#. Description of the plugin
+#, fuzzy
+#| msgid "The Ovic Addon Toolkit For WordPress Theme Kuteshop."
+msgid "The Ovic Addon Toolkit For WordPress Theme Kutethemes."
+msgstr "Il Ovic Addon Toolkit Per Tema WordPress Kuteshop."
+
+#: includes/admin/dashboard/settings.php:24
+msgid "The sample theme options for developer."
+msgstr "Il campione opzioni del tema per lo sviluppatore."
+
+#: includes/admin/class-admin-license.php:49
+#: includes/admin/dashboard/dashboard.php:228
+msgid "Theme License"
+msgstr "Tema Di Licenza"
+
+#: includes/extends/question-answers/question-answers.php:200
+msgid "There are no answers for this question yet."
+msgstr ""
+
+#: includes/options/classes/setup.class.php:400
+msgid "This field class is not available!"
+msgstr "In questo campo la classe non è disponibile!"
+
+#: includes/extends/product-brand/product-brand.php:490
+#: includes/extends/product-brand/product-brand.php:508
+msgid ""
+"This is the default brand and it cannot be deleted. It will be automatically "
+"assigned to products with no brand."
+msgstr ""
+"Questa è l'impostazione predefinita di marca e non può essere eliminato. "
+"Sarà automaticamente assegnato ai prodotti senza marca."
+
+#: includes/extends/product-brand/product-brand.php:269
+#: includes/extends/product-brand/product-brand.php:322
+#: includes/extends/product-brand/product-brand.php:501
+#: includes/extends/attributes-swatches/product-attribute-meta.php:252
+#: includes/extends/attributes-swatches/product-attribute-meta.php:404
+msgid "Thumbnail"
+msgstr "Miniatura"
+
+#: includes/extends/question-answers/question-answers.php:188
+msgid "Time"
+msgstr ""
+
+#: includes/widgets/widget-iconbox.php:28
+#: includes/widgets/widget-attribute-product.php:235
+#: includes/extends/product-brand/product-brand-widget.php:44
+msgid "Title"
+msgstr "Titolo"
+
+#: includes/widgets/widget-iconbox.php:36
+msgid "Title Icon"
+msgstr "Titolo Icona"
+
+#: includes/widgets/widget-attribute-product.php:113
+#: includes/widgets/widget-custommenu.php:141
+msgid "Title:"
+msgstr "Titolo:"
+
+#: includes/options/fields/date/date.php:35
+#: includes/options/fields/background/background.php:91
+msgid "To"
+msgstr "Per"
+
+#: includes/extends/megamenu/templates/form-settings.php:217
+msgid "Top"
+msgstr "Top"
+
+#: includes/options/fields/spacing/spacing.php:30
+#: includes/options/fields/border/border.php:30
+msgid "top"
+msgstr "top"
+
+#: includes/extends/megamenu/templates/form-settings.php:66
+msgid "Top Level Item Settings"
+msgstr "Elemento Di Livello Superiore Impostazioni"
+
+#: includes/extends/megamenu/templates/form-settings.php:108
+msgid "Trash"
+msgstr "Cestino"
+
+#: includes/extends/megamenu/templates/form-settings.php:106
+msgid "Trash this selected megamenu content."
+msgstr "Cestino selezionato megamenu contenuto."
+
+#: includes/admin/class-admin-profile.php:38
+#: templates/share-button/share-button.php:35
+msgid "Twitter"
+msgstr "Twitter"
+
+#: includes/extends/post-like/post-like.php:217
+msgid "Unlike"
+msgstr "A differenza di"
+
+#: includes/admin/class-admin-license.php:57
+msgid "unlimited"
+msgstr "illimitato"
+
+#: includes/extends/product-brand/product-brand.php:152
+msgid "Update brand"
+msgstr "Aggiornamento brand"
+
+#: includes/options/classes/metabox.class.php:214
+#: includes/options/classes/comment.class.php:174
+msgid "update post for restore "
+msgstr "aggiornamento post per il ripristino "
+
+#: includes/admin/class-admin-license.php:68
+msgid ""
+"Updating this item will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+"L'aggiornamento di questa voce di perdere tutte le personalizzazioni "
+"effettuate. \"Annulla\" per interrompere, 'OK' per l'aggiornamento."
+
+#: includes/options/fields/upload/upload.php:26
+#: includes/options/fields/media/media.php:28
+msgid "Upload"
+msgstr "Caricare"
+
+#: includes/admin/class-admin-profile.php:134
+#: includes/extends/product-cat/product-cat.php:35
+#: includes/extends/product-cat/product-cat.php:155
+#: includes/extends/product-brand/product-brand.php:259
+#: includes/extends/product-brand/product-brand.php:277
+#: includes/extends/product-brand/product-brand.php:332
+#: includes/extends/attributes-swatches/product-attribute-meta.php:261
+#: includes/extends/attributes-swatches/product-attribute-meta.php:414
+#: includes/extends/megamenu/templates/form-settings.php:186
+#: includes/extends/megamenu/templates/form-settings.php:316
+#: includes/extends/megamenu/templates/form-settings.php:334
+msgid "Upload/Add image"
+msgstr "Upload/Aggiungi immagine"
+
+#: includes/extends/product-brand/product-brand.php:312
+msgid "Upload/Add logo"
+msgstr "Upload/Aggiungere logo"
+
+#: includes/options/fields/typography/typography.php:194
+msgid "Uppercase"
+msgstr "Maiuscole"
+
+#: includes/options/classes/fields.class.php:141
+#: includes/options/classes/fields.class.php:169
+msgid "USAGE"
+msgstr "UTILIZZO"
+
+#: includes/extends/megamenu/templates/form-settings.php:237
+msgid "Use Font Icon"
+msgstr "Usare Il Font Icona"
+
+#: includes/extends/megamenu/templates/form-settings.php:241
+msgid "Use Image"
+msgstr "Utilizzare Immagine"
+
+#: includes/extends/product-cat/product-cat.php:81
+#: includes/extends/product-cat/product-cat.php:185
+#: includes/extends/attributes-swatches/product-attribute-meta.php:289
+#: includes/extends/attributes-swatches/product-attribute-meta.php:442
+msgid "Use image"
+msgstr "Utilizzare immagine"
+
+#: includes/options/classes/fields.class.php:152
+msgid "VALUE"
+msgstr "VALORE"
+
+#: includes/classes/abstract-shortcode.php:830
+#: includes/classes/abstract-shortcode.php:965
+#: includes/classes/abstract-elementor.php:613
+#: includes/classes/abstract-elementor.php:748
+msgid "Vertical"
+msgstr "Verticale"
+
+#: includes/admin/dashboard/dashboard.php:315
+msgid "Video Tutorials"
+msgstr "Video Tutorial"
+
+#: includes/admin/dashboard/dashboard.php:474
+msgid "View All Our Themes"
+msgstr "Visualizza Tutti I Nostri Temi"
+
+#: includes/classes/class-frontend-scripts.php:341
+msgid "View cart"
+msgstr "Vedi il carrello"
+
+#: includes/admin/class-admin.php:112
+msgid "View Ovic settings"
+msgstr ""
+
+#: includes/options/fields/link_color/link_color.php:43
+msgid "Visited"
+msgstr "Visitato"
+
+#: includes/options/fields/typography/typography.php:211
+msgid "Wavy"
+msgstr "Ondulato"
+
+#. Weekly archive title. %s is the week date format.
+#: includes/classes/abstract-breadcrumb.php:299
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: includes/classes/abstract-breadcrumb.php:850
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: includes/admin/dashboard/dashboard.php:225
+msgid "Welcome"
+msgstr "Benvenuto"
+
+#: includes/extends/megamenu/templates/form-settings.php:145
+msgid "Whether to disable item hyperlink or not."
+msgstr "Se disabilitare la voce collegamento ipertestuale o non."
+
+#: includes/extends/megamenu/templates/form-settings.php:127
+msgid "Whether to display item without text or not."
+msgstr "Se si desidera visualizzare un elemento senza testo o meno."
+
+#: includes/widgets/widget-attribute-product.php:165
+#: includes/widgets/widget-attribute-product.php:265
+#: includes/classes/abstract-elementor.php:330
+msgid "Width"
+msgstr "Larghezza"
+
+#: includes/options/fields/dimensions/dimensions.php:27
+msgid "width"
+msgstr "larghezza"
+
+#: includes/options/fields/typography/typography.php:262
+msgid "Word Spacing"
+msgstr "La Spaziatura Tra Parole"
+
+#: includes/extends/mailchimp/mailchimp.php:40
+msgid "Wrong email format"
+msgstr "Sbagliato il formato e-mail"
+
+#: includes/classes/abstract-breadcrumb.php:819
+#: includes/classes/abstract-breadcrumb.php:849
+#: includes/classes/abstract-breadcrumb.php:880
+#: includes/classes/abstract-breadcrumb.php:908
+#: includes/classes/abstract-breadcrumb.php:1273
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: includes/classes/abstract-shortcode.php:833
+#: includes/classes/abstract-shortcode.php:847
+#: includes/classes/abstract-shortcode.php:873
+#: includes/classes/abstract-shortcode.php:968
+#: includes/classes/abstract-elementor.php:616
+#: includes/classes/abstract-elementor.php:630
+#: includes/classes/abstract-elementor.php:656
+#: includes/classes/abstract-elementor.php:751
+msgid "Yes"
+msgstr "Sì"
+
+#: includes/options/classes/fields.class.php:233
+msgid "You are editing language:"
+msgstr "La modifica lingua:"
+
+#: includes/options/fields/group/group.php:127
+#: includes/options/fields/repeater/repeater.php:96
+#, fuzzy
+#| msgid "You can not add more than"
+msgid "You cannot add more."
+msgstr "È possibile aggiungere più di"
+
+#: includes/options/fields/group/group.php:128
+#: includes/options/fields/repeater/repeater.php:97
+msgid "You cannot remove more."
+msgstr ""
+
+#: includes/options/functions/actions.php:228
+msgid "You do not have required permissions to access."
+msgstr "Non si dispone di autorizzazioni necessarie per accedere."
+
+#: includes/extends/post-like/post-like.php:457
+msgid "You do not like anything yet."
+msgstr "Non ti piace nulla di sicurezza."
+
+#: includes/admin/class-admin-license.php:60
+#, php-format
+msgid "You have %1$s / %2$s sites activated."
+msgstr ""
+
+#: includes/extends/post-like/post-like.php:426
+msgid "You Liked:"
+msgstr "Ti È Piaciuto:"
+
+#: includes/extends/mailchimp/mailchimp.php:58
+msgid "Your email added..."
+msgstr "La tua e-mail aggiunto..."
+
+#: includes/admin/class-admin-profile.php:41
+msgid "Youtube"
+msgstr "Youtube"
